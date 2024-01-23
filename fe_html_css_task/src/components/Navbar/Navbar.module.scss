@@ -1,0 +1,41 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/btn_mixins";
+@import "../../styles/mixins/text-mixins";
+
+.navbar {
+  display: flex;
+  padding: 0.88rem 5rem;
+  align-items: center;
+  //   height: 4.5rem;
+  border: 1px solid;
+}
+
+.navItems {
+  //   border: 1px solid;
+  display: flex;
+  color: $primary-dark;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  margin-left: auto;
+}
+
+.navItem {
+  @include regularText;
+  color: $primary-dark;
+
+  cursor: pointer;
+}
+
+.logIn {
+  @include defaultBtn;
+  font-weight: 400;
+  padding: 0.6rem 1.38rem;
+}
+.freeTry {
+  @include defaultBtn;
+  background-color: $primary-dark;
+  padding: 0.6rem 1.38rem;
+  color: #fff;
+}

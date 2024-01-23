@@ -1,0 +1,65 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/text-mixins";
+@import "../../styles/mixins/btn_mixins";
+
+.container {
+  position: relative;
+  height: 100%;
+  background-color: $primary-green;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 21rem;
+}
+.vector{
+    position: absolute;
+    top: 0;
+    right: 4rem;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.7rem;
+  text-align: center;
+}
+
+.title {
+  @include sectionTitle;
+}
+.subtitle {
+  @include sectionSubtitle;
+  color: $primary-dark;
+}
+
+.activeGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.formBtn {
+  @include defaultBtn;
+  background-color: $primary-dark;
+  color: #fff;
+}
+
+.formPolicy {
+  @include regularText;
+  font-size: 0.6875rem;
+  line-height: 1.125rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8rem;
+  gap: 1.2rem;
+  width: 100%;
+}

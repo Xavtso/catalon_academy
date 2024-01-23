@@ -1,0 +1,24 @@
+@import "../../../../styles/mixins/text-mixins";
+
+.commentCard {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 2rem;
+  gap: 1.35rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  z-index: 1;
+  width: 39rem;
+
+  background-color: #fff;
+}
+
+.feedback {
+  @include regularText;
+  text-align: left;
+  width: 31.9375rem;
+}

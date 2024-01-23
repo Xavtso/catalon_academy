@@ -1,0 +1,32 @@
+@import "../globals.scss";
+
+
+@mixin btnTextBold {
+  color: $primary-dark;
+  font-size: $font-xs;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+@mixin btnTextRegular {
+  @include btnTextBold;
+
+  color: $primary-grey;
+  font-weight: 400;
+  font-size: $font-xs;
+}
+
+
+
+@mixin defaultBtn {
+  border-radius: 4rem;
+  border: 2px solid $primary-dark;
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  color: $primary-dark;
+
+  @include btnTextBold;
+}

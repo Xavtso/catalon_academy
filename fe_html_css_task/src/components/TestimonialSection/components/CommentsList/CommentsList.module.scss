@@ -1,0 +1,17 @@
+.cardsList{
+    display: flex;
+    gap: 2rem;
+    z-index: 1;
+}
+
+.cardsColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cardsColumn2{
+    @extend .cardsColumn;
+    padding-top:1rem;
+    gap: 4rem;
+}

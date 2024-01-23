@@ -1,0 +1,11 @@
+body {
+  color: #fff;
+  font-family: "Space Grotesk";
+  margin: 0;
+}
+
+.heroSection {
+  height: 40rem;
+  padding: 5rem;
+  fill: 50% #162E3C;
+}/*# sourceMappingURL=HeroSection.css.map */

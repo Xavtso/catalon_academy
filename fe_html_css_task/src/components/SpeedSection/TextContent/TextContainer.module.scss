@@ -1,0 +1,15 @@
+@import '../../../styles/mixins/text-mixins';
+
+.title{
+    @include sectionTitle;
+}
+.content{
+    @include regularText;
+    text-align: left;
+}
+
+.textContainer{
+    
+    width: 37.5rem;
+    text-align: left;
+}

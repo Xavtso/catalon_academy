@@ -1,0 +1,28 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/btn_mixins";
+
+.heroSection {
+  position: relative;
+  height: 40rem;
+  padding: 0 5rem;
+  margin-top: -0.3rem;
+  background: linear-gradient(to bottom, $primary-dark 50%, transparent 50%);
+}
+
+.imageContainer {
+  height: 100%;
+  background: url(../../images/Hero/IMAGEhero.png) ;
+  background-size: cover;
+  display: grid;
+  place-items: center
+
+
+}
+
+.btnHero {
+  @include defaultBtn;
+
+  background-color: $primary-green;
+  border: 2px solid $primary-green;
+  padding: 0.88rem 2.62rem;
+}

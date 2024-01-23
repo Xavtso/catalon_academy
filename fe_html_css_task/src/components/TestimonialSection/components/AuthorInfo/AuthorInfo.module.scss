@@ -1,0 +1,24 @@
+@import "../../../../styles/mixins/text-mixins";
+@import "../../../../styles/globals.scss";
+
+.authorContainer {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+}
+
+.info {
+  @include regularText;
+  text-align: left;
+}
+
+.name {
+  color: $primary-dark;
+  margin: 0;
+}
+
+.position {
+  margin: 0;
+  font-size: 0.9375rem;
+}

@@ -1,0 +1,44 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/text-mixins";
+@import "../../styles/mixins/btn_mixins";
+
+
+
+.btnMain {
+  @include defaultBtn;
+}
+.btnSecondary {
+  @include defaultBtn;
+
+  line-height: 1rem;
+  color: $primary-dark;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+}
+
+.headerBtn {
+  @include defaultBtn;
+  border-color: $primary-green;
+  background-color: $primary-green;
+}
+
+.headerBtnSecondary{
+  @include defaultBtn;
+
+  border: none;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.btnIcon{
+    background:transparent ;
+}
+
+.btnContainer{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}

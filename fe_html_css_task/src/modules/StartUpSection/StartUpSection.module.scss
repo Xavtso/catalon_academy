@@ -1,0 +1,50 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/text-mixins";
+
+.sectionContainer {
+  padding: 0 5rem;
+}
+
+.contentContainer {
+  position: relative;
+  padding: 8rem 4rem;
+  background-color: $primary-green;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vector{
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+
+.textContainer {
+  display: flex;
+  width: 48rem;
+  padding: 0rem 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6875rem;
+  margin-inline:auto ;
+}
+
+.title{
+    @include sectionTitle;
+    text-align: center;
+    margin: 0
+}
+
+.subtitle{
+    @include sectionSubtitle;
+    text-align: center;
+    margin: 0;
+}
+

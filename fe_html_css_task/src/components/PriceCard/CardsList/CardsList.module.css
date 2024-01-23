@@ -1,0 +1,5 @@
+.cardsContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+}/*# sourceMappingURL=CardsList.module.css.map */

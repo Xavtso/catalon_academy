@@ -1,0 +1,104 @@
+@import "../../../styles/globals.scss";
+@import "../../../styles/mixins/text-mixins";
+@import "../../../styles/mixins/btn_mixins";
+
+
+
+.mainCard {
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: $primary-green;
+  color: $primary-dark;
+  //height: 45.75rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.contentContainer{
+    height: 38.5rem;
+}
+
+.cardIcon {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 0.5rem;
+}
+
+.plan {
+  @include sectionTitle;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+
+  text-align: left;
+}
+
+.priceMonth {
+  @include sectionTitle;
+
+  display: flex;
+  gap: 0.8rem;
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+  align-items: baseline;
+}
+.month {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.priceYear {
+  @include regularText;
+  text-align: left;
+  color: $primary-dark;
+  font-size: 1rem;
+}
+
+.cardBtn {
+  @include defaultBtn;
+  margin-top: auto;
+  width: 100%;
+  color: #fff;
+  background-color: $primary-dark;
+}
+
+.itemsList {
+  display: flex;
+  width: 21.333rem;
+  padding: 0.5rem 0rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  @include regularText;
+  color: $primary-dark;
+}
+
+.listLabel {
+  @include regularText;
+  color: $primary-dark;
+  text-align: left;
+}
+
+.rule {
+  height: 0.0625rem;
+  margin: 2rem auto;
+  border: none;
+  background-color: #d1e39e;
+}

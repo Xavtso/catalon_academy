@@ -1,0 +1,35 @@
+@import '../../styles/globals.scss';
+@import '../../styles/mixins/text-mixins';
+
+.testimonialSection{
+    position: relative;
+    background-color: $primary-dark;
+    padding: 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.title{
+    @include sectionTitle;
+    color: #FFF;
+}
+.subtitle{
+    @include sectionSubtitle;
+    color: #FFF;
+    margin-bottom: 3.5rem;
+}
+
+
+.vectorImg1{
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+}
+
+.vectorImg2{
+    position: absolute;
+    top: 0; 
+    right: 0;
+}

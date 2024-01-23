@@ -1,0 +1,17 @@
+@import '../../styles/globals.scss';
+@import '../../styles/mixins/text-mixins';
+
+.nameContainer{
+    @include regularText;
+    font-weight: 700;
+    color: $primary-dark;
+    width: fit-content;
+    padding: 0.25rem 0.75rem;
+    background-color: $primary-green;
+    
+    border-radius:4rem ;
+    -webkit-border-radius:4rem ;
+    -moz-border-radius:4rem ;
+    -ms-border-radius:4rem ;
+    -o-border-radius:4rem ;
+}

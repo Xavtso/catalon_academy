@@ -1,0 +1,76 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/text-mixins";
+
+.footer {
+  padding: 5rem;
+  background-color: $primary-dark;
+  hr {
+    width: 100%;
+    border: none;
+    margin: 2rem 0 5rem 0;
+    height: 1px;
+    background: #223e4e;
+  }
+  section {
+    &:first-of-type {
+      display: flex;
+      justify-content: space-between;
+    }
+    div {
+      display: flex;
+      &.footerContact {
+        display: block;
+
+        address {
+          font-style: normal;
+          margin-bottom: 21px;
+          p {
+              @include regularText;
+              text-align: left;
+              color: #fff;
+              font-size: 0.875rem;
+              line-height: 1.3125rem;
+          }
+        }
+      }
+      &.footerLists {
+        width: 666px;
+        gap: 2rem;
+
+        ul {
+          width: 100%;
+          margin: 0;
+          list-style-type: none;
+          
+          padding: 0;
+          @include regularText;
+          color: #FFF;
+          font-size: 0.875rem;
+          li {
+            text-align: left;
+            cursor: pointer;
+            &:not(:last-of-type) {
+              padding: 0.5rem 0;
+            }
+            &:first-of-type {
+
+              font-size: 0.9375rem;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+    &:last-of-type {
+      display: flex;
+      justify-content: space-between;
+      height: fit-content;
+      flex-wrap: wrap;
+      align-items: center;
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+  }
+}
