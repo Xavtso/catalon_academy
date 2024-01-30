@@ -1,5 +1,5 @@
 import styles from './Navbar.module.scss'
-import logo from '../../images/Header/logo.png'
+import logo from '../../assets/images/Header/logo.png'
 
 export default function Navbar() {
     return (

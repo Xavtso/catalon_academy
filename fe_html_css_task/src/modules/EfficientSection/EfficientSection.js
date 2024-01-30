@@ -1,7 +1,7 @@
 import ImageContainer from "../../UI/SectionImage";
 import TextContent from "../../components/Efficient";
-import efficientImage from "../../images/Efficient/IMAGEefficient.jpg";
-import barIcon from "../../images/Efficient/image 4head.png";
+import efficientImage from "../../assets/images/Efficient/IMAGEefficient.jpg";
+import barIcon from "../../assets/icons/Efficient/image 4head.png";
 import styles from './EfficientSection.module.scss';
 
 export default function EfficientSection() {

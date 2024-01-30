@@ -1,7 +1,7 @@
 import styles from './SectionName.module.scss';
 
-export default function SectionName({ sectionName }) {
+export default function SectionName({ tag }) {
     return (
-        <p className={styles.nameContainer}>{sectionName}</p>
+        <p className={styles.nameContainer}>{tag}</p>
     )
 }

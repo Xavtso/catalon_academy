@@ -11,11 +11,10 @@
   -o-border-radius: 2rem;
 
   padding: 2rem;
-  
 }
 
-.contentContainer{
-    height: 34.5rem;
+.contentContainer {
+  height: 34.5rem;
 }
 .cardIcon {
   text-align: right;
@@ -50,7 +49,6 @@
 .month {
   font-size: 2rem;
   line-height: 2.6rem;
-  
 }
 
 .priceYear {
@@ -63,6 +61,7 @@
 .cardBtn {
   @include defaultBtn;
   width: 100%;
+  border-color: $primary-green;
   background-color: $primary-green;
 }
 
@@ -97,4 +96,34 @@
   margin: 2rem auto;
   background-color: #223e4e;
   border: none;
+}
+
+.mainCard {
+  @extend .priceCard;
+  background-color: $primary-green;
+
+  .contentContainer {
+    height: 38.5rem;
+  }
+  .cardIcon {
+    margin-bottom: 2rem;
+  }
+
+  p,
+  h1,
+  h4,
+  h3,
+  li {
+    color: $primary-dark;
+  }
+
+  .rule {
+    background-color: #d1e39e;
+  }
+
+  .cardBtn {
+    background-color: $primary-dark;
+    color: $primary-white;
+    border-color: $primary-dark;
+  }
 }

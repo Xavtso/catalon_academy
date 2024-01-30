@@ -1,5 +1,5 @@
 import styles from './Rate.module.scss';
-import star from '../../../../images/Testimonials/star.svg';
+import star from '../../../../assets/images/Testimonials/star.svg';
 
 export default function Rate() {
   return (

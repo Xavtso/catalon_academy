@@ -1,13 +1,39 @@
-import Logo from "../../images/icons/backgrounds/logo";
+import Logo from "../../assets/icons/backgrounds/logo";
 import SocialLinks from "../SocialLinks";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
+  const list1 = [
+    "Pages",
+    "Home v1",
+    "Home v2",
+    "Home v3",
+    "About v1",
+    "About v2",
+    "About v3",
+    "Contact v1",
+    "Contact v2",
+    "Contact v3",
+    "Blog",
+    "Pricing",
+    "Log in",
+    "Sign up",
+  ];
+  const list2 = ["CMS pages", "Blog Post", "Blog Categories"];
+  const list3 = [
+    "Utility pages",
+    "Style guide",
+    "Licenses",
+    "Changelog",
+    "404",
+    "Password",
+  ];
+
   return (
     <footer className={styles.footer}>
-      <section>
+      <div className={styles.container}>
         <div className={styles.footerContact}>
-          <Logo/>
+          <Logo />
           <address>
             <p>Address:</p>
             <p>Level 1, 12 Nikola Tesla street, Niš, Serbia</p>
@@ -20,41 +46,33 @@ export default function Footer() {
         </div>
         <div className={styles.footerLists}>
           <ul>
-            <li>Pages</li>
-            <li>Home v1</li>
-            <li>Home v2</li>
-            <li>Home v3</li>
-            <li>About v1</li>
-            <li>About v2</li>
-            <li>About v3</li>
-            <li>Contact v1</li>
-            <li>Contact v2</li>
-            <li>Contact v3</li>
-            <li>Blog</li>
-            <li>Pricing</li>
-            <li>Log in</li>
-            <li>Sign up</li>
+            {list1.map((item, index) => (
+              <li key={index}>
+                <a href="/">{item}</a>
+              </li>
+            ))}
           </ul>
           <ul>
-            <li>CMS pages</li>
-            <li>Blog Post</li>
-            <li>Blog Categories</li>
+            {list2.map((item, index) => (
+              <li key={index}>
+                <a href="/">{item}</a>
+              </li>
+            ))}
           </ul>
           <ul>
-            <li>Utility pages</li>
-            <li>Style guide</li>
-            <li>Licenses</li>
-            <li>Changelog</li>
-            <li>404</li>
-            <li>Password</li>
+            {list3.map((item, index) => (
+              <li key={index}>
+                <a href="/">{item}</a>
+              </li>
+            ))}
           </ul>
         </div>
-      </section>
+      </div>
       <hr></hr>
-      <section>
+      <div className={styles.linksContainer}>
         <p>© Startico by Minima Square. Powered by Webflow</p>
-        <SocialLinks/>
-      </section>
+        <SocialLinks />
+      </div>
     </footer>
   );
 }

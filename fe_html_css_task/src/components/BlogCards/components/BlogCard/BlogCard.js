@@ -1,4 +1,4 @@
-import ArrowTopRight from "../../../../images/icons/Button/arrowTopRight";
+import ArrowTopRight from "../../../../assets/icons/Button/arrowTopRight";
 import styles from "./BlogCard.module.scss";
 
 export default function BlogCard({ info }) {

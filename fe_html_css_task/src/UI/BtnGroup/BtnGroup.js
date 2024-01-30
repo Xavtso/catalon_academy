@@ -1,5 +1,5 @@
 import styles from "./BtnGroup.module.scss";
-import ArrowIcon from "../../images/icons/Button/arrow";
+import ArrowIcon from "../../assets/icons/Button/arrow";
 export default function BtnGroup() {
   return (
     <div className={styles.btnContainer}>

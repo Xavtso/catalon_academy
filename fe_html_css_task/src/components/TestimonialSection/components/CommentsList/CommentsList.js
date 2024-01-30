@@ -1,11 +1,11 @@
 import CommentCard from "../CommentCard/CommentCard";
 import styles from "./CommentsList.module.scss";
-import portrait1 from "../../../../images/Testimonials/portrait1.png";
-import portrait2 from "../../../../images/Testimonials/portrait2.png";
-import portrait3 from "../../../../images/Testimonials/portrait3.png";
-import portrait4 from "../../../../images/Testimonials/portrait4.png";
-import portrait5 from "../../../../images/Testimonials/portrait5.png";
-import portrait6 from "../../../../images/Testimonials/portrait6.png";
+import portrait1 from "../../../../assets/images/Testimonials/portrait1.png";
+import portrait2 from "../../../../assets/images/Testimonials/portrait2.png";
+import portrait3 from "../../../../assets/images/Testimonials/portrait3.png";
+import portrait4 from "../../../../assets/images/Testimonials/portrait4.png";
+import portrait5 from "../../../../assets/images/Testimonials/portrait5.png";
+import portrait6 from "../../../../assets/images/Testimonials/portrait6.png";
 
 function CommentsList() {
   const data1 = [
@@ -53,8 +53,9 @@ function CommentsList() {
   return (
     <section className={styles.cardsList}>
       <div className={styles.cardsColumn}>
-        {data1.map((data) => (
+        {data1.map((data, index) => (
           <CommentCard
+            key={index}
             imageSrc={data.imageSrc}
             text={data.text}
             name={data.name}
@@ -63,8 +64,9 @@ function CommentsList() {
         ))}
       </div>
       <div className={styles.cardsColumn2}>
-        {data2.map((data) => (
+        {data2.map((data, index) => (
           <CommentCard
+            key={index}
             imageSrc={data.imageSrc}
             text={data.text}
             name={data.name}

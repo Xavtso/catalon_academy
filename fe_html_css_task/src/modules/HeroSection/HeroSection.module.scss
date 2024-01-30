@@ -1,0 +1,87 @@
+@import "../../styles/globals.scss";
+@import "../../styles/mixins/btn_mixins";
+
+.mainContent {
+  display: inline-block;
+  position: relative;
+  background-color: $primary-dark;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  // position: relative;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  text-align: center;
+  font-family: Fraunces;
+  margin: 0;
+}
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  text-align: center;
+}
+
+.contentBlock {
+  display: grid;
+  width: 45rem;
+  margin: 6rem auto;
+  gap: 1.6rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.heroBtn {
+  @include defaultBtn;
+  background-color: $primary-green;
+}
+.heroBtnSecondary {
+  @include defaultBtn;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.logoContainer {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4.2rem;
+}
+
+.logoItem {
+  cursor: pointer;
+}
+
+@mixin iconContainer {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+}
+
+.iconContainer1 {
+  @include iconContainer;
+  top: 6.26rem;
+}
+.iconContainer2 {
+  @include iconContainer;
+  top: 16.26rem;
+  right: -4.4rem;
+}
+.iconContainer3 {
+  @include iconContainer;
+  bottom: -7rem;
+  // right: -4.4rem;
+}

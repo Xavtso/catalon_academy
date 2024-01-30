@@ -1,4 +1,4 @@
-@import '../../styles/globals.scss';
+@import '../../styles/variables.scss';
 @import '../../styles/mixins/text-mixins';
 
 .messageContainer{
@@ -15,7 +15,7 @@
 }
 
 .closeIcon{
-    background: url(../../images/backgrounds/IMAGEcloseIcon.jpg);
+    background: url(../../assets/icons/Message/closeIcon.jpg);
     width: 2rem;
     height: 2rem;
     cursor: pointer;

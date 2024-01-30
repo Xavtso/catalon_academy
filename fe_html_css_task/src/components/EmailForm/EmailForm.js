@@ -1,7 +1,7 @@
 import Input from "../../UI/Input";
 import Button from "../../UI/Button";
 import styles from "./EmailForm.module.scss";
-import VectorContact from "../../images/icons/backgrounds/vectorContact";
+import VectorContact from "../../assets/icons/backgrounds/vectorContact";
 
 export default function EmailForm() {
   return (

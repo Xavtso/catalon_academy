@@ -1,8 +1,8 @@
 import BlogCard from "../BlogCard/BlogCard";
 import styles from "./BlogCardsList.module.scss";
-import card1Img from "../../../../images/Blog/IMAGEblog1.jpg";
-import card2Img from "../../../../images/Blog/IMAGEblog2.jpg";
-import card3Img from "../../../../images/Blog/IMAGEblog3.jpg";
+import card1Img from "../../../../assets/images/Blog/IMAGEblog1.jpg";
+import card2Img from "../../../../assets/images/Blog/IMAGEblog2.jpg";
+import card3Img from "../../../../assets/images/Blog/IMAGEblog3.jpg";
 
 export default function BlogCardsList() {
 

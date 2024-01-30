@@ -1,4 +1,4 @@
-@import "../../styles/globals.scss";
+@import "../../styles/variables.scss";
 @import "../../styles/mixins/btn_mixins";
 
 .heroSection {
@@ -11,7 +11,7 @@
 
 .imageContainer {
   height: 100%;
-  background: url(../../images/Hero/IMAGEhero.png) ;
+  background: url(../../assets/images/Hero/IMAGEhero.png) ;
   background-size: cover;
   display: grid;
   place-items: center

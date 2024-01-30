@@ -1,21 +1,21 @@
-.speedSection{
-    padding: 8rem 5rem;
+.speedSection {
+  padding: 8rem 5rem;
 }
 
-.contentContainer{
-    position: relative;
-    display: flex;
-    gap: 5rem;
-    align-items: center;
+.contentContainer {
+  position: relative;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
 }
 
-.backIcon{
-    position: absolute;
-    width: 10.625rem;
-height: 5.75rem;
-    background: url(../../images/backgrounds/IMAGEspeed.jpg);
-    background-size: contain ;
-    background-repeat: no-repeat;
-    top: 0;
-    right: -3rem;
+.backIcon {
+  position: absolute;
+  width: 10.625rem;
+  height: 5.75rem;
+  background: url(../../assets/images/backgrounds/IMAGEspeed.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  right: -3rem;
 }

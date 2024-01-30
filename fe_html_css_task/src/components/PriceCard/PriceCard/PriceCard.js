@@ -1,16 +1,19 @@
 import styles from "./PriceCard.module.scss";
-import greenCard from "../../../images/Pricing/image 5greenCard.png";
-import GreenMark from "../../../images/icons/Pricing/GreenMark";
+import greenCard from "../../../assets/icons/Pricing/image 5greenCard.png";
+import GreenMark from "../../../assets/icons/Pricing/GreenMark";
+import darkCard from "../../../assets/icons/Pricing/image 7darkCard.png";
+import DarkMark from "../../../assets/icons/Pricing/DarkMark";
 
 export default function PriceCard({ info }) {
-  const { plan, priceMonth, priceYear, listItems } = info;
+  const { plan, priceMonth, priceYear, listItems, main } = info;
   const [amount, unit] = priceMonth.match(/(\$\d+)\s*\/(\w+)/).slice(1);
+  const cardStyles = main ? styles.mainCard : styles.priceCard;
 
   return (
-    <div className={styles.priceCard}>
+    <div className={cardStyles}>
       <div className={styles.contentContainer}>
         <div className={styles.cardIcon}>
-          <img src={greenCard} alt="cardIcon" />
+          <img src={main ? darkCard : greenCard} alt="cardIcon" />
         </div>
         <div className={styles.priceContainer}>
           <h3 className={styles.plan}>{plan}</h3>
@@ -26,7 +29,7 @@ export default function PriceCard({ info }) {
           <ul className={styles.itemsList}>
             {listItems.map((item, index) => (
               <li key={index} className={styles.listItem}>
-                <GreenMark /> {item}
+                {main ? <DarkMark /> : <GreenMark />} {item}
               </li>
             ))}
           </ul>

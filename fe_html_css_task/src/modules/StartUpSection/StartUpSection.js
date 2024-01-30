@@ -1,13 +1,15 @@
 import BtnGroup from "../../UI/BtnGroup";
 import InfoCardsList from "../../components/StartUpSection";
-import VectorStartUp from "../../images/icons/backgrounds/vectorUp";
+import VectorStartUp from "../../assets/icons/backgrounds/vectorUp";
 import styles from "./StartUpSection.module.scss";
 
 export default function StartUpSection() {
   return (
     <section className={styles.sectionContainer}>
       <div className={styles.contentContainer}>
-        <div className={styles.vector}><VectorStartUp/></div>
+        <div className={styles.vector}>
+          <VectorStartUp />
+        </div>
         <div className={styles.textContainer}>
           <h2 className={styles.title}>
             Building your very own Startup has never been simpler

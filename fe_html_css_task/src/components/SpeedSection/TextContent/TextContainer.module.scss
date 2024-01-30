@@ -1,15 +1,7 @@
-@import '../../../styles/mixins/text-mixins';
-
-.title{
-    @include sectionTitle;
-}
-.content{
-    @include regularText;
-    text-align: left;
-}
-
-.textContainer{
-    
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.38rem;
     width: 37.5rem;
     text-align: left;
 }

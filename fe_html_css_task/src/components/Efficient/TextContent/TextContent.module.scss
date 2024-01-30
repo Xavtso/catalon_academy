@@ -1,15 +1,6 @@
 @import '../../../styles/mixins/text-mixins';
 
-.title{
-    @include sectionTitle;
-}
 
-.subtitle{
-    @include sectionSubtitle;
-    text-align: left;
-    line-height: 1.6875rem;
-    font-size: 1.125rem;
-}
 .textContainer{
     display: flex;
     flex-direction: column;

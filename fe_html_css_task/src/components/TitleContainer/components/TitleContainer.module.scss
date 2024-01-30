@@ -1,0 +1,28 @@
+@import '../../../styles/mixins/text-mixins';
+
+.title{
+    @include sectionTitle;
+    margin-top:1.2rem;
+}
+.titleBig{
+    @extend .title;
+    font-size: 3rem;
+}
+
+.titleBold{
+    @extend .title;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.subtitle{
+    @include sectionSubtitle;
+    margin-top: 1.5rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

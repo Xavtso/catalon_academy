@@ -1,10 +1,9 @@
-import MainCard from "../MainCard/MainCard";
 import PriceCard from "../PriceCard/PriceCard";
 import styles from "./CardsList.module.scss";
 
 export default function CardsList() {
-  const data = {
-    card1: {
+  const data = [
+    {
       plan: "Basic plan",
       priceMonth: "$19 /mo",
       priceYear: "or $199 yearly",
@@ -14,7 +13,7 @@ export default function CardsList() {
         "Vel convallis nibh duis",
       ],
     },
-    card2: {
+    {
       plan: "Business plan",
       priceMonth: "$29 /mo",
       priceYear: "or $299 yearly",
@@ -24,8 +23,9 @@ export default function CardsList() {
         "Vivamus ante dolor",
         "Purus in convallis pharetra",
       ],
+      main: true
     },
-    card3: {
+    {
       plan: "Enterprise plan",
       priceMonth: "$49 /mo",
       priceYear: "or $499 yearly",
@@ -37,13 +37,15 @@ export default function CardsList() {
         "Am condimentum cursus",
       ],
     },
-  };
+  ];
 
   return (
-    <div className={styles.cardsContainer}>
-      <PriceCard info={data.card1} />
-      <MainCard info={data.card2} />
-      <PriceCard info={data.card3} />
-    </div>
+    <ul className={styles.cardsContainer}>
+      {data.map((item, index) => (
+        <li>
+          <PriceCard info={item} />
+        </li>
+      ))}
+    </ul>
   );
 }
