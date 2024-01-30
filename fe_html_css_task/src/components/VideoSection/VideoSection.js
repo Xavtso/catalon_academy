@@ -5,7 +5,7 @@ export default function VideoSection() {
   return (
     <section className={styles.heroSection}>
       <div className={styles.imageContainer}>
-        <Button btnClassName={styles.btnHero} text={"Watch Introduction"} />
+        <Button btnPlace={'hero'} text={"Watch Introduction"} />
       </div>
     </section>
   );

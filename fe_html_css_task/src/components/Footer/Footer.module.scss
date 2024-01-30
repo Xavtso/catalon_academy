@@ -11,7 +11,7 @@
     height: 1px;
     background: #223e4e;
   }
-  a{
+  a {
     text-decoration: none;
     color: $primary-white;
   }
@@ -30,11 +30,11 @@
           font-style: normal;
           margin-bottom: 21px;
           p {
-              @include regularText;
-              text-align: left;
-              color: #fff;
-              font-size: 0.875rem;
-              line-height: 1.3125rem;
+            @include regularText;
+            text-align: left;
+            color: #fff;
+            font-size: 0.875rem;
+            line-height: 1.3125rem;
           }
         }
       }
@@ -46,10 +46,10 @@
           width: 100%;
           margin: 0;
           list-style-type: none;
-          
+
           padding: 0;
           @include regularText;
-          color: #FFF;
+          color: #fff;
           font-size: 0.875rem;
           li {
             text-align: left;
@@ -58,7 +58,6 @@
               padding: 0.5rem 0;
             }
             &:first-of-type {
-
               font-size: 0.9375rem;
               margin-bottom: 1rem;
             }
@@ -80,8 +79,7 @@
   }
 }
 
-
-.linksContainer{
+.linksContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;

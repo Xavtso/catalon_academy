@@ -20,7 +20,7 @@ export default function EmailForm() {
         <div className={styles.formContainer}>
           <div className={styles.activeGroup}>
             <Input placeholder={"Enter your email"} />
-            <Button btnClassName={styles.formBtn} text={"Subscribe"} />
+            <Button btnPlace={'form'} text={"Subscribe"} />
           </div>
           <p className={styles.formPolicy}>
             By clicking Subscribe you're confirming that you agree with our

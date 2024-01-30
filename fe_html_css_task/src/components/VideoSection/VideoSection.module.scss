@@ -19,10 +19,4 @@
 
 }
 
-.btnHero {
-  @include defaultBtn;
 
-  background-color: $primary-green;
-  border: 2px solid $primary-green;
-  padding: 0.88rem 2.62rem;
-}

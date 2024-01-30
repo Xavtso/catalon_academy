@@ -14,7 +14,7 @@ export default function BlogSection() {
       <div className={styles.contentContainer}>
         <TitleContainer info={data} center={true} titleStyle={'bold'} />
         <BlogCardsList />
-        <Button text={"View all"} btnClassName={styles.btnView} />
+        <Button text={"View all"} btnPlace={'blog'} />
       </div>
     </section>
   );
