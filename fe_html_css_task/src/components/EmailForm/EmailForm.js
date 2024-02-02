@@ -1,13 +1,14 @@
 import Input from "../../UI/Input";
 import Button from "../../UI/Button";
 import styles from "./EmailForm.module.scss";
-import VectorContact from "../../assets/icons/backgrounds/vectorContact";
 
 export default function EmailForm() {
+  const vectorContact = "/assets/icons/backgrounds/vectorContact.svg";
+
   return (
     <div className={styles.container}>
       <div className={styles.vector}>
-        <VectorContact />
+        <img src={vectorContact} alt="vectorContact" />
       </div>
       <div className={styles.contentBox}>
         <h1 className={styles.title}>
@@ -20,7 +21,7 @@ export default function EmailForm() {
         <div className={styles.formContainer}>
           <div className={styles.activeGroup}>
             <Input placeholder={"Enter your email"} />
-            <Button btnPlace={'form'} text={"Subscribe"} />
+            <Button btnPlace={"form"} text={"Subscribe"} />
           </div>
           <p className={styles.formPolicy}>
             By clicking Subscribe you're confirming that you agree with our

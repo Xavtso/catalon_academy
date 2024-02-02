@@ -1,11 +1,12 @@
 import styles from "./SpeedSection.module.scss";
 import TextContainer from "../../components/SpeedSection";
 import ImageContainer from "../../UI/SectionImage";
-import speedImage from "../../assets/images/Speed/IMAGEspeed.png";
-import speedIcon from '../../assets/icons/Speed/speedIcon.png'
 
+import Container from "../../UI/Container";
 
 export default function SpeedSection() {
+  const speedImage = "/assets/images/Speed/speed.png";
+  const speedIcon = "/assets/icons/Speed/speedIcon.png";
   const info = {
     percent: "86%",
     text: "Increased in sales",
@@ -14,11 +15,11 @@ export default function SpeedSection() {
 
   return (
     <section className={styles.speedSection}>
-      <div className={styles.contentContainer}>
+      <Container direction={"row"}>
         <ImageContainer imageSrc={speedImage} info={info} />
         <TextContainer />
         <div className={styles.backIcon}></div>
-      </div>
+      </Container>
     </section>
   );
 }

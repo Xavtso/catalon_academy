@@ -1,2 +1,1 @@
-import SpeedSection from "./SpeedSection";
-export default SpeedSection;
+export { default } from "./SpeedSection";

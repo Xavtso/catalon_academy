@@ -1,8 +1,9 @@
-import Logo from "../../assets/icons/backgrounds/logo";
 import SocialLinks from "../SocialLinks";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
+  const logo = "/assets/icons/backgrounds/logoFooter.svg";
+
   const list1 = [
     "Pages",
     "Home v1",
@@ -33,7 +34,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.footerContact}>
-          <Logo />
+          <img src={logo} alt="logoIcon" />
           <address>
             <p>Address:</p>
             <p>Level 1, 12 Nikola Tesla street, Niš, Serbia</p>

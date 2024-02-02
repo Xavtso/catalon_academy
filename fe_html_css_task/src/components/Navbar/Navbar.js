@@ -1,18 +1,28 @@
-import styles from './Navbar.module.scss'
-import logo from '../../assets/images/Header/logo.png'
+import styles from "./Navbar.module.scss";
 
 export default function Navbar() {
-    return (
-        <nav className={styles.navbar}>
-            <img src={logo} alt='logo'/>
-            <ul className={styles.navItems}>
-                <li className={styles.navItem}>Our Story</li>
-                <li className={styles.navItem}>Blog</li>
-                <li className={styles.navItem}>Contact</li>
-                <li className={styles.navItem}>Pricing</li>
-                <li className={styles.logIn}>Log in</li>
-                <li className={styles.freeTry}>Try for free</li>
-            </ul>
-        </nav>
-    )
+  const logo = "/assets/icons/backgrounds/logo.svg";
+  
+  
+  const links = [
+    "Our Story",
+    "Blog",
+    "Contact",
+    "Pricing",
+    "Log in",
+    "Try for free",
+  ];
+
+  return (
+    <nav className={styles.container}>
+      <img src={logo} alt="logo" />
+      <ul className={styles.navItems}>
+        {links.map((item, index) => (
+          <li className={styles.navItem} key={index}>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
 }

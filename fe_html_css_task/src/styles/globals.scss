@@ -1,10 +1,11 @@
-@import './variables.scss';
+@import "~normalize.css";
+@import "./main.scss";
 
-body{
-    color: $primary-white;
-    font-family: $primary-font;
-    margin: 0;
-    padding: 0;
+body {
+  color: var(--primary-white);
+  font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {

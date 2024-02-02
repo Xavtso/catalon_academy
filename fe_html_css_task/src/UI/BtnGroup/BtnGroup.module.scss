@@ -1,8 +1,5 @@
-@import "../../styles/variables.scss";
 @import "../../styles/mixins/text-mixins";
 @import "../../styles/mixins/btn_mixins";
-
-
 
 .btnMain {
   @include defaultBtn;
@@ -11,20 +8,20 @@
   @include defaultBtn;
 
   line-height: 1rem;
-  color: $primary-dark;
+  color: var(--primary-dark);
   border: none;
   display: flex;
   align-items: center;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 
 .headerBtn {
   @include defaultBtn;
-  border-color: $primary-green;
-  background-color: $primary-green;
+  border-color: var(--primary-green);
+  background-color: var(--primary-green);
 }
 
-.headerBtnSecondary{
+.headerBtnSecondary {
   @include defaultBtn;
 
   border: none;
@@ -32,13 +29,13 @@
   color: #fff;
 }
 
-.btnIcon{
-    background:transparent ;
+.btnIcon {
+  background: transparent;
 }
 
-.btnContainer{
-    display: flex;
-    // justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+.btnContainer {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }

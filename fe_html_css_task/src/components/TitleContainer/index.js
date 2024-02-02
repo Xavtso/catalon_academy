@@ -1,2 +1,1 @@
-import TitleContainer from "./components/TitleContainer";
-export default TitleContainer;
+export { default } from './components/TitleContainer';

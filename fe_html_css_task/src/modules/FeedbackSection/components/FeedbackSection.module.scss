@@ -1,7 +1,5 @@
-@import '../../../styles/variables.scss';
-
 .container{
     padding: 0 5rem;
     margin-top:8rem ;
-      background: linear-gradient(to top, $primary-dark 50%, transparent 50%);
+      background: linear-gradient(to top, var(--primary-dark) 50%, transparent 50%);
 }

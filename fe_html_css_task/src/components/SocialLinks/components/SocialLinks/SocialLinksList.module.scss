@@ -1,9 +1,7 @@
-@import "../../../../styles/variables.scss";
-
 .socialLink {
   border-radius: 50%;
   padding: 0.5rem;
-  background-color: $primary-green;
+  background-color: var(--primary-green);
   margin: 0;
   height: 1.5rem;
   -webkit-border-radius: 50%;

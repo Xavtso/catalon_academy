@@ -1,9 +1,11 @@
 import styles from "./PricingSection.module.scss";
 import CardsList from "../../components/PriceCard/CardsList/CardList";
-import VectorPricing from "../../assets/icons/backgrounds/vectorPricing";
 import TitleContainer from "../../components/TitleContainer";
+import Container from "../../UI/Container";
 
 export default function PricingSection() {
+  const vectorSrc = "/assets/icons/backgrounds/vectorPricing.svg";
+ 
   const data = {
     tag: "Pricing",
     title: "Pricing Plans",
@@ -11,13 +13,13 @@ export default function PricingSection() {
   };
   return (
     <section className={styles.pricingSection}>
-      <div className={styles.contentContainer}>
+      <Container direction={"column"}>
         <div className={styles.vector}>
-          <VectorPricing />
+          <img src={vectorSrc} alt="bg-vector"/>
         </div>
         <TitleContainer info={data} center={true} titleStyle={"big"} />
         <CardsList />
-      </div>
+      </Container>
     </section>
   );
 }

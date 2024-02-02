@@ -1,6 +1,6 @@
 import BtnGroup from "../../UI/BtnGroup";
 import InfoCardsList from "../../components/StartUpSection";
-import VectorStartUp from "../../assets/icons/backgrounds/vectorUp";
+
 import styles from "./StartUpSection.module.scss";
 
 export default function StartUpSection() {
@@ -8,7 +8,10 @@ export default function StartUpSection() {
     <section className={styles.sectionContainer}>
       <div className={styles.contentContainer}>
         <div className={styles.vector}>
-          <VectorStartUp />
+          <img
+            src="/assets/images/backgrounds/startUpVector.png"
+            alt="bg-vector"
+          />
         </div>
         <div className={styles.textContainer}>
           <h2 className={styles.title}>

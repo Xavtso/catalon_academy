@@ -1,2 +1,1 @@
-import BlogSection from "./BlogSection";
-export default BlogSection;
+export { default } from "./BlogSection";

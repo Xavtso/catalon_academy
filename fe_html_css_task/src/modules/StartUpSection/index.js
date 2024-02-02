@@ -1,2 +1,1 @@
-import StartUpSection from "./StartUpSection";
-export default StartUpSection;
+export { default } from "./StartUpSection";

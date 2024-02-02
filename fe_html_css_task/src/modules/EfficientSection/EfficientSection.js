@@ -1,10 +1,13 @@
 import ImageContainer from "../../UI/SectionImage";
 import TextContent from "../../components/Efficient";
-import efficientImage from "../../assets/images/Efficient/IMAGEefficient.jpg";
-import barIcon from "../../assets/icons/Efficient/image 4head.png";
-import styles from './EfficientSection.module.scss';
+
+import styles from "./EfficientSection.module.scss";
+import Container from "../../UI/Container";
 
 export default function EfficientSection() {
+  const efficientImage = "/assets/images/Efficient/efficient.jpg";
+  const barIcon = "/assets/icons/Efficient/headIcon.png";
+
   const info = {
     percent: "74%",
     text: "Increased in productivity",
@@ -13,10 +16,10 @@ export default function EfficientSection() {
 
   return (
     <section className={styles.efficientSection}>
-      <div className={styles.contentContainer}>
+      <Container direction={"row"}>
         <TextContent />
-              <ImageContainer imageSrc={efficientImage} info={info} reversed={true} />
-      </div>
+        <ImageContainer imageSrc={efficientImage} info={info} reversed={true} />
+      </Container>
     </section>
   );
 }

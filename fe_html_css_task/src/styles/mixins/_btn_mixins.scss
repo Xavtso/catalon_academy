@@ -1,9 +1,7 @@
-@import "../variables.scss";
-
 
 @mixin btnTextBold {
-  color: $primary-dark;
-  font-size: $font-xs;
+  color: var(--primary-dark);
+  font-size: var(--font-xs);
   font-style: normal;
   font-weight: 700;
   line-height: 1.5rem;
@@ -13,20 +11,18 @@
 @mixin btnTextRegular {
   @include btnTextBold;
 
-  color: $primary-grey;
+  color: var(--primary-grey);
   font-weight: 400;
-  font-size: $font-xs;
+  font-size: var(--font-xs);
 }
-
-
 
 @mixin defaultBtn {
   border-radius: 4rem;
-  border: 2px solid $primary-dark;
+  border: 2px solid var(--primary-dark);
   background-color: transparent;
   padding: 0.8rem 1.6rem;
   cursor: pointer;
-  color: $primary-dark;
+  color: var(--primary-dark);
 
   @include btnTextBold;
 }

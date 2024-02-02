@@ -1,2 +1,1 @@
-import EfficientSection from "./EfficientSection";
-export default EfficientSection;
+export { default } from "./EfficientSection";

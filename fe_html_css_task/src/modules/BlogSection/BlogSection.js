@@ -1,5 +1,6 @@
 import Button from "../../UI/Button";
-import BlogCardsList from "../../components/BlogCards";
+import Container from "../../UI/Container";
+import BlogCardsList from '../../components/BlogCards';
 import TitleContainer from "../../components/TitleContainer";
 import styles from "./BlogSection.module.scss";
 
@@ -11,11 +12,11 @@ export default function BlogSection() {
   };
   return (
     <section className={styles.blogSection}>
-      <div className={styles.contentContainer}>
-        <TitleContainer info={data} center={true} titleStyle={'bold'} />
+      <Container direction={'column'}>
+        <TitleContainer info={data} center={true} titleStyle={"bold"} />
         <BlogCardsList />
-        <Button text={"View all"} btnPlace={'blog'} />
-      </div>
+        <Button text={"View all"} btnPlace={"blog"} />
+      </Container>
     </section>
   );
 }

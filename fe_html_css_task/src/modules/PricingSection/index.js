@@ -1,2 +1,1 @@
-import PricingSection from "./PricingSection";
-export default PricingSection;
+export { default } from "./PricingSection";

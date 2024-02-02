@@ -1,2 +1,1 @@
-import InfoBar from "./InfoBar";
-export default InfoBar;
+export { default } from "./InfoBar";

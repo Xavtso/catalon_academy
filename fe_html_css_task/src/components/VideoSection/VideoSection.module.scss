@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+
 @import "../../styles/mixins/btn_mixins";
 
 .heroSection {
@@ -6,12 +6,12 @@
   height: 40rem;
   padding: 0 5rem;
   margin-top: -0.3rem;
-  background: linear-gradient(to bottom, $primary-dark 50%, transparent 50%);
+  background: linear-gradient(to bottom, var(--primary-dark) 50%, transparent 50%);
 }
 
 .imageContainer {
   height: 100%;
-  background: url(../../assets/images/Hero/IMAGEhero.png) ;
+  background: url(../../../public/assets/images/Hero/hero.png) ;
   background-size: cover;
   display: grid;
   place-items: center

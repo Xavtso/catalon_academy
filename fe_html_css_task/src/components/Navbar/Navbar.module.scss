@@ -1,19 +1,16 @@
-@import "../../styles/globals.scss";
 @import "../../styles/mixins/btn_mixins";
 @import "../../styles/mixins/text-mixins";
 
-.navbar {
+.container {
   display: flex;
   padding: 0.88rem 5rem;
   align-items: center;
-  //   height: 4.5rem;
   border: 1px solid;
 }
 
 .navItems {
-  //   border: 1px solid;
   display: flex;
-  color: $primary-dark;
+  color: var(--primary-dark);
   gap: 2rem;
   align-items: center;
   list-style: none;
@@ -23,8 +20,7 @@
 
 .navItem {
   @include regularText;
-  color: $primary-dark;
-
+  color: var(--primary-dark);
   cursor: pointer;
 }
 
@@ -35,7 +31,14 @@
 }
 .freeTry {
   @include defaultBtn;
-  background-color: $primary-dark;
+  background-color: var(--primary-dark);
   padding: 0.6rem 1.38rem;
   color: #fff;
+}
+
+.navItem:nth-child(5) {
+  @extend .logIn;
+}
+.navItem:last-child {
+  @extend .freeTry;
 }

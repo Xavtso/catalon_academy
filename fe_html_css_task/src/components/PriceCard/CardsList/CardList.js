@@ -40,9 +40,9 @@ export default function CardsList() {
   ];
 
   return (
-    <ul className={styles.cardsContainer}>
+    <ul className={styles.container}>
       {data.map((item, index) => (
-        <li>
+        <li key={index}>
           <PriceCard info={item} />
         </li>
       ))}

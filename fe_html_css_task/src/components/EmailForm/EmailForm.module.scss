@@ -1,11 +1,10 @@
-@import "../../styles/globals.scss";
 @import "../../styles/mixins/text-mixins";
 @import "../../styles/mixins/btn_mixins";
 
 .container {
   position: relative;
   height: 100%;
-  background-color: $primary-green;
+  background-color: var(--primary-green);
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
@@ -35,7 +34,7 @@
 }
 .subtitle {
   @include sectionSubtitle;
-  color: $primary-dark;
+  color: var(--primary-dark);
 }
 
 .activeGroup {

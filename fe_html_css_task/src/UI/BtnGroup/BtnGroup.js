@@ -1,12 +1,14 @@
 import styles from "./BtnGroup.module.scss";
-import ArrowIcon from "../../assets/icons/Button/arrow";
+
 export default function BtnGroup() {
+  const arrowIcon = "/assets/icons/Button/arrow.svg";
+
   return (
     <div className={styles.btnContainer}>
       <button className={styles.btnMain}>Get Started</button>
       <button className={styles.btnSecondary}>
         Try for free
-        <ArrowIcon />
+        <img src={arrowIcon} alt="arrowIcon" />
       </button>
     </div>
   );

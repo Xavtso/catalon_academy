@@ -1,9 +1,10 @@
 import styles from "./TestimonialSection.module.scss";
-import vector1 from "../../assets/images/Testimonials/vector1.png";
-import vector2 from "../../assets/images/Testimonials/vector2.png";
 import CommentsList from "../../components/TestimonialSection";
 
 export default function TestimonialSection() {
+  const vector1 = "/assets/images/Testimonials/vector1.png";
+  const vector2 = "/assets/images/Testimonials/vector2.png";
+  
   return (
     <section className={styles.testimonialSection}>
       <h2 className={styles.title}>A words from our customers</h2>

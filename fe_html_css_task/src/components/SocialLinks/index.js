@@ -1,2 +1,1 @@
-import SocialLinks from "./components/SocialLinks/SocialLinksList";
-export default SocialLinks;
+export { default } from './components/SocialLinks/SocialLinksList';

@@ -1,13 +1,14 @@
 import CommentCard from "../CommentCard/CommentCard";
 import styles from "./CommentsList.module.scss";
-import portrait1 from "../../../../assets/images/Testimonials/portrait1.png";
-import portrait2 from "../../../../assets/images/Testimonials/portrait2.png";
-import portrait3 from "../../../../assets/images/Testimonials/portrait3.png";
-import portrait4 from "../../../../assets/images/Testimonials/portrait4.png";
-import portrait5 from "../../../../assets/images/Testimonials/portrait5.png";
-import portrait6 from "../../../../assets/images/Testimonials/portrait6.png";
 
 function CommentsList() {
+  const portrait1 = "/assets/images/Testimonials/portrait1.png";
+  const portrait2 = "/assets/images/Testimonials/portrait2.png";
+  const portrait3 = "/assets/images/Testimonials/portrait3.png";
+  const portrait4 = "/assets/images/Testimonials/portrait4.png";
+  const portrait5 = "/assets/images/Testimonials/portrait5.png";
+  const portrait6 = "/assets/images/Testimonials/portrait6.png";
+  
   const data1 = [
     {
       imageSrc: portrait1,

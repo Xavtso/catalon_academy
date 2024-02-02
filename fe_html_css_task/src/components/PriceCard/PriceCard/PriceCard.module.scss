@@ -1,9 +1,8 @@
-@import "../../../styles/globals.scss";
 @import "../../../styles/mixins/text-mixins";
 @import "../../../styles/mixins/btn_mixins";
 
 .priceCard {
-  background-color: $primary-dark;
+  background-color: var(--primary-dark);
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -61,8 +60,8 @@
 .cardBtn {
   @include defaultBtn;
   width: 100%;
-  border-color: $primary-green;
-  background-color: $primary-green;
+  border-color: var(--primary-green);
+  background-color: var(--primary-green);
 }
 
 .itemsList {
@@ -100,7 +99,7 @@
 
 .mainCard {
   @extend .priceCard;
-  background-color: $primary-green;
+  background-color: var(--primary-green);
 
   .contentContainer {
     height: 38.5rem;
@@ -114,7 +113,7 @@
   h4,
   h3,
   li {
-    color: $primary-dark;
+    color: var(--primary-dark);
   }
 
   .rule {
@@ -122,8 +121,8 @@
   }
 
   .cardBtn {
-    background-color: $primary-dark;
-    color: $primary-white;
-    border-color: $primary-dark;
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    border-color: var(--primary-dark);
   }
 }

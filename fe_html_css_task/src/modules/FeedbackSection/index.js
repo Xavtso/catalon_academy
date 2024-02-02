@@ -1,2 +1,1 @@
-import FeedbackSection from "./components/FeedbackSection";
-export default FeedbackSection;
+export { default } from "./components/FeedbackSection";

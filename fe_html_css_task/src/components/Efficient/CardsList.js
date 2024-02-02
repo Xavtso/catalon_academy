@@ -1,11 +1,13 @@
 import EfficientCard from "./EfficientCard/EfficientCard";
-import icon1 from "../../assets/icons/Efficient/image 2not-allowed.png";
-import icon2 from "../../assets/icons/Efficient/image 3clock.jpg";
-import styles from './CardsList.module.scss';
+
+import styles from "./CardsList.module.scss";
 
 export default function CardsList() {
+  const icon1 = "/assets/icons/Efficient/not-allowed.png";
+  const icon2 = "/assets/icons/Efficient/clockIcon.jpg";
+
   const data = [
-     {
+    {
       imageSrc: icon1,
       title: "No meetings",
       text: "Porta non eros. Ut finibus viverra neque, sed vestibulum tellus volutpat ac cras at massa.",
@@ -18,7 +20,7 @@ export default function CardsList() {
   ];
 
   return (
-    <ul className={styles.cardsList}>
+    <ul className={styles.list}>
       {data.map((item, index) => (
         <li key={index}>
           <EfficientCard data={item} />

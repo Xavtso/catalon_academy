@@ -1,3 +1,1 @@
-import SectionName from "./SectionName";
-
-export default SectionName;
+export { default } from "./SectionName";

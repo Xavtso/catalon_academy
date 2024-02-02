@@ -1,9 +1,8 @@
-@import '../../styles/variables.scss';
 @import '../../styles/mixins/text-mixins';
 
 .testimonialSection{
     position: relative;
-    background-color: $primary-dark;
+    background-color: var(--primary-dark);
     padding: 8rem 5rem;
     display: flex;
     flex-direction: column;

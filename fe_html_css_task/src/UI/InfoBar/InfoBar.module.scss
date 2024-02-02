@@ -1,52 +1,49 @@
-@import '../../styles/variables.scss';
-@import '../../styles/mixins/text-mixins';
+@import "../../styles/mixins/text-mixins";
 
-.infoBar{
-    background-color: $primary-green;
-    width: fit-content;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding: 1.5rem;
-    gap: 7.8rem;
-    border-radius: 1.5rem;
-    // height: 7.5rem;
-    -webkit-border-radius: 1.5rem;
-    -moz-border-radius: 1.5rem;
-    -ms-border-radius: 1.5rem;
-    -o-border-radius: 1.5rem;
+.infoBar {
+  background-color: var(--primary-green);
+  width: fit-content;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 7.8rem;
+  border-radius: 1.5rem;
+  // height: 7.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
 
-    position: absolute;
-    bottom: 2.2rem;
-    right: -3rem;
-
+  position: absolute;
+  bottom: 2.2rem;
+  right: -3rem;
 }
 
-.infoBarReversed{
-    @extend .infoBar;
-    gap: 3.4rem;
-    right: auto;
-    left: -3rem;
+.infoBarReversed {
+  @extend .infoBar;
+  gap: 3.4rem;
+  right: auto;
+  left: -3rem;
 }
 
-
-.barPercent{
- @include sectionTitle;
-    margin: 0;
-    font-weight: 700
+.barPercent {
+  @include sectionTitle;
+  margin: 0;
+  font-weight: 700;
 }
-.barText{
-    @include regularText;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    text-align: left;
+.barText {
+  @include regularText;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: left;
 }
-.iconContainer{
-    background-color: $primary-dark;
-    padding: 0.75rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+.iconContainer {
+  background-color: var(--primary-dark);
+  padding: 0.75rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }

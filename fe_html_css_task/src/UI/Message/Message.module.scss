@@ -1,8 +1,7 @@
-@import '../../styles/variables.scss';
 @import '../../styles/mixins/text-mixins';
 
 .messageContainer{
-    background-color: $primary-green;
+    background-color: var(--primary-green);
     display: flex;
     align-items: center;
     padding: 0 4.5rem
@@ -10,12 +9,12 @@
 
 .messageText{
     @include regularText;
-    color: $primary-dark;
+    color: var(--primary-dark);
     margin-inline:auto ;
 }
 
 .closeIcon{
-    background: url(../../assets/icons/Message/closeIcon.jpg);
+    background: url(../../../public/assets/icons/Message/closeIcon.jpg);
     width: 2rem;
     height: 2rem;
     cursor: pointer;

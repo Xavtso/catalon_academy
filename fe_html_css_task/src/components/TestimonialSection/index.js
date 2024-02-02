@@ -1,2 +1,1 @@
-import CommentsList from "./components/CommentsList/CommentsList";
-export default CommentsList;
+export { default } from "./components/CommentsList/CommentsList";

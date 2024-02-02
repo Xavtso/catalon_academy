@@ -1,10 +1,12 @@
 import InfoCard from "../InfoCard/InfoCard";
-import cardIcon1 from "../../../assets/images/StartUp/IMAGEup1.png";
-import cardIcon2 from "../../../assets/images/StartUp/IMAGEup2.png";
-import cardIcon3 from "../../../assets/images/StartUp/IMAGEup3.png";
-import styles from './InfoCardsList.module.scss';
+
+import styles from "./InfoCardsList.module.scss";
 
 export default function InfoCardsList() {
+  const cardIcon1 = "/assets/images/StartUp/card1.png";
+  const cardIcon2 = "/assets/images/StartUp/card2.png";
+  const cardIcon3 = "/assets/images/StartUp/card3.png";
+
   const data = [
     {
       imageSrc: cardIcon1,
@@ -12,13 +14,13 @@ export default function InfoCardsList() {
       content:
         "Vestibulum posuere odio id purus maximus, vel condimentum nunc tincidunt. Duis sit amet vulputa.",
     },
-     {
+    {
       imageSrc: cardIcon2,
       title: "Less paper work",
       content:
         "Duis convallis eros eu dolor posuere, sit amet mollis turpis elementum. Aliquam ut sapien enim.",
     },
-     {
+    {
       imageSrc: cardIcon3,
       title: "More profit",
       content:

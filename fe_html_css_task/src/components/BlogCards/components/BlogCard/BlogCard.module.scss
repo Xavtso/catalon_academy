@@ -1,7 +1,7 @@
-@import "../../../../styles/variables.scss";
+
 @import "../../../../styles/mixins/text-mixins";
 
-.blogCard {
+.card {
   border: 1px solid #e5e7eb;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
   padding: 0;
@@ -42,7 +42,7 @@
 
 .cardTag {
   @include regularText;
-  color: $primary-dark;
+  color: var(--primary-dark);
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   padding: 0.56rem 1.06rem;

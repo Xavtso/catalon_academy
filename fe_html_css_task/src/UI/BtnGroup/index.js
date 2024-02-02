@@ -1,2 +1,1 @@
-import BtnGroup from "./BtnGroup";
-export default BtnGroup
+export { default } from "./BtnGroup";

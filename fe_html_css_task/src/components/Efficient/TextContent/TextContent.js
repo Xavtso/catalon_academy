@@ -12,7 +12,7 @@ export default function TextContent() {
   };
 
   return (
-    <div className={styles.textContainer}>
+    <div className={styles.container}>
       <TitleContainer info={data}/>
       <CardsList />
       <BtnGroup />

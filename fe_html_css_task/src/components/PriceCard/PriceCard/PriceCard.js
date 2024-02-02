@@ -1,10 +1,11 @@
 import styles from "./PriceCard.module.scss";
-import greenCard from "../../../assets/icons/Pricing/image 5greenCard.png";
-import GreenMark from "../../../assets/icons/Pricing/GreenMark";
-import darkCard from "../../../assets/icons/Pricing/image 7darkCard.png";
-import DarkMark from "../../../assets/icons/Pricing/DarkMark";
 
 export default function PriceCard({ info }) {
+  const greenCard = "/assets/icons/Pricing/greenCard.png";
+  const GreenMark = "/assets/icons/Pricing/GreenMark.svg";
+  const darkCard = "/assets/icons/Pricing/darkCard.png";
+  const DarkMark = "/assets/icons/Pricing/DarkMark.svg";
+
   const { plan, priceMonth, priceYear, listItems, main } = info;
   const [amount, unit] = priceMonth.match(/(\$\d+)\s*\/(\w+)/).slice(1);
   const cardStyles = main ? styles.mainCard : styles.priceCard;
@@ -29,7 +30,7 @@ export default function PriceCard({ info }) {
           <ul className={styles.itemsList}>
             {listItems.map((item, index) => (
               <li key={index} className={styles.listItem}>
-                {main ? <DarkMark /> : <GreenMark />} {item}
+                <img src={main ? DarkMark : GreenMark} alt="markIcon" /> {item}
               </li>
             ))}
           </ul>
