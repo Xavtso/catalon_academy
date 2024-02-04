@@ -14,7 +14,12 @@ export default function PriceCard({ info }) {
     <div className={cardStyles}>
       <div className={styles.contentContainer}>
         <div className={styles.cardIcon}>
-          <img src={main ? darkCard : greenCard} alt="cardIcon" />
+          <img
+            src={main ? darkCard : greenCard}
+            alt="cardIcon"
+            width="48px"
+            height="48px"
+          />
         </div>
         <div className={styles.priceContainer}>
           <h3 className={styles.plan}>{plan}</h3>
@@ -30,7 +35,13 @@ export default function PriceCard({ info }) {
           <ul className={styles.itemsList}>
             {listItems.map((item, index) => (
               <li key={index} className={styles.listItem}>
-                <img src={main ? DarkMark : GreenMark} alt="markIcon" /> {item}
+                <img
+                  src={main ? DarkMark : GreenMark}
+                  alt="markIcon"
+                  width="24px"
+                  height="24px"
+                />{" "}
+                {item}
               </li>
             ))}
           </ul>

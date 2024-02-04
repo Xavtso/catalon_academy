@@ -26,29 +26,39 @@ export default function HeroSection() {
           <div className={styles.btnContainer}>
             <button className={styles.heroBtn}>Get Started</button>
             <button className={styles.heroBtnSecondary}>
-              Try for free <img src={arrow} alt="arrowIcon" />
+              Try for free{" "}
+              <img src={arrow} alt="arrowIcon" width="16px" height="16px" />
             </button>
           </div>
 
           <ul className={styles.logoContainer}>
             {imgSources.map((src, index) => (
               <li key={index} className={styles.logoItem}>
-                <img
-                  src={src}
-                  alt="heroLogos"
-                />
+                <img src={src} alt="heroLogos" />
               </li>
             ))}
           </ul>
         </div>
         <div className={styles.iconContainer1}>
-          <img src={icon1} alt="backgroundIcon" />
+          <img
+            src={icon1}
+            alt="backgroundIcon"
+      
+          />
         </div>
         <div className={styles.iconContainer2}>
-          <img src={icon2} alt="backgroundIcon" />
+          <img
+            src={icon2}
+            alt="backgroundIcon"
+       
+          />
         </div>
         <div className={styles.iconContainer3}>
-          <img src={icon3} alt="backgroundIcon" />
+          <img
+            src={icon3}
+            alt="backgroundIcon"
+        
+          />
         </div>
       </div>
       <VideoSection />

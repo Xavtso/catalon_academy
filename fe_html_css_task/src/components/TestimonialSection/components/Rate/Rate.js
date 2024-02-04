@@ -6,11 +6,11 @@ export default function Rate() {
 
   return (
     <div className={styles.rateContainer}>
-      <img src={star} alt="Star"></img>
-      <img src={star} alt="Star"></img>
-      <img src={star} alt="Star"></img>
-      <img src={star} alt="Star"></img>
-      <img src={star} alt="Star"></img>
+      <img src={star} alt="Star" width='20px' height='20px'></img>
+      <img src={star} alt="Star" width='20px' height='20px'></img>
+      <img src={star} alt="Star" width='20px' height='20px'></img>
+      <img src={star} alt="Star" width='20px' height='20px'></img>
+      <img src={star} alt="Star" width='20px' height='20px'></img>
     </div>
   );
 }

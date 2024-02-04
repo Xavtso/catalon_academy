@@ -15,7 +15,11 @@ export default function PricingSection() {
     <section className={styles.pricingSection}>
       <Container direction={"column"}>
         <div className={styles.vector}>
-          <img src={vectorSrc} alt="bg-vector"/>
+          <img
+            src={vectorSrc}
+            alt="bg-vector"
+     
+          />
         </div>
         <TitleContainer info={data} center={true} titleStyle={"big"} />
         <CardsList />

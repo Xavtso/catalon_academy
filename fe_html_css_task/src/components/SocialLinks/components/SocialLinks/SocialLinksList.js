@@ -24,8 +24,8 @@ function SocialLinks() {
     <ul className={styles.socialLinks}>
       {links.map((item, index) => (
         <li key={index} className={styles.socialLink}>
-          <a href={item.link}>
-            <img src={item.icon} alt="socialIcon" />
+          <a href={item.link} rel="noopener noreferer">
+            <img src={item.icon} alt="socialIcon" width="24px" height="24px" />
           </a>
         </li>
       ))}

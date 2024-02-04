@@ -34,7 +34,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.footerContact}>
-          <img src={logo} alt="logoIcon" />
+          <img src={logo} alt="logoIcon" width="112px" height="30px" />
           <address>
             <p>Address:</p>
             <p>Level 1, 12 Nikola Tesla street, Niš, Serbia</p>

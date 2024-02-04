@@ -8,7 +8,12 @@ export default function BtnGroup() {
       <button className={styles.btnMain}>Get Started</button>
       <button className={styles.btnSecondary}>
         Try for free
-        <img src={arrowIcon} alt="arrowIcon" />
+        <img
+          src={arrowIcon}
+          alt="arrowIcon"
+          width="16px"
+          height="16px"
+        />
       </button>
     </div>
   );

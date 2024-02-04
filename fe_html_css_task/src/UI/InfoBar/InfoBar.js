@@ -8,7 +8,13 @@ export default function InfoBar({ info, reversed }) {
   return (
     <div className={barStyles}>
       <div className={styles.iconContainer}>
-        <img className={styles.barIcon} src={barIcon} alt="barIcon" />
+        <img
+          className={styles.barIcon}
+          src={barIcon}
+          alt="barIcon"
+          width="48px"
+          height="48px"
+        />
       </div>
       <div className={styles.textContainer}>
         <p className={styles.barPercent}>{percent}</p>

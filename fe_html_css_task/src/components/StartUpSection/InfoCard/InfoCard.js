@@ -5,10 +5,16 @@ export default function InfoCard({info}) {
 
 
     return (
-        <div className={styles.infoCard}>
-            <img className={styles.cardImage} src={imageSrc }  alt='infoImage'/>
-            <h3 className={styles.cardTitle}>{title }</h3>
-            <p className={styles.cardContent}>{content }</p>
-        </div>
-    )
+      <div className={styles.infoCard}>
+        <img
+          className={styles.cardImage}
+          src={imageSrc}
+          alt="infoImage"
+          width="100px"
+          height="101px"
+        />
+        <h3 className={styles.cardTitle}>{title}</h3>
+        <p className={styles.cardContent}>{content}</p>
+      </div>
+    );
 }
