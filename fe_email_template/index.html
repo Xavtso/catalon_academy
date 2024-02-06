@@ -28,7 +28,7 @@
         width: 100%;
         max-width: 580px;
         border-spacing: 0;
-        padding-bottom: 4rem;
+        padding-bottom:10px;
         border-radius: 0.8rem;
         box-shadow: 0px 0px 3px 1px #787878;
         background-color: #fff;
@@ -36,7 +36,7 @@
       .topRow {
         border-bottom: 0.55px solid  #D5D7DD;
 ;
-        padding: 1rem 0.5rem;
+        padding: 1rem 0.8rem;
         display: flex;
         align-items: center;
       }
@@ -45,7 +45,7 @@
         gap: 0.4rem;
       }
       .circle {
-        padding: 0.1rem;
+        /* padding: 0.1rem; */
         margin: 0;
         width: 11.04px;
         height: 11.04px;
@@ -53,8 +53,10 @@
       }
       .navTitle{
         color: #787878;
-        margin-inline:auto ;
+        margin-inline:auto;
         text-align: center;
+        font-size: 11.04px;
+        line-height: 12.94px;
       }
       .receiverRow{
         padding: 0 1rem;
@@ -62,6 +64,8 @@
       }
       .receiverRow p{
         color: #787878;
+        font-size: 13.25px;
+        line-height: 15.53px;
       }
       .mainContent{
         padding: 1rem;
@@ -72,14 +76,46 @@
         line-height: 24px;
       }
       span{
-        color: orange;
+        color: #FF7A00;
       }
      
+      .footer{
+        padding: 1rem;
+      }
+      .footerContainer{
+        width: 100%;
+        max-width: 315px;
+        font-size: 10px;
+      }
+      .footerContainer a{
+        color: #2A3D6E;
+        font-size: 12px;
+      }
+      .imageContainer{
+        background: url(https://s3-alpha-sig.figma.com/img/d517/2468/a4727bfb2bf02e6c7f61df097e88fd02?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L8Kdu8fEpzoiLEyOHXa3zAOPuGOkKsOFQLmnAAUPyKKFdkf9OOqHy54mQseBGYZEIf0a2X2VBMMO8ST0QfVWrJ76l5UmxFYF2X~5~5umDBDMap7b9Hr9wnKRP1x0veqJykN~LBcK9JSvACbSJLbJYEdzQmbfQ-afJZH6SJTAuxfMxV1~8PZeUhDc1pTFSzw7XscYojn~gv0f7d-FMRUBwKsYO7wc9q-KBvm-NOeaxGPMoAWnq5GaNN27yZGLX0iPrpUwJkxHTkJ83TDgWRQenFZah~VFY3~L-g7Ow8mJo4pvWHQhEbBwL1qKbssLdmHZfGkXJ4WBYn-NqYX~coPNJg__);
+        width: 315px;
+        height: 56px;
+      }
+      nav{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        margin-bottom:5px ;
+        gap: 5px;
+      }
+
+      .icon{
+        text-decoration: none;
+        font-style: normal;
+      }
+    
+
     </style>
   </head>
   <body>
     <section>
       <table>
+        <!-- Top Row -->
         <tr>
           <td height="10px" class="topRow">
             <div class="circlesContainer">
@@ -90,6 +126,8 @@
             <p class="navTitle">New Email</p>
           </td>
         </tr>
+       
+        <!-- Receiver Row -->
         <tr>
     <td class="receiverRow">
       <p>
@@ -98,6 +136,8 @@
       </p>
     </td>
   </tr>
+
+  <!-- Letter Content -->
   <tr>
     <td class="mainContent">
       <p>Dear, Alexander</p>
@@ -108,6 +148,28 @@
       <p>Thank you for your commitment to our learning community.</p>
       <p>Warm regards,<br/>
         Calaton Academy</p>
+    </td>
+  </tr>
+
+  <!-- Footer -->
+  <tr>
+    <td class="footer">
+      <div class="footerContainer">
+        <nav>
+          <a href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">
+            www.calaton.academy
+          </a>
+          <!-- <a class="icon" href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">
+            <i>f</i>
+          </a>
+          <a class="icon" href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">
+            <i>ln</i>
+          </a> -->
+        </nav>
+        <div class="imageContainer">
+        </div>
+        <p>This email is for intended recipients only. If you are not an intended recipient, you must not disclose, copy or distribute this email to others or act upon the information contained in this email in any way. </p>
+      </div>
     </td>
   </tr>
       </table>
