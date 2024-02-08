@@ -11,8 +11,6 @@ export default function EmailForm() {
         <img
           src={vectorContact}
           alt="vectorContact"
-          // width="11.25rem"
-          // height="12.875rem"
         />
       </div>
       <div className={styles.contentBox}>

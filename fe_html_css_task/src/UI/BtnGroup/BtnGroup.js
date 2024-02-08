@@ -11,8 +11,8 @@ export default function BtnGroup() {
         <img
           src={arrowIcon}
           alt="arrowIcon"
-          width="16px"
-          height="16px"
+          width="16"
+          height="16"
         />
       </button>
     </div>

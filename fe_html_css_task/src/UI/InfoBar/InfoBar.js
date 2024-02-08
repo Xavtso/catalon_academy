@@ -12,8 +12,8 @@ export default function InfoBar({ info, reversed }) {
           className={styles.barIcon}
           src={barIcon}
           alt="barIcon"
-          width="48px"
-          height="48px"
+          width="48"
+          height="48"
         />
       </div>
       <div className={styles.textContainer}>

@@ -10,8 +10,8 @@ export default function InfoCard({info}) {
           className={styles.cardImage}
           src={imageSrc}
           alt="infoImage"
-          width="100px"
-          height="101px"
+          width="100"
+          height="101"
         />
         <h3 className={styles.cardTitle}>{title}</h3>
         <p className={styles.cardContent}>{content}</p>

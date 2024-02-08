@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav className={styles.container}>
-      <img src={logo} alt="logo" width="112px" height="28px" />
+      <img src={logo} alt="logo" width="112" height="28" />
       <ul className={styles.navItems}>
         {links.map((item, index) => (
           <li className={styles.navItem} key={index}>

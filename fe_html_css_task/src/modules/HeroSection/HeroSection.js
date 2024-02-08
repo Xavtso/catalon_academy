@@ -27,7 +27,7 @@ export default function HeroSection() {
             <button className={styles.heroBtn}>Get Started</button>
             <button className={styles.heroBtnSecondary}>
               Try for free{" "}
-              <img src={arrow} alt="arrowIcon" width="16px" height="16px" />
+              <img src={arrow} alt="arrowIcon" width="16" height="16" />
             </button>
           </div>
 

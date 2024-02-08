@@ -17,8 +17,8 @@ export default function PriceCard({ info }) {
           <img
             src={main ? darkCard : greenCard}
             alt="cardIcon"
-            width="48px"
-            height="48px"
+            width="48"
+            height="48"
           />
         </div>
         <div className={styles.priceContainer}>
@@ -38,8 +38,8 @@ export default function PriceCard({ info }) {
                 <img
                   src={main ? DarkMark : GreenMark}
                   alt="markIcon"
-                  width="24px"
-                  height="24px"
+                  width="24"
+                  height="24"
                 />{" "}
                 {item}
               </li>

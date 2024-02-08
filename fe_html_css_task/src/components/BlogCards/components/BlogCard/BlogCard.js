@@ -23,7 +23,7 @@ export default function BlogCard({ info }) {
           <p className={styles.cardText}>{text}</p>
         </div>
         <p className={styles.cardBtn}>
-          <img src={arrowTopRight} alt="arrowIcon" width='32px' height='32px' /> Read more
+          <img src={arrowTopRight} alt="arrowIcon" width='32' height='32' /> Read more
         </p>
       </div>
     </div>
