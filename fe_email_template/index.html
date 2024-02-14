@@ -30,35 +30,38 @@
       border-radius: 0.8rem;
       box-shadow: 0px 0px 3px 1px #d5d7dd;
       background-color: #fff;
+      border-collapse: collapse;
     }
 
-    /* Top Row */
-   
+    
 
-    .topRow {
+    /* Top Row */
+    .topRowTitleCell {
+      height: 10px;
       border-bottom: 0.55px solid #d5d7dd;
+    }
+  
+    .topRow {
       padding: 1rem 0.8rem;
       display: flex;
       align-items: center;
-      height: 10px;
+      justify-content: center;
     }
     .circlesContainer {
-      display: flex;
-      gap: 0.4rem;
+      border-bottom: 0.55px solid #d5d7dd;  
+      width: 25px;
+    }
 
+    .circles {
+      translate: 12px 0;
     }
-    .circle {
-      width: 11.04px;
-      height: 11.04px;
-      border-radius: 50%;
-    }
+
     .topRowTitle {
       color: #787878;
-      margin-inline:auto ;
+      margin-inline:auto;
       text-align: center;
       font-size: 11.04px;
       line-height: 12.94px;
-
     }
 
     /* Receiver Row */
@@ -85,37 +88,35 @@
     }
 
     /* Footer */
-    .footer {
-      padding: 1rem;
+    .tfoot {
+      box-shadow: none;
+      width: 320px;
+      margin:1rem ;
+      
     }
-    .footerContainer {
-      width: 100%;
-      max-width: 315px;
-    }
-    .footerContainer a {
+    
+    .footLink {
       color: #2a3d6e;
       font-size: 12px;
     }
-    .footerContainer p {
+
+    .icon{
+      width: 22px;
+    }
+
+    .subtext {
       color: #575756;
       font-size: 10px;
+      line-height: 11.72px;
+      
     }
     .imageContainer {
-      background: url(./banner.svg);
+      background: url(./banner.png);
       width: 315px;
       height: 56px;
     }
-    nav {
-      width: 100%;
-      /* border: 1px solid; */
-      margin-bottom: 5px;
-      display: flex;
-      align-items: baseline;
-    }
-    .icon {
-      text-decoration: none;
-      font-style: normal;
-    }
+    
+  
     .iconsContainer {
       margin-left: auto;
     }
@@ -124,14 +125,12 @@
 <body>
   <table>
     <!-- Top Row -->
-    <thead>
+    <thead > 
       <tr>
-        <td class="topRow">
-        <div class="circlesContainer" >
-          <p class="circle" style="background-color: #11adcf"></p>
-          <p class="circle" style="background-color: orange"></p>
-          <p class="circle" style="background-color: #f93939"></p>
-        </div>
+        <td height="20px" class="circlesContainer">
+          <img class="circles"  src="circles.png" alt="circles" width="60" height="12">
+        </td>
+        <td height="20px" class="topRowTitleCell">
           <p class="topRowTitle">New Email</p>
         </td>
       </tr>
@@ -145,7 +144,7 @@
       </tr>
       <!-- Letter Content -->
       <tr>
-        <td colspan="2" class="mainContent">
+        <td colspan="2" class="mainContent" align="left">
           <p>Dear, Alexander</p>
           <p>This is a friendly reminder that the Course Back-End is scheduled to begin shortly. We are excited to have you as a mentor for this program.</p>
           <h3>Training Program: <span>Course Back-End</span></h3>
@@ -157,18 +156,34 @@
     <!-- Footer -->
     <tfoot>
       <tr>
-        <td colspan="2" class="footer">
-          <div class="footerContainer">
-            <nav>
-              <a href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">www.calaton.academy</a>
-              <div class="iconsContainer">
-                <a class="icon" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="./facebook.svg" alt="social icon" width="22" height="22"/></a>
-                <a class="icon" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="./linkedin.svg" alt="social icon" width="22" height="22"/></a>
-              </div>
-            </nav>
-            <div class="imageContainer"></div>
-            <p>This email is for intended recipients only. If you are not an intended recipient, you must not disclose, copy or distribute this email to others or act upon the information contained in this email in any way.</p>
-          </div>
+        <td colspan="5">
+          <table class="tfoot" align="left">
+            <tr>
+              <td class="footLink" colspan="3">
+                <a href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">www.calaton.academy</a>
+              </td>
+              <td class="icon">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                  <img src="./facebook.png" alt="Facebook" width="22" height="22"/>
+                </a>
+              </td>
+              <td class="icon">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <img src="./linkedin.png" alt="LinkedIn" width="22" height="22"/>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5" style="padding-top: 10px;">
+                <div class="imageContainer"></div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <p class="subtext">This email is for intended recipients only. If you are not an intended recipient, you must not disclose, copy or distribute this email to others or act upon the information contained in this email in any way.</p>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </tfoot>
