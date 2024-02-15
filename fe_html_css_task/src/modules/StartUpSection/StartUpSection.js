@@ -11,8 +11,8 @@ export default function StartUpSection() {
           <img
             src="/assets/images/backgrounds/startUpVector.png"
             alt="bg-vector"
-            // width="206px"
-            // height="180px"
+            width="180px"
+            height="134px"
           />
         </div>
         <div className={styles.textContainer}>

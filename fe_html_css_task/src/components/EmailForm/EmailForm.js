@@ -8,9 +8,9 @@ export default function EmailForm() {
   return (
     <div className={styles.container}>
       <div className={styles.vector}>
-        <img
-          src={vectorContact}
-          alt="vectorContact"
+        <img src={vectorContact} alt="vectorContact"
+          width="170"
+          height="81"
         />
       </div>
       <div className={styles.contentBox}>

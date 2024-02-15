@@ -13,13 +13,10 @@ export default function TestimonialSection() {
       </p>
       <CommentsList />
       <div className={styles.vectorImg1}>
-        <img src={vector1} alt="vector" />
+        <img src={vector1} alt="vector" width="200" height="268" />
       </div>
       <div className={styles.vectorImg2}>
-        <img
-          src={vector2}
-          alt="vector"
-        />
+        <img src={vector2} alt="vector" width="280" height="142" />
       </div>
     </section>
   );

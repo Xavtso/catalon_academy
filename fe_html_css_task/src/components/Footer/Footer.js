@@ -49,21 +49,27 @@ export default function Footer() {
           <ul>
             {list1.map((item, index) => (
               <li key={index}>
-                <a href="/">{item}</a>
+                <a href="/" rel="noopener noreferrer">
+                  {item}
+                </a>
               </li>
             ))}
           </ul>
           <ul>
             {list2.map((item, index) => (
               <li key={index}>
-                <a href="/">{item}</a>
+                <a href="/" rel="noopener noreferrer">
+                  {item}
+                </a>
               </li>
             ))}
           </ul>
           <ul>
             {list3.map((item, index) => (
               <li key={index}>
-                <a href="/">{item}</a>
+                <a href="/" rel="noopener noreferrer">
+                  {item}
+                </a>
               </li>
             ))}
           </ul>

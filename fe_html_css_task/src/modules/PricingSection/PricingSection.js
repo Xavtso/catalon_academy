@@ -18,7 +18,8 @@ export default function PricingSection() {
           <img
             src={vectorSrc}
             alt="bg-vector"
-     
+            width='130'
+            height='92'
           />
         </div>
         <TitleContainer info={data} center={true} titleStyle={"big"} />
