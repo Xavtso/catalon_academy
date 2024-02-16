@@ -1,192 +1,204 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modern HTML Email Template</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-  <style type="text/css">
-    /* General styles */
-    body {
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern HTML Email Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
       margin: 0;
       background-color: #eeeeee;
-      font-family: 'Roboto Slab', sans-serif;
+      font-family: Roboto Slab, sans-serif;
       padding: 1rem;
-    }
-    p {
-      font-weight: 400;
-    }
-  
-    table {
-      position: relative;
-      margin: auto;
-      width: 100%;
-      max-width: 580px;
-      border-spacing: 0;
-      padding-bottom: 10px;
-      border-radius: 0.8rem;
-      box-shadow: 0px 0px 3px 1px #d5d7dd;
-      background-color: #fff;
-      border-collapse: collapse;
-    }
-
-    
-
-    /* Top Row */
-    .topRowTitleCell {
-      height: 10px;
-      border-bottom: 0.55px solid #d5d7dd;
-    }
-  
-    .topRow {
-      padding: 1rem 0.8rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .circlesContainer {
-      border-bottom: 0.55px solid #d5d7dd;  
-      width: 25px;
-    }
-
-    .circles {
-      translate: 12px 0;
-    }
-
-    .topRowTitle {
-      color: #787878;
-      margin-inline:auto;
-      text-align: center;
-      font-size: 11.04px;
-      line-height: 12.94px;
-    }
-
-    /* Receiver Row */
-    .receiverRow {
-      padding: 0 1rem;
-      border-bottom: 0.55px solid #d5d7dd;
-    }
-    .receiverRow p {
-      color: #787878;
-      font-size: 13.25px;
-      line-height: 15.53px;
-    }
-
-    /* Main Content */
-    .mainContent {
-      padding: 0rem 1rem;
-    }
-    .mainContent p, h3 {
-      font-size: 16px;
-      line-height: 24px;
-    }
-    span {
-      color: #ff7a00;
-    }
-
-    /* Footer */
-    .tfoot {
-      box-shadow: none;
-      width: 320px;
-      margin:1rem ;
-      
-    }
-    
-    .footLink {
-      color: #2a3d6e;
-      font-size: 12px;
-    }
-
-    .icon{
-      width: 22px;
-    }
-
-    .subtext {
-      color: #575756;
-      font-size: 10px;
-      line-height: 11.72px;
-      
-    }
-    .imageContainer {
-      background: url(./banner.png);
-      width: 315px;
-      height: 56px;
-    }
-    
-  
-    .iconsContainer {
-      margin-left: auto;
-    }
-  </style>
-</head>
-<body>
-  <table>
-    <!-- Top Row -->
-    <thead > 
-      <tr>
-        <td height="20px" class="circlesContainer">
-          <img class="circles"  src="circles.png" alt="circles" width="60" height="12">
-        </td>
-        <td height="20px" class="topRowTitleCell">
-          <p class="topRowTitle">New Email</p>
-        </td>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Receiver Row -->
-      <tr>
-        <td colspan="2" class="receiverRow">
-          <p>To: Miroshnichenko Alexander<br/>Subject: Back-End - Session Reminder</p>
-        </td>
-      </tr>
-      <!-- Letter Content -->
-      <tr>
-        <td colspan="2" class="mainContent" align="left">
-          <p>Dear, Alexander</p>
-          <p>This is a friendly reminder that the Course Back-End is scheduled to begin shortly. We are excited to have you as a mentor for this program.</p>
-          <h3>Training Program: <span>Course Back-End</span></h3>
-          <p>Please be prepared to welcome and guide our participants through this enriching learning experience. Your insights and expertise are highly valued. If you have any questions or need further information, please feel free to reach out to us. Thank you for your commitment to our learning community.</p>
-          <p>Warm regards,<br/>Calaton Academy</p>
-        </td>
-      </tr>
-    </tbody>
-    <!-- Footer -->
-    <tfoot>
-      <tr>
-        <td colspan="5">
-          <table class="tfoot" align="left">
-            <tr>
-              <td class="footLink" colspan="3">
-                <a href="https://www.calaton.academy/uk" target="_blank" rel="noopener noreferrer">www.calaton.academy</a>
-              </td>
-              <td class="icon">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                  <img src="./facebook.png" alt="Facebook" width="22" height="22"/>
-                </a>
-              </td>
-              <td class="icon">
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <img src="./linkedin.png" alt="LinkedIn" width="22" height="22"/>
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="5" style="padding-top: 10px;">
-                <div class="imageContainer"></div>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="5">
-                <p class="subtext">This email is for intended recipients only. If you are not an intended recipient, you must not disclose, copy or distribute this email to others or act upon the information contained in this email in any way.</p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </tfoot>
-  </table>
-</body>
+    "
+  >
+    <table
+      style="
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 580px;
+        border-spacing: 0;
+        padding-bottom: 10px;
+        border-radius: 0.8rem;
+        box-shadow: 0px 0px 3px 1px #d5d7dd;
+        background-color: #fff;
+        border-collapse: collapse;
+      "
+    >
+      <thead>
+        <!-- Receiver Row -->
+        <tr style="border-bottom: 0.55px solid #d5d7dd">
+          <td
+            colspan="2"
+            style="padding: 0 1rem; font-size: 13.25px; line-height: 15.53px"
+          >
+            <p>
+              To: Miroshnichenko Alexander<br />Subject: Back-End - Session
+              Reminder
+            </p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Letter Content -->
+        <tr>
+          <td
+            colspan="2"
+            align="left"
+            style="
+              width: 100%;
+              padding: 0rem 1rem;
+              font-size: 16px;
+              line-height: 24px;
+            "
+          >
+            <p>Dear, Alexander</p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              padding: 0rem 1rem;
+              font-size: 16px;
+              line-height: 24px;
+              width: 100%;
+            "
+          >
+            <p>
+              This is a friendly reminder that the Course Back-End is scheduled
+              to begin shortly. We are excited to have you as a mentor for this
+              program.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            align="left"
+            style="
+              width: 100%;
+              padding: 0rem 1rem;
+              font-size: 16px;
+              line-height: 24px;
+            "
+          >
+            <h3>
+              Training Program:
+              <span style="color: #ff7a00"> Course Back-End </span>
+            </h3>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              width: 100%;
+              padding: 0rem 1rem;
+              font-size: 16px;
+              line-height: 24px;
+            "
+          >
+            <p>
+              Please be prepared to welcome and guide our participants through
+              this enriching learning experience. Your insights and expertise
+              are highly valued. If you have any questions or need further
+              information, please feel free to reach out to us. Thank you for
+              your commitment to our learning community.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              width: 100%;
+              padding: 0rem 1rem;
+              font-size: 16px;
+              line-height: 24px;
+            "
+          >
+            <p>Warm regards,<br />Calaton Academy</p>
+          </td>
+        </tr>
+      </tbody>
+      <!-- Footer -->
+      <tfoot>
+        <tr>
+          <td colspan="5">
+            <table align="left" style="width: 320px; margin: 1rem">
+              <tr>
+                <td colspan="3" style="color: #2a3d6e; font-size: 12px">
+                  <a
+                    href="https://www.calaton.academy/uk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >www.calaton.academy</a
+                  >
+                </td>
+                <td style="width: 22px">
+                  <a
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./facebook.png"
+                      alt="Facebook"
+                      width="22"
+                      height="22"
+                    />
+                  </a>
+                </td>
+                <td style="width: 22px">
+                  <a
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./linkedin.png"
+                      alt="LinkedIn"
+                      width="22"
+                      height="22"
+                    />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="5" style="padding-top: 10px">
+                  <div
+                    style="
+                      background: url(./banner.png);
+                      width: 315px;
+                      height: 56px;
+                      background-size: cover;
+                    "
+                  ></div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  colspan="5"
+                  style="color: #575756; font-size: 10px; line-height: 11.72px"
+                >
+                  <p>
+                    This email is for intended recipients only. If you are not
+                    an intended recipient, you must not disclose, copy or
+                    distribute this email to others or act upon the information
+                    contained in this email in any way.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
