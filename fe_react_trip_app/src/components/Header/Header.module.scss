@@ -1,0 +1,56 @@
+@import '../../styles/mixins/text-mixins.scss';
+
+.navbar {
+
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: var(--secondary-color);
+}
+
+.linksList{
+    display:  flex;
+    translate: 0 8px ;
+    list-style: none; 
+    gap: 1.5rem;
+    height: 80px;
+    align-items: center
+}
+
+.link{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.link a{
+    @include textH6;
+    height: fit-content;
+    text-decoration: none;
+    color: var(--grey-darker);
+    translate: 0 -8px ;
+    
+    text-align: center;
+}
+
+.link:hover{
+    border-bottom: 3px solid;
+     a{
+        @include textH6Bold;
+        font-weight: 600;
+    }
+}
+
+
+
+.userActives{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+

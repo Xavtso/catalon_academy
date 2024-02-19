@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    // Font Variables
+    --primary-font: "Poppins", sans-serif;
+    
+  // Main Colors
+    --primary-color:#27959E;
+    --secondary-color:#BCDEE1;
+    --tertiary-color:#E9F4F5;
+    --white-text-color:#FFFFFF;
+    --dark-text-color:#09292B;
+    --background-color:#FDFEFF;
+
+    --white-opacity:rgba(255, 255, 255, 0.9);
+    --yellow-opacity:rgba(255, 229, 0, 1);
+
+  // 50 Shades of Grey xD
+  --grey-Light-VU: #fdfdfd;
+  --grey-Light-ultra: #fafafa;
+  --grey-Light-very: #f5f5f5;
+  --grey-Light: #c4c4c4;
+  --grey-Light-hover: #e2e2e2;
+  --grey-Light-active: #c4c4c4;
+  --grey: #838383;
+  --grey-hover: #3a3a3a;
+  --grey-active: #333333;
+  --grey-dark: #303030;
+  --grey-dark-hover: #262626;
+  --grey-dark-active: #1d1d1d;
+  --grey-darker: #161616;
+
+  // Shades of Red
+  --red-Light: #fbe9e9;
+  --red-Light-hover: #f9dede;
+  --red-Light-active: #f2baba;
+  --red: #d42121;
+  --red-hover: #bf1e1e;
+  --red-active: #aa1a1a;
+  --red-dark: #9f1919;
+  --red-dark-hover: #7f1414;
+  --red-dark-active: #5f0f0f;
+  --red-darker: #4a0c0c;
+
+  // Shades of Green
+  --green-Light: #f0faf3;
+  --green-Light-hover: #e9f8ed;
+  --green-Light-active: #d1f0db;
+  --green: #6cd08a;
+  --green-hover: #61bb7c;
+  --green-active: #56a66e;
+  --green-dark: #519c68;
+  --green-dark-hover: #417d53;
+  --green-dark-active: #315e3e;
+  --green-darker: #264930;
+
+}

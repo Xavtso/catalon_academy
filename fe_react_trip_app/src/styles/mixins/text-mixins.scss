@@ -1,0 +1,124 @@
+@mixin textXS {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textXSBold {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@mixin textSmall {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textSmallBold {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@mixin textBase {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textBaseBold {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textL {
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textLBold {
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@mixin textH6 {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@mixin textH6Bold {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textH5 {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textH5Bold {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textH4 {
+  font-style: normal;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textH4Bold {
+  font-style: normal;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textH3 {
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textH3Bold {
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textH2 {
+  font-style: normal;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textH2Bold {
+  font-style: normal;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@mixin textH1 {
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 120%;
+}
+@mixin textH1Bold {
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+}
