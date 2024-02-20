@@ -2,467 +2,235 @@
   "allTrips": {
     "Europe": [
       {
-        "id": 1,
         "city": "Paris",
-        "Detailed": "Coming Soon",
-        "Dates": "Mar 11-Mar 19",
-        "Total price": 695
+        "detailed": "Coming Soon",
+        "dates": "Mar 11-Mar 19",
+        "totalPrice": 695,
+        "imageSrc": "assets/images/Europe/Paris.png"
       },
       {
-        "id": 2,
         "city": "Barcelona",
-        "Detailed": "Coming Soon",
-        "Dates": "Apr 1-Apr 9",
-        "Total price": 999
+        "detailed": "Coming Soon",
+        "dates": "Apr 1-Apr 9",
+        "totalPrice": 999,
+        "imageSrc": "assets/images/Europe/Barcelona.png"
       },
       {
-        "id": 3,
         "city": "Warszawa",
-        "Detailed": "Coming Soon",
-        "Dates": "Apr 10-Apr 18",
-        "Total price": 679
+        "detailed": "Coming Soon",
+        "dates": "Apr 10-Apr 18",
+        "totalPrice": 679,
+        "imageSrc": "assets/images/Europe/Warszawa.png"
       },
       {
-        "id": 4,
         "city": "Vienna",
-        "Detailed": "Coming Soon",
-        "Dates": "Apr 10-Apr 18",
-        "Total price": 679
+        "detailed": "Coming Soon",
+        "dates": "Apr 10-Apr 18",
+        "totalPrice": 679,
+        "imageSrc": "assets/images/Europe/Vienna.png"
       },
       {
-        "id": 5,
         "city": "Rome",
-        "Detailed": "Coming Soon",
-        "Dates": "Oct 23-Nov 5",
-        "Total price": 398
+        "detailed": "Coming Soon",
+        "dates": "Oct 23-Nov 5",
+        "totalPrice": 398,
+        "imageSrc": "assets/images/Europe/Rome.png"
       },
       {
-        "id": 6,
         "city": "Amsterdam",
-        "Detailed": "Coming Soon",
-        "Dates": "June 1-July 9",
-        "Total price": 432
+        "detailed": "Coming Soon",
+        "dates": "June 1-July 9",
+        "totalPrice": 432,
+        "imageSrc": "assets/images/Europe/Amsterdam.png"
       },
       {
-        "id": 7,
         "city": "Prague",
-        "Detailed": "Coming Soon",
-        "Dates": "Aug 12-Sep 1",
-        "Total price": 765
+        "detailed": "Coming Soon",
+        "dates": "Aug 12-Sep 1",
+        "totalPrice": 765,
+        "imageSrc": "assets/images/Europe/Prague.png"
       },
       {
-        "id": 8,
         "city": "Dublin",
-        "Detailed": "Coming Soon",
-        "Dates": "Sep 4-Nov 23",
-        "Total price": 425
+        "detailed": "Coming Soon",
+        "dates": "Sep 4-Nov 23",
+        "totalPrice": 425,
+        "imageSrc": "assets/images/Europe/Dublin.png"
       }
     ],
     "Asia": [
       {
-        "id": 9,
         "city": "Osaka",
-        "Detailed": "Coming Soon",
-        "Dates": "Mar 11-Mar 19",
-        "Total price": 1095
+        "detailed": "Coming Soon",
+        "dates": "Mar 11-Mar 19",
+        "totalPrice": 1095,
+        "imageSrc": "assets/images/Europe/Osaka.png"
       },
       {
-        "id": 10,
         "city": "Shanghai",
-        "Detailed": "Coming Soon",
-        "Dates": "May 1-May 19",
-        "Total price": 1199
+        "detailed": "Coming Soon",
+        "dates": "May 1-May 19",
+        "totalPrice": 1199,
+        "imageSrc": "assets/images/Europe/Shanghai.png"
       },
       {
-        "id": 11,
         "city": "Ho Chi Minh",
-        "Detailed": "Coming Soon",
-        "Dates": "May 19-May 29",
-        "Total price": 1079
+        "detailed": "Coming Soon",
+        "dates": "May 19-May 29",
+        "totalPrice": 1079,
+        "imageSrc": "assets/images/Europe/Ho Chi Minh.png"
       },
       {
-        "id": 12,
         "city": "Jakarta",
-        "Detailed": "Coming Soon",
-        "Dates": "Apr 10-Apr 18",
-        "Total price": 679
+        "detailed": "Coming Soon",
+        "dates": "Apr 10-Apr 18",
+        "totalPrice": 679,
+        "imageSrc": "assets/images/Europe/Jakarta.png"
       },
       {
-        "id": 13,
         "city": "Kuala Lumpur",
-        "Detailed": "Coming Soon",
-        "Dates": "Jul 23-Aug 5",
-        "Total price": 546
+        "detailed": "Coming Soon",
+        "dates": "Jul 23-Aug 5",
+        "totalPrice": 546,
+        "imageSrc": "assets/images/Europe/Kuala Lumpur.png"
       },
       {
-        "id": 14,
         "city": "Kyoto",
-        "Detailed": "Coming Soon",
-        "Dates": "June 1-July 9",
-        "Total price": 765
+        "detailed": "Coming Soon",
+        "dates": "June 1-July 9",
+        "totalPrice": 765,
+        "imageSrc": "assets/images/Europe/Kyoto.png"
       },
       {
-        "id": 15,
         "city": "Istanbul",
-        "Detailed": "Coming Soon",
-        "Dates": "Aug 30-Sep 13",
-        "Total price": 951
+        "detailed": "Coming Soon",
+        "dates": "Aug 30-Sep 13",
+        "totalPrice": 951,
+        "imageSrc": "assets/images/Europe/Istanbul.png"
       },
       {
-        "id": 16,
         "city": "Hong Kong",
-        "Detailed": "Coming Soon",
-        "Dates": "Dec 4-Nov 23",
-        "Total price": 400
+        "detailed": "Coming Soon",
+        "dates": "Dec 4-Nov 23",
+        "totalPrice": 400,
+        "imageSrc": "assets/images/Europe/Hong Kong.png"
       }
     ],
     "Africa": [
       {
-        "id": 17,
         "city": "Dakar",
-        "Detailed": "Coming Soon",
-        "Dates": "Jun 11-Jul 19",
-        "Total price": 241
+        "detailed": "Coming Soon",
+        "dates": "Jun 11-Jul 19",
+        "totalPrice": 241,
+        "imageSrc": "assets/images/Europe/Dakar.png"
       },
       {
-        "id": 18,
         "city": "Accra",
-        "Detailed": "Coming Soon",
-        "Dates": "Jun 1-Aug 9",
-        "Total price": 324
+        "detailed": "Coming Soon",
+        "dates": "Jun 1-Aug 9",
+        "totalPrice": 324,
+        "imageSrc": "assets/images/Europe/Accra.png"
       },
       {
-        "id": 19,
         "city": "Zanzibar City",
-        "Detailed": "Coming Soon",
-        "Dates": "Jun 10-Jul 18",
-        "Total price": 543
+        "detailed": "Coming Soon",
+        "dates": "Jun 10-Jul 18",
+        "totalPrice": 543,
+        "imageSrc": "assets/images/Europe/Zanzibar City.png"
       },
       {
-        "id": 20,
         "city": "Lagos",
-        "Detailed": "Coming Soon",
-        "Dates": "Nov 10-Dec 18",
-        "Total price": 165
+        "detailed": "Coming Soon",
+        "dates": "Nov 10-Dec 18",
+        "totalPrice": 165,
+        "imageSrc": "assets/images/Europe/Lagos.png"
       },
       {
-        "id": 21,
         "city": "Casablanca",
-        "Detailed": "Coming Soon",
-        "Dates": "Dec 23-Nov 5",
-        "Total price": 398
+        "detailed": "Coming Soon",
+        "dates": "Dec 23-Nov 5",
+        "totalPrice": 398,
+        "imageSrc": "assets/images/Europe/Casablanca.png"
       },
       {
-        "id": 22,
         "city": "Kigali",
-        "Detailed": "Coming Soon",
-        "Dates": "Aug 1-Sep 9",
-        "Total price": 356
+        "detailed": "Coming Soon",
+        "dates": "Aug 1-Sep 9",
+        "totalPrice": 356,
+        "imageSrc": "assets/images/Europe/Kigali.png"
       },
       {
-        "id": 23,
         "city": "Kampala",
-        "Detailed": "Coming Soon",
-        "Dates": "May 12-Mar 1",
-        "Total price": 567
+        "detailed": "Coming Soon",
+        "dates": "May 12-Mar 1",
+        "totalPrice": 567,
+        "imageSrc": "assets/images/Europe/Kampala.png"
       },
       {
-        "id": 24,
         "city": "Marrakech",
-        "Detailed": "Coming Soon",
-        "Dates": "Oct 4-Nov 23",
-        "Total price": 843
+        "detailed": "Coming Soon",
+        "dates": "Oct 4-Nov 23",
+        "totalPrice": 843,
+        "imageSrc": "assets/images/Europe/Marrakech.png"
       }
     ],
     "America": [
       {
-        "id": 25,
         "city": "New York",
-        "Detailed": "Coming Soon",
-        "Dates": "Mar 11-Mar 19",
-        "Total price": 1995
+        "detailed": "Coming Soon",
+        "dates": "Mar 11-Mar 19",
+        "totalPrice": 1995,
+        "imageSrc": "assets/images/Europe/New York.png"
       },
       {
-        "id": 26,
         "city": "San Diego",
-        "Detailed": "Coming Soon",
-        "Dates": "Apr 21-May 9",
-        "Total price": 1199
+        "detailed": "Coming Soon",
+        "dates": "Apr 21-May 9",
+        "totalPrice": 1199,
+        "imageSrc": "assets/images/Europe/San Diego.png"
       },
       {
-        "id": 27,
         "city": "San Jose",
-        "Detailed": "Coming Soon",
-        "Dates": "Jul 19-Aug 11",
-        "Total price": 1079
+        "detailed": "Coming Soon",
+        "dates": "Jul 19-Aug 11",
+        "totalPrice": 1079,
+        "imageSrc": "assets/images/Europe/San Jose.png"
       },
       {
-        "id": 28,
         "city": "El Paso",
-        "Detailed": "Coming Soon",
-        "Dates": "Jul 29-Aug 11",
-        "Total price": 1679
+        "detailed": "Coming Soon",
+        "dates": "Jul 29-Aug 11",
+        "totalPrice": 1679,
+        "imageSrc": "assets/images/Europe/El Paso.png"
       },
       {
-        "id": 29,
         "city": "Rio de Janeiro",
-        "Detailed": "Coming Soon",
-        "Dates": "Jul 29-Aug 12",
-        "Total price": 946
+        "detailed": "Coming Soon",
+        "dates": "Jul 29-Aug 12",
+        "totalPrice": 946,
+        "imageSrc": "assets/images/Europe/Rio de Janeiro.png"
       },
       {
-        "id": 30,
         "city": "Omaha",
-        "Detailed": "Coming Soon",
-        "Dates": "Jun 26-Jul 12",
-        "Total price": 758
+        "detailed": "Coming Soon",
+        "dates": "Jun 26-Jul 12",
+        "totalPrice": 758,
+        "imageSrc": "assets/images/Europe/Omaha.png"
       },
       {
-        "id": 31,
         "city": "Las Vegas",
-        "Detailed": "Coming Soon",
-        "Dates": "Aug 23-Sep 5",
-        "Total price": 951
+        "detailed": "Coming Soon",
+        "dates": "Aug 23-Sep 5",
+        "totalPrice": 951,
+        "imageSrc": "assets/images/Europe/Las Vegas.png"
       },
       {
-        "id": 32,
         "city": "Panama City",
-        "Detailed": "Coming Soon",
-        "Dates": "Dec 12-Nov 1",
-        "Total price": 1095
+        "detailed": "Coming Soon",
+        "dates": "Dec 12-Nov 1",
+        "totalPrice": 1095,
+        "imageSrc": "assets/images/Europe/Panama City.png"
       }
     ]
-  },
-  "Europe": [
-    {
-      "id": 1,
-      "city": "Paris",
-      "Detailed": "Coming Soon",
-      "Dates": "Mar 11-Mar 19",
-      "Total price": 695
-    },
-    {
-      "id": 2,
-      "city": "Barcelona",
-      "Detailed": "Coming Soon",
-      "Dates": "Apr 1-Apr 9",
-      "Total price": 999
-    },
-    {
-      "id": 3,
-      "city": "Warszawa",
-      "Detailed": "Coming Soon",
-      "Dates": "Apr 10-Apr 18",
-      "Total price": 679
-    },
-    {
-      "id": 4,
-      "city": "Vienna",
-      "Detailed": "Coming Soon",
-      "Dates": "Apr 10-Apr 18",
-      "Total price": 679
-    },
-    {
-      "id": 5,
-      "city": "Rome",
-      "Detailed": "Coming Soon",
-      "Dates": "Oct 23-Nov 5",
-      "Total price": 398
-    },
-    {
-      "id": 6,
-      "city": "Amsterdam",
-      "Detailed": "Coming Soon",
-      "Dates": "June 1-July 9",
-      "Total price": 432
-    },
-    {
-      "id": 7,
-      "city": "Prague",
-      "Detailed": "Coming Soon",
-      "Dates": "Aug 12-Sep 1",
-      "Total price": 765
-    },
-    {
-      "id": 8,
-      "city": "Dublin",
-      "Detailed": "Coming Soon",
-      "Dates": "Sep 4-Nov 23",
-      "Total price": 425
-    }
-  ],
-  "Asia": [
-    {
-      "id": 9,
-      "city": "Osaka",
-      "Detailed": "Coming Soon",
-      "Dates": "Mar 11-Mar 19",
-      "Total price": 1095
-    },
-    {
-      "id": 10,
-      "city": "Shanghai",
-      "Detailed": "Coming Soon",
-      "Dates": "May 1-May 19",
-      "Total price": 1199
-    },
-    {
-      "id": 11,
-      "city": "Ho Chi Minh",
-      "Detailed": "Coming Soon",
-      "Dates": "May 19-May 29",
-      "Total price": 1079
-    },
-    {
-      "id": 12,
-      "city": "Jakarta",
-      "Detailed": "Coming Soon",
-      "Dates": "Apr 10-Apr 18",
-      "Total price": 679
-    },
-    {
-      "id": 13,
-      "city": "Kuala Lumpur",
-      "Detailed": "Coming Soon",
-      "Dates": "Jul 23-Aug 5",
-      "Total price": 546
-    },
-    {
-      "id": 14,
-      "city": "Kyoto",
-      "Detailed": "Coming Soon",
-      "Dates": "June 1-July 9",
-      "Total price": 765
-    },
-    {
-      "id": 15,
-      "city": "Istanbul",
-      "Detailed": "Coming Soon",
-      "Dates": "Aug 30-Sep 13",
-      "Total price": 951
-    },
-    {
-      "id": 16,
-      "city": "Hong Kong",
-      "Detailed": "Coming Soon",
-      "Dates": "Dec 4-Nov 23",
-      "Total price": 400
-    }
-  ],
-  "Africa": [
-    {
-      "id": 17,
-      "city": "Dakar",
-      "Detailed": "Coming Soon",
-      "Dates": "Jun 11-Jul 19",
-      "Total price": 241
-    },
-    {
-      "id": 18,
-      "city": "Accra",
-      "Detailed": "Coming Soon",
-      "Dates": "Jun 1-Aug 9",
-      "Total price": 324
-    },
-    {
-      "id": 19,
-      "city": "Zanzibar City",
-      "Detailed": "Coming Soon",
-      "Dates": "Jun 10-Jul 18",
-      "Total price": 543
-    },
-    {
-      "id": 20,
-      "city": "Lagos",
-      "Detailed": "Coming Soon",
-      "Dates": "Nov 10-Dec 18",
-      "Total price": 165
-    },
-    {
-      "id": 21,
-      "city": "Casablanca",
-      "Detailed": "Coming Soon",
-      "Dates": "Dec 23-Nov 5",
-      "Total price": 398
-    },
-    {
-      "id": 22,
-      "city": "Kigali",
-      "Detailed": "Coming Soon",
-      "Dates": "Aug 1-Sep 9",
-      "Total price": 356
-    },
-    {
-      "id": 23,
-      "city": "Kampala",
-      "Detailed": "Coming Soon",
-      "Dates": "May 12-Mar 1",
-      "Total price": 567
-    },
-    {
-      "id": 24,
-      "city": "Marrakech",
-      "Detailed": "Coming Soon",
-      "Dates": "Oct 4-Nov 23",
-      "Total price": 843
-    }
-  ],
-  "America": [
-    {
-      "id": 25,
-      "city": "New York",
-      "Detailed": "Coming Soon",
-      "Dates": "Mar 11-Mar 19",
-      "Total price": 1995
-    },
-    {
-      "id": 26,
-      "city": "San Diego",
-      "Detailed": "Coming Soon",
-      "Dates": "Apr 21-May 9",
-      "Total price": 1199
-    },
-    {
-      "id": 27,
-      "city": "San Jose",
-      "Detailed": "Coming Soon",
-      "Dates": "Jul 19-Aug 11",
-      "Total price": 1079
-    },
-    {
-      "id": 28,
-      "city": "El Paso",
-      "Detailed": "Coming Soon",
-      "Dates": "Jul 29-Aug 11",
-      "Total price": 1679
-    },
-    {
-      "id": 29,
-      "city": "Rio de Janeiro",
-      "Detailed": "Coming Soon",
-      "Dates": "Jul 29-Aug 12",
-      "Total price": 946
-    },
-    {
-      "id": 30,
-      "city": "Omaha",
-      "Detailed": "Coming Soon",
-      "Dates": "Jun 26-Jul 12",
-      "Total price": 758
-    },
-    {
-      "id": 31,
-      "city": "Las Vegas",
-      "Detailed": "Coming Soon",
-      "Dates": "Aug 23-Sep 5",
-      "Total price": 951
-    },
-    {
-      "id": 32,
-      "city": "Panama City",
-      "Detailed": "Coming Soon",
-      "Dates": "Dec 12-Nov 1",
-      "Total price": 1095
-    }
-  ]
+  }
 }
