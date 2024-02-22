@@ -3,4 +3,6 @@ body{
     padding: 0;
     background-color: var(--background-color);
     font-family: var(--primary-font);
+    overflow-x: hidden;
+    color: var(--dark-text-color);
 }

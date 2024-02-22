@@ -9,6 +9,7 @@ const tripsSlice = createSlice({
       Asia: [],
       Europe: [],
     },
+    selectedContinent:"",
   },
   reducers: {
     getTrips(state, action) {
@@ -18,6 +19,9 @@ const tripsSlice = createSlice({
       state.continents.Asia = Asia;
       state.continents.Europe = Europe;
     },
+    setContinent(state,action) {
+      state.selectedContinent = action.payload;
+    }
   },
 });
 

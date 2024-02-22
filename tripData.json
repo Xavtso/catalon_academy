@@ -64,56 +64,56 @@
         "detailed": "Coming Soon",
         "dates": "Mar 11-Mar 19",
         "totalPrice": 1095,
-        "imageSrc": "assets/images/Europe/Osaka.png"
+        "imageSrc": "assets/images/Asia/Osaka.png"
       },
       {
         "city": "Shanghai",
         "detailed": "Coming Soon",
         "dates": "May 1-May 19",
         "totalPrice": 1199,
-        "imageSrc": "assets/images/Europe/Shanghai.png"
+        "imageSrc": "assets/images/Asia/Shanghai.png"
       },
       {
         "city": "Ho Chi Minh",
         "detailed": "Coming Soon",
         "dates": "May 19-May 29",
         "totalPrice": 1079,
-        "imageSrc": "assets/images/Europe/Ho Chi Minh.png"
+        "imageSrc": "assets/images/Asia/HoChiMinh.png"
       },
       {
         "city": "Jakarta",
         "detailed": "Coming Soon",
         "dates": "Apr 10-Apr 18",
         "totalPrice": 679,
-        "imageSrc": "assets/images/Europe/Jakarta.png"
+        "imageSrc": "assets/images/Asia/Jakarta.png"
       },
       {
         "city": "Kuala Lumpur",
         "detailed": "Coming Soon",
         "dates": "Jul 23-Aug 5",
         "totalPrice": 546,
-        "imageSrc": "assets/images/Europe/Kuala Lumpur.png"
+        "imageSrc": "assets/images/Asia/KualaLumpur.png"
       },
       {
         "city": "Kyoto",
         "detailed": "Coming Soon",
         "dates": "June 1-July 9",
         "totalPrice": 765,
-        "imageSrc": "assets/images/Europe/Kyoto.png"
+        "imageSrc": "assets/images/Asia/Kyoto.png"
       },
       {
         "city": "Istanbul",
         "detailed": "Coming Soon",
         "dates": "Aug 30-Sep 13",
         "totalPrice": 951,
-        "imageSrc": "assets/images/Europe/Istanbul.png"
+        "imageSrc": "assets/images/Asia/Istanbul.png"
       },
       {
         "city": "Hong Kong",
         "detailed": "Coming Soon",
         "dates": "Dec 4-Nov 23",
         "totalPrice": 400,
-        "imageSrc": "assets/images/Europe/Hong Kong.png"
+        "imageSrc": "assets/images/Asia/HongKong.png"
       }
     ],
     "Africa": [
@@ -122,56 +122,56 @@
         "detailed": "Coming Soon",
         "dates": "Jun 11-Jul 19",
         "totalPrice": 241,
-        "imageSrc": "assets/images/Europe/Dakar.png"
+        "imageSrc": "assets/images/Africa/Dakar.png"
       },
       {
         "city": "Accra",
         "detailed": "Coming Soon",
         "dates": "Jun 1-Aug 9",
         "totalPrice": 324,
-        "imageSrc": "assets/images/Europe/Accra.png"
+        "imageSrc": "assets/images/Africa/Accra.png"
       },
       {
         "city": "Zanzibar City",
         "detailed": "Coming Soon",
         "dates": "Jun 10-Jul 18",
         "totalPrice": 543,
-        "imageSrc": "assets/images/Europe/Zanzibar City.png"
+        "imageSrc": "assets/images/Africa/ZanzibarCity.png"
       },
       {
         "city": "Lagos",
         "detailed": "Coming Soon",
         "dates": "Nov 10-Dec 18",
         "totalPrice": 165,
-        "imageSrc": "assets/images/Europe/Lagos.png"
+        "imageSrc": "assets/images/Africa/Lagos.png"
       },
       {
         "city": "Casablanca",
         "detailed": "Coming Soon",
         "dates": "Dec 23-Nov 5",
         "totalPrice": 398,
-        "imageSrc": "assets/images/Europe/Casablanca.png"
+        "imageSrc": "assets/images/Africa/Casablanca.png"
       },
       {
         "city": "Kigali",
         "detailed": "Coming Soon",
         "dates": "Aug 1-Sep 9",
         "totalPrice": 356,
-        "imageSrc": "assets/images/Europe/Kigali.png"
+        "imageSrc": "assets/images/Africa/Kigali.png"
       },
       {
         "city": "Kampala",
         "detailed": "Coming Soon",
         "dates": "May 12-Mar 1",
         "totalPrice": 567,
-        "imageSrc": "assets/images/Europe/Kampala.png"
+        "imageSrc": "assets/images/Africa/Kampala.png"
       },
       {
         "city": "Marrakech",
         "detailed": "Coming Soon",
         "dates": "Oct 4-Nov 23",
         "totalPrice": 843,
-        "imageSrc": "assets/images/Europe/Marrakech.png"
+        "imageSrc": "assets/images/Africa/Marrakech.png"
       }
     ],
     "America": [
@@ -180,56 +180,56 @@
         "detailed": "Coming Soon",
         "dates": "Mar 11-Mar 19",
         "totalPrice": 1995,
-        "imageSrc": "assets/images/Europe/New York.png"
+        "imageSrc": "assets/images/America/NewYork.png"
       },
       {
         "city": "San Diego",
         "detailed": "Coming Soon",
         "dates": "Apr 21-May 9",
         "totalPrice": 1199,
-        "imageSrc": "assets/images/Europe/San Diego.png"
+        "imageSrc": "assets/images/America/SanDiego.png"
       },
       {
         "city": "San Jose",
         "detailed": "Coming Soon",
         "dates": "Jul 19-Aug 11",
         "totalPrice": 1079,
-        "imageSrc": "assets/images/Europe/San Jose.png"
+        "imageSrc": "assets/images/America/SanJose.png"
       },
       {
         "city": "El Paso",
         "detailed": "Coming Soon",
         "dates": "Jul 29-Aug 11",
         "totalPrice": 1679,
-        "imageSrc": "assets/images/Europe/El Paso.png"
+        "imageSrc": "assets/images/America/ElPaso.png"
       },
       {
         "city": "Rio de Janeiro",
         "detailed": "Coming Soon",
         "dates": "Jul 29-Aug 12",
         "totalPrice": 946,
-        "imageSrc": "assets/images/Europe/Rio de Janeiro.png"
+        "imageSrc": "assets/images/America/RiodeJaneiro.png"
       },
       {
         "city": "Omaha",
         "detailed": "Coming Soon",
         "dates": "Jun 26-Jul 12",
         "totalPrice": 758,
-        "imageSrc": "assets/images/Europe/Omaha.png"
+        "imageSrc": "assets/images/America/Omaha.png"
       },
       {
         "city": "Las Vegas",
         "detailed": "Coming Soon",
         "dates": "Aug 23-Sep 5",
         "totalPrice": 951,
-        "imageSrc": "assets/images/Europe/Las Vegas.png"
+        "imageSrc": "assets/images/America/LasVegas.png"
       },
       {
         "city": "Panama City",
         "detailed": "Coming Soon",
         "dates": "Dec 12-Nov 1",
         "totalPrice": 1095,
-        "imageSrc": "assets/images/Europe/Panama City.png"
+        "imageSrc": "assets/images/America/PanamaCity.png"
       }
     ]
   }

@@ -1,0 +1,28 @@
+@import "../../styles/mixins/text-mixins.scss";
+
+.buttonContainer {
+  // border: 1px solid;
+  width: fit-content;
+  margin: 40px auto;
+}
+
+.active {
+  @include textH6SemiBold;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+button {
+  @include textH6;
+    
+  background: none;
+  border: none;
+  border-bottom: 3px solid var(--tertiary-color);
+  cursor: pointer;
+  padding-bottom: 40px;
+  max-height: 53px;
+}
+
+button:hover{
+    color: var(--primary-color);
+}

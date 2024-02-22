@@ -1,0 +1,14 @@
+@import '../../styles/mixins/text-mixins.scss';
+
+.title {
+  @include textH4Bold;
+  color: var(--primary-color);
+  width: fit-content;
+  margin-left: 40px;
+}
+
+.listsContainer{
+    margin-top: 40px;
+}
+
+

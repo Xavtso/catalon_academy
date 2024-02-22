@@ -1,0 +1,15 @@
+@import "../../../../styles/mixins/text-mixins.scss";
+
+.tripsList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  @include textH4Bold;
+  color: var(--primary-color);
+  width: fit-content;
+  margin-left: 40px;
+}

@@ -1,0 +1,44 @@
+@import '../../styles/mixins/text-mixins.scss';
+
+.nested{
+    @include textBaseSemiBold;
+  padding: 7px 20px;
+}
+
+
+.fullSize{
+    @include textLSemiBold;
+    width: 100%;
+    max-width: 400px;
+    height: 55px;
+}
+
+
+
+.outlined{
+    background: none;
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.filled{
+    border: 2px solid var(--primary-color);
+    color: var(--white-text-color);
+    border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+.outlined:hover{
+    @extend .filled;
+}
+
+.filled:hover{
+    @extend .outlined;
+}

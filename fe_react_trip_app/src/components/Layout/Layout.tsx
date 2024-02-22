@@ -1,6 +1,7 @@
+import { LayoutProps } from "../../types";
 import Header from "../Header";
 
-export default function Layout({children}:any) {
+export default function Layout({children}:LayoutProps) {
     return (
         <>
             <Header />

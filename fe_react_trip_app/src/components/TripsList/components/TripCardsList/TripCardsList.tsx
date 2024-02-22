@@ -1,41 +1,19 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getAllTrips } from "../../../../actions/tripsAction";
-import { AppDispatch, PlaceType, RootState } from "../../../../types";
-import { url } from "inspector";
+import { TripType } from "../../../../types";
+import TripCard from "../TripCard/TripCard";
+import styles from "./TripCardsList.module.scss";
 
-export default function TripCardsList() {
-  const dispatch = useDispatch<AppDispatch>();
-  const { Africa, Asia, America, Europe } = useSelector(
-    (state: RootState) => state.trips.continents,
-  );
+type TripCardsListProps = {
+  trips: TripType[];
+};
 
-  
-
-  useEffect(() => {
-    dispatch(getAllTrips());
-  }, [dispatch]);
-
+export default function TripCardsList({ trips }: TripCardsListProps) {
   return (
-    <div>
-      {Europe.map((place: PlaceType, index) => (
-        <div key={index}>
-          <h1>{place.city}</h1>
-          <h2>{place.dates}</h2>
-          
-          <div
-            style={{
-              backgroundImage: `url(${place.imageSrc})`,
-              width: "360px",
-              height: "180px",
-              backgroundSize: 'cover',
-              backgroundPosition:'center'
-            }}
-          ></div>
-          <p>{place.totalPrice}</p>
-          <p>{place.detailed}</p>
-        </div>
+    <ul className={styles.tripsList}>
+      {trips.map((place: TripType, index) => (
+        <li key={index}>
+          <TripCard trip={place} />
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }

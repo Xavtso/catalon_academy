@@ -1,11 +1,11 @@
 import Layout from "../../components/Layout";
-import TripsList from '../../components/TripsList';
+import TripsSection from "../../modules/TripsSection/TripsSection";
 
 export default function Homepage() {
     return (
         <>
         <Layout>
-             <TripsList/>   
+             <TripsSection/>   
         </Layout>
         </>
     )
