@@ -1,0 +1,28 @@
+@import '../../../styles/mixins/text-mixins.scss';
+
+.listsContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 140px;
+  padding-bottom: 85px;
+}
+
+ul {
+  list-style: none;
+  text-transform: capitalize;
+  h6{
+    @include textH6SemiBold;
+    margin-bottom: 20px;
+  }
+}
+li {
+  display: flex;
+  align-items: center;
+}
+a {
+    @include textL;
+    color: var(--dark-text-color);
+    margin-bottom: 4px;
+  text-decoration: none;
+}

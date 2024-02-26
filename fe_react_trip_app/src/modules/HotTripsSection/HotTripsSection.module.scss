@@ -1,0 +1,18 @@
+@import '../../styles/mixins/text-mixins.scss';
+
+h2{
+    @include textH2;
+    text-align: center;
+    span{
+        @include textH1Bold;
+        color: var(--primary-color);
+    }
+    margin-bottom: 50px;
+}
+
+.tripsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
