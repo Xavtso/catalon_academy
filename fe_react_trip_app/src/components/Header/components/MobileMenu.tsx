@@ -30,9 +30,9 @@ export default function MobileMenu(props:any) {
             </li>
           ))}
         </ul>
-        <button type="submit" className={styles.btnLogOut}>
+        <div className={styles.btnLogOut}>
           Log Out
-        </button>
+        </div>
       </div>
     </div>
   );

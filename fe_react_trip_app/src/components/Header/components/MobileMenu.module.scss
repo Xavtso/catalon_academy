@@ -45,6 +45,9 @@
   @include textLSemiBold;
   color: var(--red-dark-hover);
   border: none;
+  background-color: var(--grey-Light-very);
+  width: fit-content;
   padding: 12px 56px;
   border-radius: 7px;
+  margin:40px auto;
 }
