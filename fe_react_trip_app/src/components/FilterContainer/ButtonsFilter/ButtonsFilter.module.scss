@@ -5,15 +5,9 @@
   margin: 0 auto;
 }
 
-.active {
-  @include textH6SemiBold;
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-button {
+.btnFilter {
   @include textH6;
-    
+
   background: none;
   border: none;
   border-bottom: 3px solid var(--tertiary-color);
@@ -22,6 +16,28 @@ button {
   max-height: 53px;
 }
 
-button:hover{
-    color: var(--primary-color);
+.btnFilter:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  @include textH6SemiBold;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+@media screen and (max-width: 490px) {
+  // .buttonContainer{
+
+  // }
+  .btnFilter {
+    @include textBase;
+    border-bottom: 2px solid var(--tertiary-color);
+    padding-bottom: 2.5px;
+  }
+  .active {
+    @include textLSemiBold;
+    border-color: var(--primary-color);
+    padding-bottom: 1px;
+  }
 }

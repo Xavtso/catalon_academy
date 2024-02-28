@@ -1,4 +1,4 @@
-@import '../../../styles/mixins/text-mixins.scss';
+@import "../../../styles/mixins/text-mixins.scss";
 
 .listsContainer {
   display: flex;
@@ -11,7 +11,7 @@
 ul {
   list-style: none;
   text-transform: capitalize;
-  h6{
+  h6 {
     @include textH6SemiBold;
     margin-bottom: 20px;
   }
@@ -21,8 +21,24 @@ li {
   align-items: center;
 }
 a {
-    @include textL;
-    color: var(--dark-text-color);
-    margin-bottom: 4px;
+  @include textL;
+  color: var(--dark-text-color);
+  margin-bottom: 4px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 490px) {
+  .mobileNav {
+    display: flex;
+    padding: 30px 30px 0px 0px;
+    flex-direction: column;
+    gap: 10px;
+    li {
+      padding: 4px 10px;
+      border-bottom: 2px solid;
+      a {
+        @include textBaseSemiBold;
+      }
+    }
+  }
 }

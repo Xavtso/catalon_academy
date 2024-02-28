@@ -21,3 +21,4 @@ export type TripType = {
 export interface LayoutProps {
   children: ReactNode;
 }
+

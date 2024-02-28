@@ -1,4 +1,4 @@
-@import '../../styles/mixins/text-mixins.scss';
+@import "../../styles/mixins/text-mixins.scss";
 
 .title {
   @include textH4Bold;
@@ -7,11 +7,25 @@
   margin-left: 40px;
 }
 
-.listsContainer{
-    margin-bottom: 42px;
-    
+.listsContainer {
+  margin-bottom: 42px;
 }
 
-.listsContainer:first-child{
-      margin-top: 50px;
-    }
+.listsContainer:first-child {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 490px) {
+  .title {
+    @include textLSemiBold;
+    width: 100%;
+  }
+
+  .listsContainer {
+    margin-bottom: 50px;
+  }
+
+  .listsContainer:nth-child(2) {
+    margin-top: 30px;
+  }
+}

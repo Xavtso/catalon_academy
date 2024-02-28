@@ -1,32 +1,22 @@
-import styles from './Header.module.scss';
+import { useState } from "react";
+import { HEADER_LINKS } from "../../contstants/tripsData";
+import styles from "./Header.module.scss";
+import { createPortal } from "react-dom";
+import MobileMenu from "./components/MobileMenu";
+import { useSelector } from "react-redux";
+import { RootState } from "../../types";
 
 export default function Header() {
-  const links = [
-    {
-      url: "/",
-      title: "Home",
-    },
-    {
-      url: "/",
-      title: "About",
-    },
-    {
-      url: "/",
-      title: "Contact Us",
-    },
-    {
-      url: "/",
-      title: "Blog",
-    },
-    {
-      url: "/",
-      title: "Found a Bag? Let us know",
-    },
-  ];
+  const links = HEADER_LINKS;
+  const [isActive, setIsActive] = useState<boolean>(false);
+  const { isMobile } = useSelector((state: RootState) => state.view);
 
+  function handleMenuOpen() {
+    setIsActive(!isActive);
+  }
 
-  return (
-    <nav className={styles.navbar}>
+  const laptop = (
+    <>
       <a href="/" rel="noopener noreferrer">
         <img
           src="assets/icons/shared/logo.svg"
@@ -36,10 +26,10 @@ export default function Header() {
         />
       </a>
       <ul className={styles.linksList}>
-        {links.map((item,index) => (
+        {links.map((item, index) => (
           <li key={index} className={styles.link}>
-            <a href={item.url} rel="noopener noreferrer">
-              {item.title}
+            <a href="/" rel="noopener noreferrer">
+              {item}
             </a>
           </li>
         ))}
@@ -66,6 +56,60 @@ export default function Header() {
           </a>
         </li>
       </ul>
-    </nav>
+    </>
+  );
+
+  const mobile = (
+    <>
+      <img
+        onClick={handleMenuOpen}
+        src="assets/icons/shared/hamburger.svg"
+        width="24"
+        height="24"
+        alt="menu"
+      />
+      <a className={styles.logo} href="/" rel="noopener noreferrer">
+        <img
+          src="assets/icons/shared/logo.svg"
+          alt="logo"
+          width="30.67"
+          height="40"
+        />
+      </a>
+      <ul className={styles.userActives}>
+        <li className={styles.userLink}>
+          <a href="/" rel="noopener noreferrer">
+            <img
+              src="assets/icons/shared/searchBlack.svg"
+              alt="search"
+              width="24"
+              height="24"
+            />
+          </a>
+        </li>
+        <li className={styles.userLink}>
+          <a href="/" rel="noopener noreferrer">
+            <img
+              src="assets/icons/shared/user.svg"
+              alt="user"
+              width="24"
+              height="24"
+            />
+          </a>
+        </li>
+      </ul>
+
+      {isActive
+        ? createPortal(<MobileMenu onClose={handleMenuOpen} />, document.body)
+        : null}
+    </>
+  );
+
+  return (
+    <header>
+      <nav className={styles.navbar}>
+        {isMobile ? mobile : laptop}
+      </nav>
+    </header>
   );
 }

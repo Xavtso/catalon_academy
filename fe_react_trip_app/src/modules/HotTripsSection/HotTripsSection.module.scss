@@ -16,3 +16,18 @@ h2{
     align-items: center;
     gap: 30px;
 }
+
+
+@media screen and (max-width: 490px) {
+    .tripsList{
+        gap: 4px;
+    }
+
+    h2{
+        @include textBase;
+        span{
+            @include textH6Bold;
+        }
+        margin-bottom: 15px;
+    }
+}

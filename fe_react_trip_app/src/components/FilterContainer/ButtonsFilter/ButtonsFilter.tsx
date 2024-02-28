@@ -15,7 +15,7 @@ export default function ButtonsFilter() {
   return (
     <div className={styles.buttonContainer}>
       <button
-        className={`${styles.button} ${
+        className={`${styles.btnFilter} ${
           selectedContinent === "" ? styles.active : ""
         }`}
         onClick={() => handleContinentChange("")}
@@ -25,7 +25,7 @@ export default function ButtonsFilter() {
       {continents.map((continent) => (
         <button
           key={continent}
-          className={`${styles.button} ${
+          className={`${styles.btnFilter} ${
             selectedContinent === continent ? styles.active : ""
           }`}
           onClick={() => handleContinentChange(continent)}

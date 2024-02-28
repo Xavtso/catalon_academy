@@ -53,7 +53,7 @@ select{
 }
 
 .searchBtn {
-  // border: 1px solid;
+  border: none;
   display: grid;
   place-items: center;
   width: 73px;
@@ -65,8 +65,9 @@ select{
   -o-border-radius: 50px;
   background-color: var(--primary-color);
   img {
-    margin-top: calc(50% - 19px);
+    margin-top: calc(50% - 24px);
   }
+  cursor: pointer;
 }
 
 .searchBtn:hover{
@@ -78,4 +79,10 @@ select{
     // height: 15px;
     rotate: 90deg;
     border: 1px solid #C4C4C4
+}
+
+@media  screen and (max-width:490px) {
+  form{
+    display: none;
+  }
 }

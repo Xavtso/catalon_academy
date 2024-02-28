@@ -42,3 +42,19 @@
 .filled:hover{
     @extend .outlined;
 }
+
+
+@media screen and (max-width:490px) {
+    .outlined{
+        border: none;
+    }
+    .nested{
+        @include textSmall;
+        padding: 0;
+    }
+    .outlined:hover{
+        background-color: transparent;
+        color: var(--primary-color);
+    }
+
+}

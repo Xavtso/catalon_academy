@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px
+  gap: 20px
 }
 
 .headline{
@@ -19,5 +19,19 @@
     @include textH3Bold;
     font-weight: 600;
     font-size: 38px;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .headline{
+    @include textSmall;
+    text-wrap: wrap;
+    width: unset;
+    height: unset;
+    text-align: left;
+
+    span{
+      @include textBaseBold;
+    }
   }
 }

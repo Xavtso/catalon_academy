@@ -1,0 +1,50 @@
+@import "../../../styles/mixins/text-mixins.scss";
+
+.overflow {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  top: 0;
+  overflow: hidden;
+}
+
+.menuBody {
+  height: 100%;
+  width: 74%;
+  background-color: var(--white-text-color);
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: end;
+    gap: 20px;
+
+    li {
+      padding: 9px 30px;
+
+      a {
+        text-align: end;
+        @include textBaseSemiBold;
+      }
+    }
+  }
+}
+
+.closeIcon {
+  padding: 0;
+  width: fit-content;
+  margin-left: auto;
+  padding: 16px 16px 44px 0px;
+}
+
+.btnLogOut {
+
+  @include textLSemiBold;
+  color: var(--red-dark-hover);
+  border: none;
+  padding: 12px 56px;
+  border-radius: 7px;
+}

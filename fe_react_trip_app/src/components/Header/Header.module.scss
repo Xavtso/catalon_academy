@@ -54,3 +54,16 @@
     gap: 1rem;
 }
 
+@media screen and (max-width: 490px) {
+    .navbar{
+        padding: 8px 16px;
+        height: 46px;
+    }
+    .logo{
+        translate: 50px 0;
+    }
+
+    .userActives{
+        gap: 24px;
+    }
+}
