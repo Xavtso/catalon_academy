@@ -11,12 +11,37 @@ export type BtnReferencesType = {
 
 export type TripType = {
   city: string;
-  detailed: string;
-  dates: string;
   totalPrice: number;
   imageSrc: string;
-  continent: string;
+  departure: {
+    date: string;
+    time: string;
+    city: string;
+  };
+  arrival: {
+    date: string;
+    time: string;
+    city: string;
+  };
+  detailed: {
+    description: string;
+    imageDetMain: string;
+    imageSrcsDet: string[];
+    tripPoints: {
+      country: string;
+      title: string;
+      description: string;
+      imageSrc: string;
+    }[];
+    conclusion: string;
+  };
+  favorite: {
+    isFav: boolean;
+    imageSrcFav: string;
+    description: string;
+  };
 };
+
 
 export interface LayoutProps {
   children: ReactNode;

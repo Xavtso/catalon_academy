@@ -1,4 +1,5 @@
 import Button from "../../../../UI/Button";
+import { formatDateToMonthDay } from "../../../../actions/viewActions";
 import { TripType } from "../../../../types";
 import styles from "./TripCard.module.scss";
 
@@ -7,7 +8,7 @@ type TripCardProps = {
 };
 
 export default function TripCard({ trip }: TripCardProps) {
-  const { city, dates, totalPrice, imageSrc } = trip;
+  const { city, arrival,departure, totalPrice, imageSrc } = trip;
 
   const btnReferences = {
     title: 'View Details',
@@ -24,7 +25,7 @@ export default function TripCard({ trip }: TripCardProps) {
             <h5>{city}</h5>
             <p>
               <img src="assets/icons/shared/calendar.svg" width='20' height='20.5' alt="dateIcon"/>
-              {dates}
+              {`${formatDateToMonthDay(departure.date)} - ${formatDateToMonthDay(arrival.date)}`}
             </p>
           </div>
           <img src="assets/icons/shared/star.svg" width='24' height='24'alt="starIcon"/>
