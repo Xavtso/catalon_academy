@@ -21,7 +21,7 @@ const initialState: InitialStateTypes = {
     Asia: [],
     Europe: [],
   },
-  selectedContinent: "",
+  selectedContinent: "All",
   tripDetails: null,
 };
 

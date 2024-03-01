@@ -7,7 +7,10 @@ type TripCardsListProps = {
 };
 
 export default function TripCardsList({ trips }: TripCardsListProps) {
+
+
   return (
+    <>
       <ul className={styles.tripsList}>
         {trips.map((place: TripType, index) => (
           <li key={index}>
@@ -15,5 +18,6 @@ export default function TripCardsList({ trips }: TripCardsListProps) {
           </li>
         ))}
       </ul>
+    </>
   );
 }

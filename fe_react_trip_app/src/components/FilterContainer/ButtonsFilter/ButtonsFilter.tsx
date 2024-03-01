@@ -1,37 +1,13 @@
-import { useDispatch, useSelector } from "react-redux";
 import styles from "./ButtonsFilter.module.scss";
-import { AppDispatch, RootState } from "types";
-import { tripsSliceActions } from "store/slices/tripsSlice";
+import FilterButton from "UI/FilterButton";
 
 export default function ButtonsFilter() {
-  const continents = ["Africa", "America", "Asia", "Europe"];
-  const dispatch = useDispatch<AppDispatch>();
-  const { selectedContinent } = useSelector((state: RootState) => state.trips);
-
-  function handleContinentChange(continent: string) {
-    dispatch(tripsSliceActions.setContinent(continent));
-  }
+  const continents = ["All", "Africa", "America", "Asia", "Europe"];
 
   return (
     <div className={styles.buttonContainer}>
-      <button
-        className={`${styles.btnFilter} ${
-          selectedContinent === "" ? styles.active : ""
-        }`}
-        onClick={() => handleContinentChange("")}
-      >
-        All
-      </button>
-      {continents.map((continent) => (
-        <button
-          key={continent}
-          className={`${styles.btnFilter} ${
-            selectedContinent === continent ? styles.active : ""
-          }`}
-          onClick={() => handleContinentChange(continent)}
-        >
-          {continent}
-        </button>
+      {continents.map((continent,index) => (
+        <FilterButton key={index} continent={continent} />
       ))}
     </div>
   );

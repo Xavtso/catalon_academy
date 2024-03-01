@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllTrips } from "actions/tripsAction";
 import { AppDispatch, TripType, RootState } from "types";
@@ -19,34 +19,41 @@ export default function TripsSection() {
   }, [dispatch]);
 
   const filterTripsByContinent = (continent: string) => {
-    if (continent === "") {
-      return [];
+    if (continent === "All") {
+      return Object.keys(tripsByContinent)
+        .map((key) => tripsByContinent[key])
+        .flat();
     }
     return tripsByContinent[continent] || [];
   };
 
   const filteredTrips = filterTripsByContinent(selectedContinent);
 
+  const renderTripsByContinent = () => {
+    if (selectedContinent === "All") {
+      return Object.keys(tripsByContinent)
+        .map((continent: string) => (
+          <div key={continent} className={styles.listsContainer}>
+            <h4 className={styles.title}>{continent}</h4>
+            <TripCardsList trips={tripsByContinent[continent]} />
+          </div>
+        ))
+        .reverse();
+    }
+
+    return (
+      <div className={styles.listsContainer}>
+        <h4 className={styles.title}>{selectedContinent}</h4>
+        <TripCardsList trips={filteredTrips} />
+      </div>
+    );
+  };
+
   return (
     <section>
       <Container>
         <FilterContainer />
-
-        {selectedContinent === "" ? (
-          Object.keys(tripsByContinent)
-            .map((continent: string) => (
-              <div key={continent} className={styles.listsContainer}>
-                <h4 className={styles.title}>{continent}</h4>
-                <TripCardsList trips={tripsByContinent[continent]} />
-              </div>
-            ))
-            .reverse()
-        ) : (
-          <div className={styles.listsContainer}>
-            <h4 className={styles.title}>{selectedContinent}</h4>
-              <TripCardsList trips={filteredTrips} />
-          </div>
-        )}
+        {renderTripsByContinent()}
       </Container>
     </section>
   );
