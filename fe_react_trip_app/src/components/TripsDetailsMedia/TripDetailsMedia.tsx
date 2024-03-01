@@ -2,6 +2,7 @@ import Button from "UI/Button";
 import { TripType } from "types";
 import RoadMapCard from "./Roadmap/RoadMapCard";
 import styles from "./TripDetailsMedia.module.scss";
+import ChatButton from "UI/ChatButton";
 
 interface TripDetailsMediaProps {
   trip: TripType;
@@ -38,7 +39,9 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
             style={{ backgroundImage: `url(${imageSrc})` }}
           />
         ))}
+        <ChatButton position='bottom'/>
       </div>
+
       <div className={styles.btnContainer}>
         <Button references={btnReferences } onClick={()=>{}}/>
       </div>

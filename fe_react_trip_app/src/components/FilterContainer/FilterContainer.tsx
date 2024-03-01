@@ -1,6 +1,7 @@
 import ButtonsFilter from "./ButtonsFilter/ButtonsFilter";
 import FormFilter from "./FormFilter/FormFilter";
 import styles from "./FilterContainer.module.scss";
+import ChatButton from "UI/ChatButton";
 
 export default function FilterContainer() {
   return (
@@ -10,6 +11,7 @@ export default function FilterContainer() {
         where each adventure is crafted with <span>precision</span> and{" "}
         <span>passion</span>.
       </p>
+        <ChatButton position="center"/>
       <FormFilter />
       <ButtonsFilter />
     </div>

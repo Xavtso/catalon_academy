@@ -5,6 +5,8 @@ import { getTripDetalis } from "actions/tripsAction";
 import TripDetailsMedia from "components/TripsDetailsMedia";
 import Container from "UI/Container";
 import JourneyDetails from "components/JourneyDetails";
+import styles from "./TripDetailsSection.module.scss";
+import TripPoints from "components/TripPoints";
 
 export default function TripDetailsSection() {
   const dispatch = useDispatch<AppDispatch>();
@@ -22,10 +24,11 @@ export default function TripDetailsSection() {
   }, [dispatch]);
 
   return (
-    <section>
+    <section className={styles.tripDetails}>
       <Container>
         {tripDetails && <TripDetailsMedia trip={tripDetails} />}
         {details && <JourneyDetails details={details} />}
+        {details && <TripPoints tripPoints={details?.tripPoints} />}
       </Container>
     </section>
   );

@@ -32,6 +32,7 @@ export type TripType = {
     imageDetMain: string;
     imageSrcsDet: string[];
     tripPoints: {
+      city: string;
       country: string;
       title: string;
       description: string;
@@ -52,6 +53,7 @@ export interface JourneyDetailsProps {
     imageDetMain: string;
     imageSrcsDet: string[];
     tripPoints: {
+      city: string;
       country: string;
       title: string;
       description: string;
@@ -77,6 +79,16 @@ export interface RoadmapCardProps {
     city: string;
     station: string;
   };
+}
+
+export interface TripPointsProps {
+  tripPoints: {
+    city: string;
+    country: string;
+    title: string;
+    description: string;
+    imageSrc: string;
+  }[];
 }
 
 export interface LayoutProps {

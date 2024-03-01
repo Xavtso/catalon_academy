@@ -1,0 +1,9 @@
+.tripDetails{
+    margin: 50px auto;
+}
+
+@media screen and (max-width:490px) {
+    .tripDetails{
+        margin: 20px auto;
+    }
+}

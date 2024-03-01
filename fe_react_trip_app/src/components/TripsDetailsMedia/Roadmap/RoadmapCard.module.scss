@@ -66,3 +66,51 @@
     color: var(--grey);
   }
 }
+@media screen and (max-width:490px) {
+  .card{
+    width: 193px;
+    height: 143px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cardTitle{
+    
+  gap: 2px;
+  
+  h6 {
+    @include textXS;
+    color: var(--grey);
+  }
+  h3 {
+    @include textLBold;
+  }
+  margin-bottom: 10px;
+  }
+  .schedule{
+    gap: 32px;
+  }
+  .scheduleRow{
+    gap: 18px;
+  }
+  .textCol {
+  gap: 5px;
+  h6 {
+    @include textXS;
+  }
+  p {
+    @include textXS;
+    color: var(--grey);
+  }
+}
+.roadMapIcon{
+    position: absolute;
+    top: calc(75% - 88px);
+    left: calc(60% - 50px);
+    margin: auto;
+    scale: 0.5;
+    width: 13px;
+    height: 92px;
+}
+}

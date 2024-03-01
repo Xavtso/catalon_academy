@@ -1,0 +1,53 @@
+@import "styles/mixins/text-mixins.scss";
+
+.tripPointsSection {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1267px;
+  margin: 0 auto;
+  background: url(../../../public/assets/images/TripDetails/TripPoints/tripPointsVector.png);
+  background-size: 1090px 300px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.point {
+  text-align: center;
+  h5 {
+    @include textH5;
+    font-weight: 500;
+  }
+  p {
+    @include textL;
+    margin-bottom: 30px;
+  }
+}
+
+.imgContainer {
+  width: 155px;
+  height: 155px;
+  background-size: cover;
+  background-position: center;
+
+  border: 5px solid var(--primary-color);
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.Prague {
+  padding-top: 140px;
+  translate: -15px -35px;
+}
+.Berlin {
+  padding-top: 119px;
+  translate: -55px -10px;
+}
+
+
+@media screen and (max-width:490px){
+    
+}
