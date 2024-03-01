@@ -1,5 +1,5 @@
-import Container from "@UI/Container/Container";
-import HotTripCard from "@components/HotTripCard";
+import Container from "UI/Container/Container";
+import HotTripCard from "components/HotTripCard";
 import { TRIP_DATA } from "contstants/tripsData";
 import styles from "./HotTripsSection.module.scss";
 

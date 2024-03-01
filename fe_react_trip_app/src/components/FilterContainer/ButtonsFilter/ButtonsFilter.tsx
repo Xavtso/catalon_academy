@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./ButtonsFilter.module.scss";
-import { AppDispatch, RootState } from "@types";
-import { tripsSliceActions } from "@slices/tripsSlice";
+import { AppDispatch, RootState } from "types";
+import { tripsSliceActions } from "store/slices/tripsSlice";
 
 export default function ButtonsFilter() {
   const continents = ["Africa", "America", "Asia", "Europe"];

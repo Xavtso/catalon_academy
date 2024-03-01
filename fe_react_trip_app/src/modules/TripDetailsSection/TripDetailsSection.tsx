@@ -1,10 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "@types";
+import { AppDispatch, RootState } from "types";
 import { useEffect } from "react";
-import { getTripDetalis } from "@actions/tripsAction";
-import TripDetailsMedia from "@components/TripsDetailsMedia";
-import Container from "@UI/Container";
-import JourneyDetails from "@components/JourneyDetails";
+import { getTripDetalis } from "actions/tripsAction";
+import TripDetailsMedia from "components/TripsDetailsMedia";
+import Container from "UI/Container";
+import JourneyDetails from "components/JourneyDetails";
 
 export default function TripDetailsSection() {
   const dispatch = useDispatch<AppDispatch>();

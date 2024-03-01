@@ -1,4 +1,4 @@
-import { BtnReferencesType } from "@types";
+import { BtnReferencesType } from "types";
 import styles from "./Button.module.scss";
 
 type BtnProps = {

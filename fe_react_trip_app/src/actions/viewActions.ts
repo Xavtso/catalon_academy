@@ -1,4 +1,4 @@
-import { AppDispatch } from "@types";
+import { AppDispatch } from "types";
 
 export function handleWindowResizing() {
   return (dispatch: AppDispatch) => {};

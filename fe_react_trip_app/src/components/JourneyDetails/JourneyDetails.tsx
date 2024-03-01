@@ -1,4 +1,4 @@
-import { JourneyDetailsProps } from "@types";
+import { JourneyDetailsProps } from "types";
 import styles from "./JourneyDetails.module.scss";
 
 export default function JourneyDetails({ details }: JourneyDetailsProps) {

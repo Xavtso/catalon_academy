@@ -4,7 +4,7 @@ import styles from "./Header.module.scss";
 import { createPortal } from "react-dom";
 import MobileMenu from "./components/MobileMenu";
 import { useSelector } from "react-redux";
-import { RootState } from "@types";
+import { RootState } from "types";
 
 export default function Header() {
   const links = HEADER_LINKS;

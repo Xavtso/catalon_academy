@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import Button from "@UI/Button";
-import { formatDateToMonthDay } from "@actions/viewActions";
-import { TripType } from "@types";
+import Button from "UI/Button";
+import { formatDateToMonthDay } from "actions/viewActions";
+import { TripType } from "types";
 import styles from "./TripCard.module.scss";
 
 type TripCardProps = {

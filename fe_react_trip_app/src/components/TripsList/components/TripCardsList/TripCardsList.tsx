@@ -1,4 +1,4 @@
-import { TripType } from "@types";
+import { TripType } from "types";
 import TripCard from "../TripCard/TripCard";
 import styles from "./TripCardsList.module.scss";
 

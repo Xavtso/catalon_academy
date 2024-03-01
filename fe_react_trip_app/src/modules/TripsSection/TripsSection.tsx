@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllTrips } from "@actions/tripsAction";
-import { AppDispatch, TripType, RootState } from "@types";
-import TripCardsList from "@components/TripsList";
+import { getAllTrips } from "actions/tripsAction";
+import { AppDispatch, TripType, RootState } from "types";
+import TripCardsList from "components/TripsList";
 import styles from "./TripsSection.module.scss";
-import FilterContainer from "@components/FilterContainer";
-import Container from "@UI/Container";
+import FilterContainer from "components/FilterContainer";
+import Container from "UI/Container";
 
 export default function TripsSection() {
   const { selectedContinent } = useSelector((state: RootState) => state.trips);

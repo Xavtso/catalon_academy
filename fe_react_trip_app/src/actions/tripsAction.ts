@@ -1,6 +1,6 @@
 import axios from "axios";
-import { tripsSliceActions } from "@slices/tripsSlice";
-import { AppDispatch } from "@types";
+import { tripsSliceActions } from "store/slices/tripsSlice";
+import { AppDispatch } from "types";
 const baseUrl =
   "https://react-trip-app-caf0c-default-rtdb.europe-west1.firebasedatabase.app";
 

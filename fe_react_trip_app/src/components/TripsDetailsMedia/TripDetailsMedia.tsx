@@ -1,5 +1,5 @@
-import Button from "@UI/Button";
-import { TripType } from "@types";
+import Button from "UI/Button";
+import { TripType } from "types";
 import RoadMapCard from "./Roadmap/RoadMapCard";
 import styles from "./TripDetailsMedia.module.scss";
 

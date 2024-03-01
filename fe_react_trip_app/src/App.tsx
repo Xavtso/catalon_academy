@@ -3,7 +3,7 @@ import Homepage from "./pages/Homepage";
 import "./styles/globals.scss";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { viewSliceActions } from "@slices/viewSlice";
+import { viewSliceActions } from "store/slices/viewSlice";
 import Layout from "./components/Layout";
 import TripDetailsSection from "./modules/TripDetailsSection";
 

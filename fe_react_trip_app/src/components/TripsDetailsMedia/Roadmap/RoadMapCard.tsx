@@ -1,8 +1,8 @@
 import {
   formatDateToDayMonth,
   formatTimeTo12Hour,
-} from "@actions/viewActions";
-import { RoadmapCardProps } from "@types";
+} from "actions/viewActions";
+import { RoadmapCardProps } from "types";
 import styles from "./RoadmapCard.module.scss";
 
 export default function RoadMapCard({

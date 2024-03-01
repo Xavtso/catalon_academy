@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { NAV_LISTS } from "contstants/tripsData";
 import styles from "./NavLists.module.scss";
-import { RootState } from "@types";
+import { RootState } from "types";
 
 export default function NavLists() {
   const { isMobile } = useSelector((state: RootState) => state.view);

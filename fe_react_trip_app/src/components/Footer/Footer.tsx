@@ -1,9 +1,9 @@
-import Container from "@UI/Container";
+import Container from "UI/Container";
 import Contacts from "./Contacts/Contacts";
 import NavLists from "./NavLists/NavLists";
 import styles from "./Footer.module.scss";
 import { useSelector } from "react-redux";
-import { RootState } from "@types";
+import { RootState } from "types";
 
 export default function Footer() {
   const { isMobile } = useSelector((state: RootState) => state.view);
