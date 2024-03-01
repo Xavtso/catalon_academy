@@ -34,7 +34,7 @@ export default function FormFilter() {
       </div>
       <button className={styles.searchBtn}>
         <img
-          src="assets/icons/shared/search.svg"
+          src="/assets/icons/shared/search.svg"
           width="24"
           height="24"
           alt="searchIcon"

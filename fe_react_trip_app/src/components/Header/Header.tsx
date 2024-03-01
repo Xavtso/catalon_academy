@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { HEADER_LINKS } from "../../contstants/tripsData";
+import { HEADER_LINKS } from "contstants/tripsData";
 import styles from "./Header.module.scss";
 import { createPortal } from "react-dom";
 import MobileMenu from "./components/MobileMenu";
 import { useSelector } from "react-redux";
-import { RootState } from "../../types";
+import { RootState } from "@types";
 
 export default function Header() {
   const links = HEADER_LINKS;
@@ -19,7 +19,7 @@ export default function Header() {
     <>
       <a href="/" rel="noopener noreferrer">
         <img
-          src="assets/icons/shared/logo.svg"
+          src="/assets/icons/shared/logo.svg"
           alt="logo"
           width="46"
           height="60"
@@ -38,7 +38,7 @@ export default function Header() {
         <li className={styles.userLink}>
           <a href="/" rel="noopener noreferrer">
             <img
-              src="assets/icons/shared/star.svg"
+              src="/assets/icons/shared/star.svg"
               alt="star"
               width="20"
               height="20"
@@ -48,7 +48,7 @@ export default function Header() {
         <li className={styles.userLink}>
           <a href="/" rel="noopener noreferrer">
             <img
-              src="assets/icons/shared/user.svg"
+              src="/assets/icons/shared/user.svg"
               alt="user"
               width="32"
               height="32"
@@ -63,14 +63,14 @@ export default function Header() {
     <>
       <img
         onClick={handleMenuOpen}
-        src="assets/icons/shared/hamburger.svg"
+        src="/assets/icons/shared/hamburger.svg"
         width="24"
         height="24"
         alt="menu"
       />
       <a className={styles.logo} href="/" rel="noopener noreferrer">
         <img
-          src="assets/icons/shared/logo.svg"
+          src="/assets/icons/shared/logo.svg"
           alt="logo"
           width="30.67"
           height="40"
@@ -80,7 +80,7 @@ export default function Header() {
         <li className={styles.userLink}>
           <a href="/" rel="noopener noreferrer">
             <img
-              src="assets/icons/shared/searchBlack.svg"
+              src="/assets/icons/shared/searchBlack.svg"
               alt="search"
               width="24"
               height="24"
@@ -90,7 +90,7 @@ export default function Header() {
         <li className={styles.userLink}>
           <a href="/" rel="noopener noreferrer">
             <img
-              src="assets/icons/shared/user.svg"
+              src="/assets/icons/shared/user.svg"
               alt="user"
               width="24"
               height="24"

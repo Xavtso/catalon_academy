@@ -3,15 +3,15 @@ import Homepage from "./pages/Homepage";
 import "./styles/globals.scss";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { viewSliceActions } from "./store/slices/viewSlice";
+import { viewSliceActions } from "@slices/viewSlice";
+import Layout from "./components/Layout";
+import TripDetailsSection from "./modules/TripDetailsSection";
 
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
-     dispatch(viewSliceActions.handleResize(window.outerWidth));
-    
+    dispatch(viewSliceActions.handleResize(window.outerWidth));
   }, [dispatch]);
-
 
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -26,11 +26,12 @@ function App() {
   }, [dispatch]);
 
   return (
-    <>
+    <Layout>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/detailed/*" element={<TripDetailsSection />} />
       </Routes>
-    </>
+    </Layout>
   );
 }
 

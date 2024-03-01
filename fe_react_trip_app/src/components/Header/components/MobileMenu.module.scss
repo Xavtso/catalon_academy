@@ -1,4 +1,4 @@
-@import "../../../styles/mixins/text-mixins.scss";
+@import "@styles/mixins/text-mixins.scss";
 
 .overflow {
   position: absolute;
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    align-items: end;
+    align-items: flex-end;
     gap: 20px;
 
     li {

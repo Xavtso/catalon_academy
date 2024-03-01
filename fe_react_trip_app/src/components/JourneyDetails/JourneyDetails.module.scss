@@ -1,0 +1,45 @@
+@import "@styles/mixins/text-mixins.scss";
+
+.detailsSection{
+    margin-top:50px ;
+}
+
+.textContainer {
+  max-width: 870px;
+  margin-inline: auto;
+}
+.title{
+    @include textH2Bold;
+    width: fit-content;
+    margin-bottom: 34px;
+}
+
+.description {
+  @include textL;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.tripPoint {
+  margin-bottom: 48px;
+  max-width: 816px;
+  h6 {
+    @include textH6SemiBold;
+    margin-bottom: 5px;
+  }
+  p {
+    @include textBase;
+  }
+}
+.tripPoint:last-of-type{
+    margin-bottom: 5px;
+}
+
+.conclusion {
+  @include textBase;
+}
+
+.vector{
+    float: left;
+    margin:35px 33px 30px 21px ;
+}

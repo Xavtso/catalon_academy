@@ -1,4 +1,4 @@
-import store from "../store";
+import store from "@store";
 import { ReactNode } from "react";
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
@@ -10,6 +10,8 @@ export type BtnReferencesType = {
 };
 
 export type TripType = {
+  continent: string;
+  country: string;
   city: string;
   totalPrice: number;
   imageSrc: string;
@@ -17,11 +19,13 @@ export type TripType = {
     date: string;
     time: string;
     city: string;
+    station: string;
   };
   arrival: {
     date: string;
     time: string;
     city: string;
+    station: string;
   };
   detailed: {
     description: string;
@@ -42,8 +46,39 @@ export type TripType = {
   };
 };
 
+export interface JourneyDetailsProps {
+  details: {
+    description: string;
+    imageDetMain: string;
+    imageSrcsDet: string[];
+    tripPoints: {
+      country: string;
+      title: string;
+      description: string;
+      imageSrc: string;
+    }[];
+    conclusion: string;
+  };
+}
+
+export interface RoadmapCardProps {
+  tripCountry: string;
+  tripTitle: string;
+  arrival: {
+    date: string;
+    time: string;
+    city: string;
+    station: string;
+  };
+
+  departure: {
+    date: string;
+    time: string;
+    city: string;
+    station: string;
+  };
+}
 
 export interface LayoutProps {
   children: ReactNode;
 }
-

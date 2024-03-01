@@ -6,7 +6,7 @@ export default function QuoteCard() {
       <div className={styles.container}>
         <div className={styles.iconContainer}>
           <img
-            src="assets/icons/shared/quote.svg"
+            src="/assets/icons/shared/quote.svg"
             alt="quoteIcon"
             width="32"
             height="32"
@@ -22,7 +22,7 @@ export default function QuoteCard() {
         </p>
         <div className={styles.iconContainer2}>
           <img
-            src="assets/icons/shared/quote.svg"
+            src="/assets/icons/shared/quote.svg"
             alt="quoteIcon"
             width="32"
             height="32"

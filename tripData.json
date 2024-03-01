@@ -2,1832 +2,1960 @@
   "allTrips": {
     "Europe": [
       {
+        "continent": "Europe",
         "city": "Paris",
+        "country": "France",
         "totalPrice": 695,
-        "imageSrc": "assets/images/Europe/Paris.png",
+        "imageSrc": "/assets/images/Europe/Paris.png",
         "departure": {
           "date": "2024-03-11",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-03-19",
           "time": "01:00:00",
-          "city": "France, Paris"
+          "city": "France, Paris",
+          "station": "Central Paris Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Paris, France, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Paris.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Paris.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Paris, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Paris.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Paris.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Paris.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Paris.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Paris",
               "description": "Continuing your route, you'll head to the most romantic city in the world — Paris. Expect iconic landmarks such as the Eiffel Tower, the Montmartre district, the Louvre, and the charm of Parisian streets, each corner overflowing with history and elegance.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Paris.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Paris.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": true,
-          "imageSrcFav": "assets/images/Europe/Paris.png",
+          "imageSrcFav": "/assets/images/Europe/Paris.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Barcelona",
+        "country": "Spain",
         "totalPrice": 999,
-        "imageSrc": "assets/images/Europe/Barcelona.png",
+        "imageSrc": "/assets/images/Europe/Barcelona.png",
         "departure": {
           "date": "2024-04-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-04-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Spain, Barcelona",
+          "station": "Central Barcelona Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "Barcelona",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Barcelona.png",
+          "imageSrcFav": "/assets/images/Europe/Barcelona.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Warszawa",
+        "country": "Poland",
         "totalPrice": 679,
-        "imageSrc": "assets/images/Europe/Warszawa.png",
+        "imageSrc": "/assets/images/Europe/Warszawa.png",
         "departure": {
           "date": "2024-04-10",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-04-18",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Poland, Warszawa",
+          "station": "Central Warszawa Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
-              "title": "Journey to Barcelona",
+              "country": "Poland",
+              "title": "Journey to Poland",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Warszawa.png",
+          "imageSrcFav": "/assets/images/Europe/Warszawa.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Vienna",
+        "country": "Austria",
         "totalPrice": 679,
-        "imageSrc": "assets/images/Europe/Vienna.png",
+        "imageSrc": "/assets/images/Europe/Vienna.png",
         "departure": {
           "date": "2024-04-10",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-04-18",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Austria, Vienna",
+          "station": "Central Vienna Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
-              "title": "Journey to Barcelona",
+              "country": "Vienna",
+              "title": "Journey to Vienna",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Vienna.png",
+          "imageSrcFav": "/assets/images/Europe/Vienna.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Rome",
+        "country": "Greece",
         "totalPrice": 398,
-        "imageSrc": "assets/images/Europe/Rome.png",
+        "imageSrc": "/assets/images/Europe/Rome.png",
         "departure": {
           "date": "2024-10-23",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-11-05",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Greece, Rome",
+          "station": "Central Rome Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
-              "title": "Journey to Barcelona",
+              "country": "Rome",
+              "title": "Journey to Rome",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Rome.png",
+          "imageSrcFav": "/assets/images/Europe/Rome.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Amsterdam",
+        "country": "Netherlands",
         "totalPrice": 432,
-        "imageSrc": "assets/images/Europe/Amsterdam.png",
+        "imageSrc": "/assets/images/Europe/Amsterdam.png",
         "departure": {
           "date": "2024-06-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-07-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Amsterdam.png",
+          "imageSrcFav": "/assets/images/Europe/Amsterdam.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Prague",
+        "country": "Chezch Republic",
         "totalPrice": 765,
-        "imageSrc": "assets/images/Europe/Prague.png",
+        "imageSrc": "/assets/images/Europe/Prague.png",
         "departure": {
           "date": "2024-08-12",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-09-01",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Prague.png",
+          "imageSrcFav": "/assets/images/Europe/Prague.png",
           "description": ""
         }
       },
       {
+        "continent": "Europe",
         "city": "Dublin",
+        "country": "Germany",
         "totalPrice": 425,
-        "imageSrc": "assets/images/Europe/Dublin.png",
+        "imageSrc": "/assets/images/Europe/Dublin.png",
         "departure": {
           "date": "2024-09-04",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-11-23",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Germany, Dublin",
+          "station": "Central Dublin Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Europe/Dublin.png",
+          "imageSrcFav": "/assets/images/Europe/Dublin.png",
           "description": ""
         }
       }
     ],
     "Asia": [
       {
+        "continent": "Asia",
         "city": "Osaka",
+        "country": "Japan",
         "totalPrice": 1095,
-        "imageSrc": "assets/images/Asia/Osaka.png",
+        "imageSrc": "/assets/images/Asia/Osaka.png",
         "departure": {
           "date": "2024-03-11",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-03-19",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Japan, Osaka",
+          "station": "Central Osaka Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/Osaka.png",
+          "imageSrcFav": "/assets/images/Asia/Osaka.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Shanghai",
+        "country": "China",
         "totalPrice": 1199,
-        "imageSrc": "assets/images/Asia/Shanghai.png",
+        "imageSrc": "/assets/images/Asia/Shanghai.png",
         "departure": {
           "date": "2024-05-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "China, Shangai",
+          "station": "Central Shangai Station"
         },
         "arrival": {
           "date": "2024-05-19",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/Shanghai.png",
+          "imageSrcFav": "/assets/images/Asia/Shanghai.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Ho Chi Minh",
+        "country": "France",
         "totalPrice": 1079,
-        "imageSrc": "assets/images/Asia/HoChiMinh.png",
+        "imageSrc": "/assets/images/Asia/HoChiMinh.png",
         "departure": {
           "date": "2024-05-19",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-05-29",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Japan, Ho Chi Minh",
+          "station": "Central Ho Chi Minh Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/HoChiMinh.png",
+          "imageSrcFav": "/assets/images/Asia/HoChiMinh.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Jakarta",
+        "country": "Japan",
         "totalPrice": 679,
-        "imageSrc": "assets/images/Asia/Jakarta.png",
+        "imageSrc": "/assets/images/Asia/Jakarta.png",
         "departure": {
           "date": "2024-04-10",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-04-18",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Japan, Jakarta",
+          "station": "Central Jakarta Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/Jakarta.png",
+          "imageSrcFav": "/assets/images/Asia/Jakarta.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Kuala Lumpur",
+        "country": "Japan",
         "totalPrice": 546,
-        "imageSrc": "assets/images/Asia/KualaLumpur.png",
+        "imageSrc": "/assets/images/Asia/KualaLumpur.png",
         "departure": {
           "date": "2024-07-23",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-08-05",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Japan, Kuala Lumpur",
+          "station": "Central Kuala Lumpur Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/KualaLumpur.png",
+          "imageSrcFav": "/assets/images/Asia/KualaLumpur.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Kyoto",
+        "country": "Japan",
         "totalPrice": 765,
-        "imageSrc": "assets/images/Asia/Kyoto.png",
+        "imageSrc": "/assets/images/Asia/Kyoto.png",
         "departure": {
           "date": "2024-06-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Japan, Kyoto",
+          "station": "Central Kyoto Station"
         },
         "arrival": {
           "date": "2024-07-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/Kyoto.png",
+          "imageSrcFav": "/assets/images/Asia/Kyoto.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Istanbul",
+        "country": "Greece",
         "totalPrice": 951,
-        "imageSrc": "assets/images/Asia/Istanbul.png",
+        "imageSrc": "/assets/images/Asia/Istanbul.png",
         "departure": {
           "date": "2024-08-30",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Greece, Istanbul",
+          "station": "Central Istanbul Station"
         },
         "arrival": {
           "date": "2024-09-13",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/Istanbul.png",
+          "imageSrcFav": "/assets/images/Asia/Istanbul.png",
           "description": ""
         }
       },
       {
+        "continent": "Asia",
         "city": "Hong Kong",
+        "country": "China",
         "totalPrice": 400,
-        "imageSrc": "assets/images/Asia/HongKong.png",
+        "imageSrc": "/assets/images/Asia/HongKong.png",
         "departure": {
           "date": "2024-12-04",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "China, Hong Kong",
+          "station": "Central Hong Kong Station"
         },
         "arrival": {
           "date": "2024-11-23",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Asia/HongKong.png",
+          "imageSrcFav": "/assets/images/Asia/HongKong.png",
           "description": ""
         }
       }
     ],
     "Africa": [
       {
+        "continent": "Africa",
         "city": "Dakar",
+        "country": "Senegal",
         "totalPrice": 241,
-        "imageSrc": "assets/images/Africa/Dakar.png",
+        "imageSrc": "/assets/images/Africa/Dakar.png",
         "departure": {
           "date": "2024-06-11",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-07-19",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Dakar",
+          "station": "Central Dakar Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Dakar.png",
+          "imageSrcFav": "/assets/images/Africa/Dakar.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Accra",
+        "country": "Senegal",
         "totalPrice": 324,
-        "imageSrc": "assets/images/Africa/Accra.png",
+        "imageSrc": "/assets/images/Africa/Accra.png",
         "departure": {
           "date": "2024-06-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-08-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Accra",
+          "station": "Central Accra Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Accra.png",
+          "imageSrcFav": "/assets/images/Africa/Accra.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Zanzibar City",
+        "country": "Senegal",
         "totalPrice": 543,
-        "imageSrc": "assets/images/Africa/ZanzibarCity.png",
+        "imageSrc": "/assets/images/Africa/ZanzibarCity.png",
         "departure": {
           "date": "2024-06-10",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-07-18",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Zanzibar City",
+          "station": "Central Zanzibar City Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/ZanzibarCity.png",
+          "imageSrcFav": "/assets/images/Africa/ZanzibarCity.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Lagos",
+        "country": "Senegal",
         "totalPrice": 165,
-        "imageSrc": "assets/images/Africa/Lagos.png",
+        "imageSrc": "/assets/images/Africa/Lagos.png",
         "departure": {
           "date": "2024-11-10",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-12-18",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Lagos",
+          "station": "Central Lagos Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Lagos.png",
+          "imageSrcFav": "/assets/images/Africa/Lagos.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Casablanca",
+        "country": "Senegal",
         "totalPrice": 398,
-        "imageSrc": "assets/images/Africa/Casablanca.png",
+        "imageSrc": "/assets/images/Africa/Casablanca.png",
         "departure": {
           "date": "2024-12-23",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-11-05",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Casablanca",
+          "station": "Central Casablanca Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Casablanca.png",
+          "imageSrcFav": "/assets/images/Africa/Casablanca.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Kigali",
+        "country": "Senegal",
         "totalPrice": 356,
-        "imageSrc": "assets/images/Africa/Kigali.png",
+        "imageSrc": "/assets/images/Africa/Kigali.png",
         "departure": {
           "date": "2024-08-01",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-09-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Kigali",
+          "station": "Central Kigali Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Kigali.png",
+          "imageSrcFav": "/assets/images/Africa/Kigali.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Kampala",
+        "country": "Senegal",
         "totalPrice": 567,
-        "imageSrc": "assets/images/Africa/Kampala.png",
+        "imageSrc": "/assets/images/Africa/Kampala.png",
         "departure": {
           "date": "2024-05-12",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-03-01",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Kampala",
+          "station": "Central Kampala Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Kampala.png",
+          "imageSrcFav": "/assets/images/Africa/Kampala.png",
           "description": ""
         }
       },
       {
+        "continent": "Africa",
         "city": "Marrakech",
+        "country": "Senegal",
         "totalPrice": 843,
-        "imageSrc": "assets/images/Africa/Marrakech.png",
+        "imageSrc": "/assets/images/Africa/Marrakech.png",
         "departure": {
           "date": "2024-10-04",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-11-23",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Senegal,Marrakech",
+          "station": "Central Marrakech Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Paris",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/Africa/Marrakech.png",
+          "imageSrcFav": "/assets/images/Africa/Marrakech.png",
           "description": ""
         }
       }
     ],
     "America": [
       {
+        "continent": "America",
         "city": "New York",
+        "country": "USA",
         "totalPrice": 1995,
-        "imageSrc": "assets/images/America/NewYork.png",
+        "imageSrc": "/assets/images/America/NewYork.png",
         "departure": {
           "date": "2024-03-11",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-03-19",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, New York",
+          "station": "Central New York Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/NewYork.png",
+          "imageSrcFav": "/assets/images/America/NewYork.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "San Diego",
+        "country": "USA",
         "totalPrice": 1199,
-        "imageSrc": "assets/images/America/SanDiego.png",
+        "imageSrc": "/assets/images/America/SanDiego.png",
         "departure": {
           "date": "2024-04-21",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-05-09",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, San Diego",
+          "station": "Central San Diego Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/SanDiego.png",
+          "imageSrcFav": "/assets/images/America/SanDiego.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "San Jose",
+        "country": "USA",
         "totalPrice": 1079,
-        "imageSrc": "assets/images/America/SanJose.png",
+        "imageSrc": "/assets/images/America/SanJose.png",
         "departure": {
           "date": "2024-07-19",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-08-11",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, San Jose",
+          "station": "Central San Jose Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/SanJose.png",
+          "imageSrcFav": "/assets/images/America/SanJose.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "El Paso",
+        "country": "USA",
         "totalPrice": 1679,
-        "imageSrc": "assets/images/America/ElPaso.png",
+        "imageSrc": "/assets/images/America/ElPaso.png",
         "departure": {
           "date": "2024-07-29",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-08-11",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, El Paso",
+          "station": "Central El Paso Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/ElPaso.png",
+          "imageSrcFav": "/assets/images/America/ElPaso.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "Rio de Janeiro",
+        "country": "USA",
         "totalPrice": 946,
-        "imageSrc": "assets/images/America/RiodeJaneiro.png",
+        "imageSrc": "/assets/images/America/RiodeJaneiro.png",
         "departure": {
           "date": "2024-07-29",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-08-12",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, Rio de Janeiro",
+          "station": "Central Rio de Janeiro Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/RiodeJaneiro.png",
+          "imageSrcFav": "/assets/images/America/RiodeJaneiro.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "Omaha",
+        "country": "USA",
         "totalPrice": 758,
-        "imageSrc": "assets/images/America/Omaha.png",
+        "imageSrc": "/assets/images/America/Omaha.png",
         "departure": {
           "date": "2024-06-26",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-07-12",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, Omaha",
+          "station": "Central Omaha Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/Omaha.png",
+          "imageSrcFav": "/assets/images/America/Omaha.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "Las Vegas",
+        "country": "USA",
         "totalPrice": 951,
-        "imageSrc": "assets/images/America/LasVegas.png",
+        "imageSrc": "/assets/images/America/LasVegas.png",
         "departure": {
           "date": "2024-08-23",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-09-05",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, Las Vegas",
+          "station": "Central Las Vegas Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/LasVegas.png",
+          "imageSrcFav": "/assets/images/America/LasVegas.png",
           "description": ""
         }
       },
       {
+        "continent": "America",
         "city": "Panama City",
+        "country": "USA",
         "totalPrice": 1095,
-        "imageSrc": "assets/images/America/PanamaCity.png",
+        "imageSrc": "/assets/images/America/PanamaCity.png",
         "departure": {
           "date": "2024-12-12",
           "time": "22:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "Ukraine, Lviv",
+          "station": "Central Lviv Station"
         },
         "arrival": {
           "date": "2024-11-01",
           "time": "01:00:00",
-          "city": "Ukraine, Lviv"
+          "city": "USA, Panama City",
+          "station": "Central Panama City Station"
         },
         "detailed": {
           "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-          "imageDetMain": "",
+          "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
           "imageSrcsDet": [
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png",
-            "assets/images/Europe/deatailed/Paris.png"
+            "/assets/images/TripDetails/Paris1.jpg",
+            "/assets/images/TripDetails/Paris2.jpg",
+            "/assets/images/TripDetails/Paris3.jpg",
+            "/assets/images/TripDetails/Paris4.jpg"
           ],
           "tripPoints": [
             {
               "country": "Ukraine",
               "title": "Commencing in Lviv",
               "description": "Departing from Lviv, a city with a millennia-old history and architectural splendor, you'll initiate your journey amidst the warm atmosphere of this captivating cultural center.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Czech Republic",
               "title": "Stopover in Prague, Czech Republic",
               "description": "En route to Barcelona, you'll have the opportunity to visit Prague, the \"Golden City,\" where winding streets, historic squares, and captivating architecture will create impressions that linger in your memory.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
               "country": "Germany",
               "title": "Passing through Berlin, Germany",
               "description": "Berlin, the capital of Germany, will also be a stop on your route. This modern metropolis with remnants of history will unfold unique experiences through the Brandenburg Gate, the luxurious Tiergarten park, and the vibrant energy of its nightlife",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             },
             {
-              "country": "Paris",
+              "country": "USA",
               "title": "Journey to Barcelona",
               "description": "Continuing your route, you'll head to the vibrant city of Barcelona, Spain. Expect iconic landmarks such as the Sagrada Família, Park Güell, Gothic Quarter, and the charm of Barcelona's beaches and nightlife.",
-              "imageSrc": "assets/images/Europe/detailed/tripPoints/Barcelona.png"
+              "imageSrc": "/assets/images/Europe/detailed/tripPoints/Barcelona.png"
             }
           ],
           "conclusion": "This bus journey will not merely transport you from one city to another but will also provide an opportunity to feel the warmth of each place, touch its history, and experience the heart of Europe in its diversity and beauty."
         },
         "favorite": {
           "isFav": false,
-          "imageSrcFav": "assets/images/America/PanamaCity.png",
+          "imageSrcFav": "/assets/images/America/PanamaCity.png",
           "description": ""
         }
       }

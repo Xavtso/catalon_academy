@@ -1,4 +1,4 @@
-import { AppDispatch } from "../types";
+import { AppDispatch } from "@types";
 
 export function handleWindowResizing() {
   return (dispatch: AppDispatch) => {};
@@ -10,6 +10,18 @@ export function formatDateToMonthDay(dateString: string) {
   const formattedDate = date.toLocaleDateString("en-US", options);
   return formattedDate;
 }
+
+export function formatDateToDayMonth(dateString: string) {
+  const date = new Date(dateString);
+  const options = {
+    weekday: "short" as const,
+    month: "short" as const,
+    day: "numeric" as const,
+  };
+  const formattedDate = date.toLocaleDateString("en-US", options);
+  return formattedDate;
+}
+
 
 export function formatTimeTo12Hour(timeString: string){
   const time = new Date(`1970-01-01T${timeString}`);

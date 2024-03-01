@@ -1,4 +1,4 @@
-import { HEADER_LINKS } from "../../../contstants/tripsData";
+import { HEADER_LINKS } from "contstants/tripsData";
 import styles from "./MobileMenu.module.scss";
 
 export default function MobileMenu(props:any) {
@@ -15,7 +15,7 @@ export default function MobileMenu(props:any) {
         <div className={styles.closeIcon} >
           <img
             onClick={closeMenu}
-            src="assets/icons/shared/close.svg"
+            src="/assets/icons/shared/close.svg"
             alt="closeIcon"
             width="24"
             height="24"
