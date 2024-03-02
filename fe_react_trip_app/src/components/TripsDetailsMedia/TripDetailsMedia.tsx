@@ -39,12 +39,12 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
             style={{ backgroundImage: `url(${imageSrc})` }}
           />
         ))}
-        <ChatButton position='bottom'/>
       </div>
 
       <div className={styles.btnContainer}>
         <Button references={btnReferences } onClick={()=>{}}/>
       </div>
+<ChatButton />
     </div>
   );
 }

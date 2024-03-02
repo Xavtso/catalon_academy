@@ -11,7 +11,7 @@ export default function FilterContainer() {
         where each adventure is crafted with <span>precision</span> and{" "}
         <span>passion</span>.
       </p>
-        <ChatButton position="center"/>
+        <ChatButton/>
       <FormFilter />
       <ButtonsFilter />
     </div>

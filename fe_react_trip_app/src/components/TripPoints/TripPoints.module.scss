@@ -47,7 +47,66 @@
   translate: -55px -10px;
 }
 
+@media screen and (max-width: 490px) {
+  .Paris {
+    grid-area: Paris;
+  }
+  .Lviv {
+    grid-area: Lviv;
+  }
+  .Prague {
+    grid-area: Prague;
+  }
+  .Berlin {
+    grid-area: Berlin;
+  }
+  .tripPointsSection {
+    display: grid;
+    background: none;
+    width: 100%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "Lviv Prague"
+      "Paris Berlin";
+  }
 
-@media screen and (max-width:490px){
-    
+  .point {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      @include textH6;
+      font-weight: 500;
+    }
+    p {
+      @include textBase;
+      margin-bottom: 10px;
+    }
+  }
+
+  .imgContainer {
+    width: 130px;
+    height: 130px;
+  }
+
+  .Prague,
+  .Berlin {
+    padding: 0;
+    translate: 0;
+    margin-left: auto;
+    width: 85px;
+    .imgContainer {
+      width: 85px;
+      height: 85px;
+    }
+  }
+  .Prague {
+    padding-top: 113px;
+  }
+  .Berlin {
+    margin-top: 33px;
+  }
 }

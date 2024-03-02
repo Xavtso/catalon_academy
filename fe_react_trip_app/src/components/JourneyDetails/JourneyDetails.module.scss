@@ -1,17 +1,17 @@
 @import "styles/mixins/text-mixins.scss";
 
-.detailsSection{
-    margin-top:50px ;
+.detailsSection {
+  margin-top: 50px;
 }
 
 .textContainer {
   max-width: 870px;
   margin-inline: auto;
 }
-.title{
-    @include textH2Bold;
-    width: fit-content;
-    margin-bottom: 34px;
+.title {
+  @include textH2Bold;
+  width: fit-content;
+  margin-bottom: 34px;
 }
 
 .description {
@@ -31,15 +31,45 @@
     @include textBase;
   }
 }
-.tripPoint:last-of-type{
-    margin-bottom: 5px;
+.tripPoint:last-of-type {
+  margin-bottom: 5px;
 }
 
 .conclusion {
   @include textBase;
 }
 
-.vector{
-    float: left;
-    margin:35px 33px 30px 21px ;
+.vector {
+  float: left;
+  margin: 35px 33px 30px 21px;
+}
+
+@media screen and (max-width: 490px) {
+  .detailsSection{
+    padding: 20px;
+    margin-top:30px;
+  }
+  .title {
+    @include textLSemiBold;
+    margin-bottom: 10px;
+  }
+  .description {
+    @include textBase;
+    margin-bottom: 20px;
+  }
+
+  .tripPoint {
+    margin-bottom: 20px;
+    h6 {
+      @include textBase;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    p {
+      @include textBase;
+    }
+  }
+  .vector{
+     margin: 35px 16px 30px 20px;
+  }
 }
