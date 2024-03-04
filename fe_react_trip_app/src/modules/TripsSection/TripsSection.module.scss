@@ -1,11 +1,5 @@
 @import "styles/mixins/text-mixins.scss";
 
-.title {
-  @include textH4Bold;
-  color: var(--primary-color);
-  width: fit-content;
-  margin-left: 40px;
-}
 
 .listsContainer {
   margin-bottom: 42px;
@@ -16,10 +10,7 @@
 }
 
 @media screen and (max-width: 490px) {
-  .title {
-    @include textLSemiBold;
-    width: 100%;
-  }
+  
 
   .listsContainer {
     margin-bottom: 50px;

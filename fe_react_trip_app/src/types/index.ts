@@ -94,3 +94,5 @@ export interface TripPointsProps {
 export interface LayoutProps {
   children: ReactNode;
 }
+
+export type FilterType = "All" | "Europe" | "America" | "Asia" | "Africa";
