@@ -1,12 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit'
-import tripsSlice from './slices/tripsSlice'
-import viewSlice from './slices/viewSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import tripsSlice from "./slices/tripsSlice";
 
 const store = configureStore({
-    reducer: {
-        trips: tripsSlice.reducer,
-        view: viewSlice.reducer,
-    }
-})
+  reducer: {
+    trips: tripsSlice.reducer,
+  },
+});
 
 export default store;

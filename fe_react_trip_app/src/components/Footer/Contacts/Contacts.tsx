@@ -1,4 +1,4 @@
-import { CONTACTS_DATA } from "contstants/tripsData";
+import { CONTACTS_DATA } from "contstants/footerData";
 import styles from "./Contacts.module.scss";
 
 export default function Contacts() {

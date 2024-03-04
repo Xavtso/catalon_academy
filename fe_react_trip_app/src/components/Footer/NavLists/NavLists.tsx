@@ -1,14 +1,10 @@
-import { useSelector } from "react-redux";
-import { NAV_LISTS } from "contstants/tripsData";
+import { NAV_LISTS } from "contstants/footerData";
 import styles from "./NavLists.module.scss";
-import { RootState } from "types";
 
 export default function NavLists() {
-  const { isMobile } = useSelector((state: RootState) => state.view);
-
   const { list1, list2, list3, list4 } = NAV_LISTS;
 
-  const laptop = (
+  return (
     <div className={styles.listsContainer}>
       <ul>
         <h6>about</h6>
@@ -58,20 +54,4 @@ export default function NavLists() {
       </ul>
     </div>
   );
-
-  const navList = ["About", "Company", "Resources", "Social"];
-
-  const mobile = (
-    <ul className={styles.mobileNav}>
-      {navList.map((item, index) => (
-        <li key={index}>
-          <a href="/" rel="noopener noreferrer">
-            {item}
-          </a>
-        </li>
-      ))}
-    </ul>
-  );
-
-  return <>{isMobile ? mobile : laptop}</>;
 }

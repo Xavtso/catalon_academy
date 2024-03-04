@@ -1,4 +1,4 @@
-import { HEADER_LINKS } from "contstants/tripsData";
+import { HEADER_LINKS } from "contstants/headerData";
 import styles from "./MobileMenu.module.scss";
 
 export default function MobileMenu(props:any) {

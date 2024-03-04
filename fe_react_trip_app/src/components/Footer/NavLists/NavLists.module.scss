@@ -28,17 +28,28 @@ a {
 }
 
 @media screen and (max-width: 490px) {
-  .mobileNav {
-    display: flex;
+ 
+
+.listsContainer{
+   display: flex;
     padding: 30px 30px 0px 0px;
     flex-direction: column;
-    gap: 10px;
-    li {
-      padding: 4px 10px;
+    gap: 20px;
+    
+    ul {
+      // border: 1px solid;
+      width: 100%;
+      padding: 0;
+      text-align: left;
+       padding: 4px 10px;
       border-bottom: 2px solid;
-      a {
+      margin: 0;
+      h6 {
         @include textBaseSemiBold;
       }
+      li{
+        display: none;
+      }
     }
-  }
+}
 }

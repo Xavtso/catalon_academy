@@ -11,7 +11,7 @@ import selectFilterSelector from "store/selectors/selectFilterSelector";
 export default function TripsSection() {
   const dispatch = useDispatch<AppDispatch>();
   const { selectedContinent } = useSelector((state: RootState) => state.trips);
-  
+
   const { trips } = useSelector((state: RootState) =>
     selectFilterSelector(state)(selectedContinent as FilterType),
   );
@@ -19,7 +19,6 @@ export default function TripsSection() {
   useEffect(() => {
     dispatch(getAllTrips());
   }, [dispatch]);
-
 
   return (
     <section>

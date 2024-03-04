@@ -45,9 +45,9 @@
 }
 
 @media screen and (max-width: 490px) {
-  .detailsSection{
+  .detailsSection {
     padding: 20px;
-    margin-top:30px;
+    margin-top: 30px;
   }
   .title {
     @include textLSemiBold;
@@ -69,7 +69,9 @@
       @include textBase;
     }
   }
-  .vector{
-     margin: 35px 16px 30px 20px;
+  .vector {
+    overflow: hidden;
+    height: 490px;
+    margin: 35px 16px 30px 20px;
   }
 }
