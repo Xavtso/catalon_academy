@@ -1,28 +1,34 @@
-import { AppDispatch, RootState } from "types";
+import { AppDispatch } from "types";
 import { tripsSliceActions } from "store/slices/tripsSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import styles from "./FilterButton.module.scss";
 
 interface FilterButtonProps {
-  continent: string;
+  title: string;
+  value: string;
+  isActive: boolean;
+  setActiveBtn: () => void;
 }
 
-export default function FilterButton({ continent }: FilterButtonProps) {
+export default function FilterButton({
+  title,
+  value,
+  isActive,
+  setActiveBtn,
+}: FilterButtonProps) {
   const dispatch = useDispatch<AppDispatch>();
-  const { selectedContinent } = useSelector((state: RootState) => state.trips);
 
-  function handleContinentChange(continent: string) {
-    dispatch(tripsSliceActions.setContinent(continent));
+  function handleContinentChange(value: string) {
+    setActiveBtn();
+    dispatch(tripsSliceActions.setFilteredTrips(value));
   }
 
   return (
     <button
-      className={`${styles.btnFilter} ${
-        selectedContinent === continent ? styles.active : ""
-      }`}
-      onClick={() => handleContinentChange(continent)}
+      className={`${styles.btnFilter} ${isActive ? styles.active : ""}`}
+      onClick={() => handleContinentChange(value)}
     >
-      {continent}
+      {title}
     </button>
   );
 }

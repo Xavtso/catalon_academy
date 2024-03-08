@@ -15,12 +15,17 @@ export function getAllTrips() {
   };
 }
 
-export function getTripDetalis(continent: string, tripIndex: string) {
+export function getTripDetalis() {
   return async (dispatch: AppDispatch) => {
     try {
+      const pathArray = window.location.pathname.split("/");
+      const listIndex = pathArray[2];
+      const tripIndex = pathArray[4];
+
       const response = await axios.get(
-        `${baseUrl}/allTrips/${continent}/${tripIndex}.json`,
+        `${baseUrl}/allTrips/${listIndex}/trips/${tripIndex}.json`,
       );
+
       dispatch(tripsSliceActions.setTripDetails(response.data));
     } catch (err) {
       console.log(err);

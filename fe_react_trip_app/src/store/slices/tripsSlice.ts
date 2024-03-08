@@ -1,48 +1,36 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { TripType } from "types";
-
-
+import { ContinentType, TripType } from "types";
 
 type InitialStateTypes = {
-  continents: {
-    Africa: TripType[];
-    America: TripType[];
-    Europe: TripType[];
-    Asia: TripType[];
-  };
-  selectedContinent: string;
-  tripDetails: TripType | null;
+  allTrips: ContinentType[];
+  filterValue: string;
+  tripDetails: TripType;
+  filteredTrips: ContinentType[];
 };
 
 const initialState: InitialStateTypes = {
-  continents: {
-    Africa: [],
-    America: [],
-    Asia: [],
-    Europe: [],
-  },
-  selectedContinent: "All",
-  tripDetails: null,
+  allTrips: [],
+  filterValue: "",
+  tripDetails: {} as TripType,
+  filteredTrips: [],
 };
-
 
 const tripsSlice = createSlice({
   name: "trips",
   initialState,
   reducers: {
     getTrips(state, action) {
-      const { Africa, America, Asia, Europe } = action.payload;
-      state.continents.Africa = Africa;
-      state.continents.America = America;
-      state.continents.Asia = Asia;
-      state.continents.Europe = Europe;
-    },
-    setContinent(state,action) {
-      state.selectedContinent = action.payload;
+      state.allTrips = action.payload;
+      state.filteredTrips = state.allTrips;
     },
     setTripDetails(state, action) {
-      state.tripDetails = action.payload
-    }
+      state.tripDetails = action.payload;
+    },
+    setFilteredTrips(state, action) {
+      state.filteredTrips = state.allTrips.filter((trips) =>
+        trips.continent.includes(action.payload),
+      );
+    },
   },
 });
 

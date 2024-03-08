@@ -32,7 +32,7 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
         arrival={trip.arrival}
       />
       <div className={styles.secondaryImgContainer}>
-        {detailed.imageSrcsDet.map((imageSrc, index) => (
+        {detailed?.imageSrcsDet?.map((imageSrc, index) => (
           <div
             className={styles.secondaryImg}
             key={index}

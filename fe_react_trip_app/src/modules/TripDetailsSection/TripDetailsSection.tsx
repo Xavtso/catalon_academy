@@ -16,20 +16,20 @@ export default function TripDetailsSection() {
   const details = tripDetails?.detailed;
 
   useEffect(() => {
-    const pathArray = window.location.pathname.split("/");
-    const continent = pathArray[2];
-    const tripIndex = pathArray[3];
-
-    dispatch(getTripDetalis(continent, tripIndex));
+    dispatch(getTripDetalis());
   }, [dispatch]);
 
   return (
     <section className={styles.tripDetails}>
-      <Container>
-        {tripDetails && <TripDetailsMedia trip={tripDetails} />}
-        {details && <JourneyDetails details={details} />}
-        {details && <TripPoints tripPoints={details?.tripPoints} />}
-      </Container>
+      {details ? (
+        <Container>
+          <TripDetailsMedia trip={tripDetails} />
+          <JourneyDetails details={details} />
+          <TripPoints tripPoints={details?.tripPoints} />
+        </Container>
+      ) : (
+        <div> Error Kurwa</div>
+      )}
     </section>
   );
 }

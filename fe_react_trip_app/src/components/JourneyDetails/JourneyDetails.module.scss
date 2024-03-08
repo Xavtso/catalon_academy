@@ -42,9 +42,11 @@
 .vector {
   float: left;
   margin: 35px 33px 30px 21px;
+  height: 383px;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 700px) {
   .detailsSection {
     padding: 20px;
     margin-top: 30px;
@@ -71,6 +73,10 @@
   }
   .vector {
     overflow: hidden;
+    img{
+
+      height: 490px;
+    }
     height: 490px;
     margin: 35px 16px 30px 20px;
   }

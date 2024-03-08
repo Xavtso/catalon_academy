@@ -1,4 +1,4 @@
-import { JourneyDetailsProps} from "types";
+import { JourneyDetailsProps } from "types";
 import styles from "./JourneyDetails.module.scss";
 
 export default function JourneyDetails({ details }: JourneyDetailsProps) {
@@ -10,15 +10,15 @@ export default function JourneyDetails({ details }: JourneyDetailsProps) {
         <div className={styles.vector}>
           <img
             alt="tripsVector"
-            width="6"
             srcSet="
-    /assets/images/TripDetails/detailTripVectorMobile.svg 626w,
-    /assets/images/TripDetails/detailTripVector.svg 480w
-  "
-            sizes="(max-height: 480px) 480px, 626px"
+      /assets/images/TripDetails/detailTripVectorMobile.svg 340w,
+      /assets/images/TripDetails/detailTripVector.svg 616w
+    "
+            sizes="(max-width: 500px) 340px, 616px"
             src="/assets/images/TripDetails/detailTripVector.svg"
           />
         </div>
+
         {details.tripPoints.map((point, index) => (
           <div className={styles.tripPoint} key={index}>
             <h6>{point.title}</h6>

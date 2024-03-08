@@ -47,6 +47,11 @@ export type TripType = {
   };
 };
 
+export type ContinentType = {
+  continent: string;
+  trips: TripType[];
+};
+
 export interface JourneyDetailsProps {
   details: {
     description: string;
@@ -95,4 +100,3 @@ export interface LayoutProps {
   children: ReactNode;
 }
 
-export type FilterType = "All" | "Europe" | "America" | "Asia" | "Africa";
