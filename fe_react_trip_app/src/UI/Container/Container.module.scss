@@ -1,12 +1,11 @@
-.parentContainer{
-    padding: 0px 30px;
-    
-}
+@import "styles/mixins/media-mixins.scss";
 
-
-@media screen and (max-width:700px) {
-    .parentContainer{
-        padding: 0 10px;
-        
-    }
+.parentContainer {
+  padding: 0px 30px;
+  @include forMobile {
+    padding: 0 10px;
+  }
+  @include forTablet {
+    padding: 0 20px;
+  }
 }

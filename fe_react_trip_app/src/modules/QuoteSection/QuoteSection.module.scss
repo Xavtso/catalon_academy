@@ -1,5 +1,10 @@
-@media screen and (max-width: 700px) {
-    .quoteSection{
-        display: none;
-    }
+@import 'styles/mixins/media-mixins.scss';
+
+.quoteSection {
+  @include forMobile {
+    display: none;
+  }
+  @include forTablet{
+    display: none;
+  }
 }

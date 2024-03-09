@@ -1,8 +1,17 @@
+@import "styles/mixins/media-mixins.scss";
+
 .mediaSection {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 100px;
+
+  @include forMobile {
+    gap: 8px;
+  }
+  @include forTablet {
+    gap: 50px;
+  }
 }
 
 .mainImgContainer {
@@ -12,6 +21,18 @@
   left: 30px;
   z-index: -1;
   background-size: cover;
+  @include forMobile {
+    width: 331px;
+    height: 207px;
+    left: 10px;
+    
+  }
+  @include forTablet {
+    width: 80%;
+    height: 380px;
+    left: 20px;
+    
+  }
 }
 
 .secondaryImgContainer {
@@ -21,6 +42,16 @@
   justify-content: space-evenly;
   padding: 0 20px;
   width: 100%;
+  @include forMobile {
+    margin: auto;
+    padding: 0 10px;
+    translate: 0 -15px;
+  }
+  @include forTablet {
+    margin: auto;
+    padding: 0 10px;
+    translate: 0 5px;
+  }
 }
 
 .secondaryImg {
@@ -34,33 +65,23 @@
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
   box-shadow: 0px 0px 20px 0px #1461671a;
+
+  @include forMobile {
+    width: 86px;
+    height: 55px;
+  }
+  @include forTablet{
+    width: 166px;
+    height: 105px;
+  }
 }
 
 .btnContainer {
   width: 400px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 700px) {
-  .mediaSection {
-    gap: 8px;
-  }
-  .secondaryImg {
-    width: 86px;
-    height: 55px;
-  }
-  .mainImgContainer {
-    width: 331px;
-    height: 207px;
-    left: 10px;
-  }
-  .secondaryImgContainer{
-    margin: auto;
-    padding: 0 10px;
-    translate: 0 -15px;
-  }
-
-  .btnContainer{
+  @include forMobile {
     width: 300px;
   }
 }
+
+

@@ -1,4 +1,5 @@
-@import 'styles/mixins/text-mixins.scss';
+@import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .card {
   width: 400px;
@@ -12,48 +13,56 @@
   -o-border-radius: 10px;
   -webkit-border-radius: 10px;
 
-  box-shadow: 0px 0px 30px 0px #0B3F431A;
+  box-shadow: 0px 0px 30px 0px #0b3f431a;
 
   background-size: cover;
-}
-
-.contentBox{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    padding: 20px 70px;
-    margin-bottom: 10px;
-    background-color: var(--white-opacity);
-    
-}
-
-.title{
-@include textH4Bold;
-}
-
-.country{
-@include textH6;
-}
-
-
-@media screen and (max-width:700px) {
-  .card{
+  @include forMobile {
     width: 140px;
     height: 180px;
   }
+  @include forTablet{
+    width: 260px;
+    height: 340px;
+  }
+}
 
-  .contentBox{
+.contentBox {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 20px 70px;
+  margin-bottom: 10px;
+  background-color: var(--white-opacity);
+  text-wrap: nowrap;
+
+  @include forMobile {
     padding: 10px 0;
-    text-wrap: nowrap;
     scale: 1;
   }
+  @include forTablet{
+    padding:20px 0px ;
+    
+  }
+}
 
-  .title{
+.title {
+  @include textH4Bold;
+  @include forMobile {
     @include textBaseBold;
   }
-  .country{
+  @include forTablet {
+    @include textH6Bold;
+  }
+}
+
+.country {
+  @include textH6;
+  @include forMobile {
     @include textXS;
+  }
+  @include forTablet {
+    @include textL;
   }
 }

@@ -1,9 +1,8 @@
-.tripDetails{
-    margin: 50px auto;
-}
+@import "styles/mixins/media-mixins.scss";
 
-@media screen and (max-width:700px) {
-    .tripDetails{
-        margin: 20px auto;
-    }
+.tripDetails {
+  margin: 50px auto;
+  @include forMobile {
+    margin: 20px auto;
+  }
 }

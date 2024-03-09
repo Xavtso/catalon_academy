@@ -1,7 +1,16 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .detailsSection {
   margin-top: 50px;
+  @include forMobile {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  @include forTablet{
+    padding: 30px;
+    margin-top: 40px;
+  }
 }
 
 .textContainer {
@@ -12,12 +21,24 @@
   @include textH2Bold;
   width: fit-content;
   margin-bottom: 34px;
+  @include forMobile {
+    @include textLSemiBold;
+    margin-bottom: 10px;
+  }
+  @include forTablet{
+    @include textH4Bold;
+    margin-bottom:20px; 
+  }
 }
 
 .description {
   @include textL;
   margin-bottom: 28px;
   text-align: left;
+  @include forMobile {
+    @include textBase;
+    margin-bottom: 20px;
+  }
 }
 
 .tripPoint {
@@ -29,6 +50,17 @@
   }
   p {
     @include textBase;
+  }
+  @include forMobile {
+    margin-bottom: 20px;
+    h6 {
+      @include textBase;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    p {
+      @include textBase;
+    }
   }
 }
 .tripPoint:last-of-type {
@@ -44,37 +76,9 @@
   margin: 35px 33px 30px 21px;
   height: 383px;
   overflow: hidden;
-}
-
-@media screen and (max-width: 700px) {
-  .detailsSection {
-    padding: 20px;
-    margin-top: 30px;
-  }
-  .title {
-    @include textLSemiBold;
-    margin-bottom: 10px;
-  }
-  .description {
-    @include textBase;
-    margin-bottom: 20px;
-  }
-
-  .tripPoint {
-    margin-bottom: 20px;
-    h6 {
-      @include textBase;
-      font-weight: 500;
-      margin-bottom: 5px;
-    }
-    p {
-      @include textBase;
-    }
-  }
-  .vector {
+  @include forMobile {
     overflow: hidden;
-    img{
-
+    img {
       height: 490px;
     }
     height: 490px;

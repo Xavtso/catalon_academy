@@ -1,11 +1,13 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .buttonContainer {
   width: fit-content;
   margin: 50px auto;
-}
-@media screen and (max-width:700px) {
-  .buttonContainer{
+  @include forMobile {
     margin: 0px auto;
+  }
+  @include forTablet{
+    scale: 1.3;
   }
 }

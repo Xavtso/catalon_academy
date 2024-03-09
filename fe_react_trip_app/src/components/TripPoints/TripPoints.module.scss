@@ -1,4 +1,5 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .tripPointsSection {
   display: flex;
@@ -9,6 +10,30 @@
   background-size: 1090px 300px;
   background-repeat: no-repeat;
   background-position: bottom;
+
+  @include forMobile {
+    display: grid;
+    background: none;
+    width: 100%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "Lviv Prague"
+      "Paris Berlin";
+  }
+  @include forTablet {
+    display: grid;
+    background: none;
+    width: 100%;
+    // border: 1px solid;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "Lviv Prague"
+      "Paris Berlin";
+  }
 }
 
 .point {
@@ -20,6 +45,35 @@
   p {
     @include textL;
     margin-bottom: 30px;
+  }
+
+  @include forMobile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      @include textH6;
+      font-weight: 500;
+    }
+    p {
+      @include textBase;
+      margin-bottom: 10px;
+    }
+  }
+  @include forTablet {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      @include textH6;
+      font-weight: 500;
+    }
+    p {
+      @include textBase;
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -36,64 +90,20 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
 
-.Prague {
-  padding-top: 140px;
-  translate: -15px -35px;
-}
-.Berlin {
-  padding-top: 119px;
-  translate: -55px -10px;
-}
-
-@media screen and (max-width: 700px) {
-  .Paris {
-    grid-area: Paris;
-  }
-  .Lviv {
-    grid-area: Lviv;
-  }
-  .Prague {
-    grid-area: Prague;
-  }
-  .Berlin {
-    grid-area: Berlin;
-  }
-  .tripPointsSection {
-    display: grid;
-    background: none;
-    width: 100%;
-    margin: 30px auto;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "Lviv Prague"
-      "Paris Berlin";
-  }
-
-  .point {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h5 {
-      @include textH6;
-      font-weight: 500;
-    }
-    p {
-      @include textBase;
-      margin-bottom: 10px;
-    }
-  }
-
-  .imgContainer {
+  @include forMobile {
     width: 130px;
     height: 130px;
   }
+  @include forTablet {
+    width: 140px;
+    height: 140px;
+  }
+}
 
-  .Prague,
-  .Berlin {
+.Prague,
+.Berlin {
+  @include forMobile {
     padding: 0;
     translate: 0;
     margin-left: auto;
@@ -103,10 +113,44 @@
       height: 85px;
     }
   }
-  .Prague {
+  @include forTablet {
+    padding: 0;
+    translate: 0;
+    margin-left: auto;
+    width: 105px;
+    .imgContainer {
+      width: 105px;
+      height: 105px;
+    }
+  }
+}
+
+.Prague {
+  grid-area: Prague;
+  padding-top: 140px;
+  translate: -15px -35px;
+  @include forMobile {
     padding-top: 113px;
   }
-  .Berlin {
+  @include forTablet {
+    padding-top: 113px;
+  }
+}
+.Berlin {
+  grid-area: Berlin;
+  padding-top: 119px;
+  translate: -55px -10px;
+  @include forMobile {
     margin-top: 33px;
   }
+  @include forTablet {
+    margin-top: 33px;
+  }
+}
+
+.Paris {
+  grid-area: Paris;
+}
+.Lviv {
+  grid-area: Lviv;
 }

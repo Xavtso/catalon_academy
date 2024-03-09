@@ -1,3 +1,5 @@
+@import "styles/mixins/media-mixins.scss";
+
 .imgFrame {
   position: fixed;
   background-color: var(--primary-color);
@@ -14,16 +16,20 @@
   right: 20px;
   z-index: 1;
   cursor: pointer;
-}
 
-@media screen and (max-width: 700px) {
-  .imgFrame {
+  @include forMobile {
     top: 32%;
-    right: 0px;
+    right: 2px;
     padding: 10px;
     img {
       width: 23px;
       height: 23px;
+    }
+  }
+  @include forTablet {
+    img {
+      width: 28px;
+      height: 28px;
     }
   }
 }

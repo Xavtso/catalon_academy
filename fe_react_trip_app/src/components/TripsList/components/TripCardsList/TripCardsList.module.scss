@@ -1,10 +1,25 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .tripsList {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
   gap: 1rem;
+  @include forMobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
+  @include forTablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 13px;
+  }
 }
 
 .title {
@@ -12,19 +27,11 @@
   color: var(--primary-color);
   width: fit-content;
   margin-left: 40px;
-}
-
-@media screen and (max-width: 700px) {
-  .tripsList{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 10px;
-    padding: 0;
-  }
-  .title{
+  @include forMobile {
     @include textLSemiBold;
     margin-top: 20px;
   }
-
 }
+
+
+

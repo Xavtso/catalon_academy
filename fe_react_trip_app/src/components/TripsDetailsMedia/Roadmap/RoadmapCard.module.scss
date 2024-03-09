@@ -1,4 +1,5 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .card {
   margin-top: 45px;
@@ -15,7 +16,21 @@
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  @include forMobile {
+    width: 193px;
+    height: 143px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  @include forTablet {
+    width: 320px;
+    height: 203px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .cardTitle {
@@ -31,6 +46,31 @@
     @include textH3Bold;
   }
   margin-bottom: 30px;
+
+  @include forMobile {
+    gap: 2px;
+
+    h6 {
+      @include textXS;
+      color: var(--grey);
+    }
+    h3 {
+      @include textLBold;
+    }
+    margin-bottom: 10px;
+  }
+  @include forTablet {
+    gap: 10px;
+
+    h6 {
+      @include textBase;
+      color: var(--grey);
+    }
+    h3 {
+      @include textH5Bold;
+    }
+    margin-bottom: 20px;
+  }
 }
 
 .schedule {
@@ -39,13 +79,12 @@
   flex-direction: column;
   width: fit-content;
   gap: 116px;
-}
-
-.roadMapIcon{
-    position: absolute;
-    top: calc(50% - 88px);
-    left: calc(50% - 50px);
-    scale: 1.2;
+  @include forMobile {
+    gap: 32px;
+  }
+  @include forTablet {
+    gap: 64px;
+  }
 }
 
 .scheduleRow {
@@ -53,6 +92,12 @@
   justify-content: space-between;
   align-items: center;
   gap: 90px;
+  @include forMobile {
+    gap: 18px;
+  }
+  @include forTablet {
+    gap: 75px;
+  }
 }
 .textCol {
   display: flex;
@@ -65,52 +110,49 @@
     @include textL;
     color: var(--grey);
   }
-}
-@media screen and (max-width:700px) {
-  .card{
-    width: 193px;
-    height: 143px;
-    padding: 7px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
 
-  .cardTitle{
-    
-  gap: 2px;
-  
-  h6 {
-    @include textXS;
-    color: var(--grey);
+  @include forMobile {
+    gap: 5px;
+    h6 {
+      @include textXS;
+    }
+    p {
+      @include textXS;
+      color: var(--grey);
+    }
   }
-  h3 {
-    @include textLBold;
-  }
-  margin-bottom: 10px;
-  }
-  .schedule{
-    gap: 32px;
-  }
-  .scheduleRow{
-    gap: 18px;
-  }
-  .textCol {
-  gap: 5px;
-  h6 {
-    @include textXS;
-  }
-  p {
-    @include textXS;
-    color: var(--grey);
+  @include forTablet {
+    gap: 8px;
+    h6 {
+      @include textLSemiBold;
+    }
+    p {
+      @include textBase;
+      color: var(--grey);
+    }
   }
 }
-.roadMapIcon{
-    position: absolute;
-    top: calc(75% - 88px);
-    left: calc(60% - 50px);
+
+.roadMapIcon {
+  position: absolute;
+  top: calc(50% - 88px);
+  left: calc(50% - 50px);
+  scale: 1.2;
+  @include forMobile {
+    top: calc(50% - 65px);
+    left: calc(50% - 33px);
     margin: auto;
     scale: 0.5;
     width: 13px;
     height: 92px;
-}
+  }
+  @include forTablet {
+    top: calc(50% - 80px);
+    left: calc(50% - 40px);
+    margin: auto;
+    scale: 0.5;
+    width: 13px;
+    height: 92px;
+    scale: 0.8;
+  }
 }

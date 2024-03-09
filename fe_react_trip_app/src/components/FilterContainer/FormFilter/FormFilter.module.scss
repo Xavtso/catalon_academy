@@ -1,11 +1,12 @@
-@import 'styles/mixins/text-mixins.scss';
+@import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 form {
   padding: 19px;
   width: 675px;
   max-height: 91px;
 
-  box-shadow: 0px 0px 20px 0px #1461671A;
+  box-shadow: 0px 0px 20px 0px #1461671a;
   margin: 0 auto;
   border-radius: 120px;
   -webkit-border-radius: 120px;
@@ -15,41 +16,45 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  @include forMobile {
+    display: none;
+  }
+  @include forTablet {
+    display: none;
+  }
 }
 
 .inputColumn {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  label{
+  label {
     @include textLBold;
     font-weight: 500;
   }
-
 }
 
-input{
-    border: none;
-    outline: none;
-    @include textBase;
+input {
+  border: none;
+  outline: none;
+  @include textBase;
 }
 
 // input::placeholder{
 //     // @include textBase;
-    
+
 // }
 
-
-select{
+select {
+  @include textBase;
+  border: none;
+  outline: none;
+  color: var(--gray);
+  option {
     @include textBase;
-    border: none;
-    outline: none;
     color: var(--gray);
-    option{
-        @include textBase;
-        color: var(--gray);
-
-    }
+  }
 }
 
 .searchBtn {
@@ -70,19 +75,13 @@ select{
   cursor: pointer;
 }
 
-.searchBtn:hover{
-    opacity: 90%;
+.searchBtn:hover {
+  opacity: 90%;
 }
 
-.dividingLine{
-    width: 29px;
-    // height: 15px;
-    rotate: 90deg;
-    border: 1px solid #C4C4C4
-}
-
-@media  screen and (max-width:700px) {
-  form{
-    display: none;
-  }
+.dividingLine {
+  width: 29px;
+  // height: 15px;
+  rotate: 90deg;
+  border: 1px solid #c4c4c4;
 }

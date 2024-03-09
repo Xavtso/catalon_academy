@@ -1,27 +1,24 @@
-footer{
-    width: 100%;
-    background-color: var(--secondary-color);
+@import "styles/mixins/media-mixins.scss";
+
+footer {
+  width: 100%;
+  background-color: var(--secondary-color);
 }
 
-.rule{
+.rule {
+  display: none;
+  @include forLaptop {
     width: 1200px;
     height: 0.1px;
     margin: 50px auto;
     background-color: var(--white-text-color);
-
+  }
 }
 
-.flexContainer{
-    display: flex;
+.flexContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  @include forLaptop {
     flex-direction: column;
-}
-
-@media screen and (max-width:700px) {
-
-    .flexContainer{
-        flex-direction: column-reverse;
-    }
-    .rule{
-        display: none;
-    }
+  }
 }
