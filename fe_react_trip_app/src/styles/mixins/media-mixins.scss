@@ -1,15 +1,20 @@
 @mixin forMobile {
-  @media screen and (max-width: 499px) {
+  @media (max-width: 599px) {
     @content;
   }
 }
 @mixin forTablet {
-  @media screen and (min-width: 499px) and (max-width: 800px) {
+  @media (min-width: 600px) and (max-width: 899px) {
     @content;
   }
 }
 @mixin forLaptop {
-  @media screen and (min-width: 1020px) and (max-width: 1540px) {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin forLaptopLarge {
+  @media (min-width: 1240px) {
     @content;
   }
 }

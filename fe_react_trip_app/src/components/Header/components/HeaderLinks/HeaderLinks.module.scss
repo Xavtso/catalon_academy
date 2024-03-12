@@ -1,0 +1,72 @@
+@import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
+
+.linksList {
+  display: flex;
+  translate: 0 8px;
+  list-style: none;
+  gap: 1.5rem;
+  height: 80px;
+  align-items: center;
+  @include forMobile {
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-end;
+    gap: 20px;
+    height: fit-content;
+  }
+  @include forTablet {
+    flex-direction: column;
+    list-style: none;
+    height: fit-content;
+    align-items: flex-end;
+    gap: 30px;
+  }
+}
+
+.link {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include forMobile {
+    padding: 9px 30px;
+  }
+  @include forTablet {
+    padding: 9px 30px;
+  }
+}
+
+.link a {
+  @include textH6;
+  height: fit-content;
+  text-decoration: none;
+  color: var(--grey-darker);
+  translate: 0 -8px;
+
+  text-align: center;
+  @include forMobile {
+    text-align: end;
+    @include textBaseSemiBold;
+  }
+  @include forTablet {
+    text-align: end;
+    @include textBaseSemiBold;
+  }
+}
+
+.active {
+  border-bottom: 3px solid;
+  a {
+    @include textH6Bold;
+    font-weight: 600;
+  }
+  @include forMobile {
+    border: none;
+    border-right: 3px solid;
+  }
+  @include forTablet {
+    border: none;
+    border-right: 3px solid;
+  }
+}

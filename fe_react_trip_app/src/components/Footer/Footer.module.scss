@@ -8,7 +8,9 @@ footer {
 .rule {
   display: none;
   @include forLaptop {
-    width: 1200px;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
     height: 0.1px;
     margin: 50px auto;
     background-color: var(--white-text-color);
@@ -19,6 +21,9 @@ footer {
   display: flex;
   flex-direction: column-reverse;
   @include forLaptop {
+    flex-direction: column;
+  }
+  @include forLaptopLarge{
     flex-direction: column;
   }
 }

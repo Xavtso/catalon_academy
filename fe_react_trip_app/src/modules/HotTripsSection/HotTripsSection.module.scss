@@ -8,18 +8,19 @@ h2 {
     @include textH1Bold;
     color: var(--primary-color);
   }
-  margin: 50px auto;
+  padding: 50px 0;
   @include forMobile {
     @include textBase;
     span {
       @include textH6Bold;
     }
-    margin: 15px auto;
+    padding: 15px 0;
   }
 }
 
 .tripsList {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -28,6 +29,12 @@ h2 {
   }
   @include forTablet{
     gap: 12px;
+  }
+  @include forLaptop{
+    gap: 20px;
+  }
+  @include forLaptopLarge{
+    gap: 30px;
   }
 }
 

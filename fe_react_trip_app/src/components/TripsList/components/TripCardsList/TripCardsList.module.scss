@@ -2,11 +2,13 @@
 @import "styles/mixins/media-mixins.scss";
 
 .tripsList {
+  box-sizing: content-box;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  justify-content: center;
+  width: fit-content;
+  margin-inline: auto;
   gap: 1rem;
   @include forMobile {
     display: grid;
@@ -19,19 +21,16 @@
     grid-template-columns: 1fr 1fr;
     width: 100%;
     gap: 13px;
+    width: fit-content;
   }
 }
 
 .title {
   @include textH4Bold;
   color: var(--primary-color);
-  width: fit-content;
-  margin-left: 40px;
+  text-align: left;
   @include forMobile {
     @include textLSemiBold;
     margin-top: 20px;
   }
 }
-
-
-

@@ -20,7 +20,7 @@ export default function FilterButton({
 
   function handleContinentChange(value: string) {
     setActiveBtn();
-    dispatch(tripsSliceActions.setFilteredTrips(value));
+    dispatch(tripsSliceActions.setFilterValue(value));
   }
 
   return (

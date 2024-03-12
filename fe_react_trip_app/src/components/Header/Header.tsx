@@ -1,14 +1,12 @@
-import { HEADER_LINKS } from "contstants/headerData";
 import styles from "./Header.module.scss";
 import HeaderMobile from "./components/HeaderMobile";
+import HeaderLinks from "./components/HeaderLinks/HeaderLinks";
 
 export default function Header() {
-  const links = HEADER_LINKS;
-
   return (
     <header>
       <nav className={styles.navbar}>
-        <a href="/" rel="noopener noreferrer">
+        <a href="/">
           <img
             src="/assets/icons/shared/logo.svg"
             alt="logo"
@@ -16,18 +14,10 @@ export default function Header() {
             height="60"
           />
         </a>
-        <ul className={styles.linksList}>
-          {links.map((item, index) => (
-            <li key={index} className={styles.link}>
-              <a href="/" rel="noopener noreferrer">
-                {item}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <HeaderLinks />
         <ul className={styles.userActives}>
           <li className={styles.userLink}>
-            <a href="/" rel="noopener noreferrer">
+            <a href="/">
               <img
                 src="/assets/icons/shared/star.svg"
                 alt="star"
@@ -37,7 +27,7 @@ export default function Header() {
             </a>
           </li>
           <li className={styles.userLink}>
-            <a href="/" rel="noopener noreferrer">
+            <a href="/">
               <img
                 src="/assets/icons/shared/user.svg"
                 alt="user"
@@ -48,7 +38,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-        <HeaderMobile/>
+      <HeaderMobile />
     </header>
   );
 }

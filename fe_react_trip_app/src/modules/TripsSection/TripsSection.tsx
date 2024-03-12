@@ -1,15 +1,16 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllTrips } from "actions/tripsAction";
-import { AppDispatch, RootState } from "types";
+import { AppDispatch} from "types";
 import TripCardsList from "components/TripsList";
 import styles from "./TripsSection.module.scss";
 import FilterContainer from "components/FilterContainer";
 import Container from "UI/Container";
+import { selectFilteredTrips } from "store/selectors/filteredTripsSelector";
 
 export default function TripsSection() {
   const dispatch = useDispatch<AppDispatch>();
-  const { filteredTrips } = useSelector((state: RootState) => state.trips);
+  const filteredTrips = useSelector(selectFilteredTrips);
 
   useEffect(() => {
     dispatch(getAllTrips());

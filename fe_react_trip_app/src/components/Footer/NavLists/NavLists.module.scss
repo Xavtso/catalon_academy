@@ -5,8 +5,14 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: 140px;
   padding-bottom: 85px;
+
+  @include forLaptop {
+    gap: 100px;
+  }
+  @include forLaptopLarge {
+    gap: 140px;
+  }
 
   @include forMobile {
     display: flex;
@@ -66,10 +72,12 @@ ul {
 li {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 a {
   @include textL;
   color: var(--dark-text-color);
   margin-bottom: 4px;
   text-decoration: none;
+  text-wrap: nowrap;
 }

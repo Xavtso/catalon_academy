@@ -1,4 +1,5 @@
-@import 'styles/mixins/text-mixins.scss';
+@import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .card {
   width: fit-content;
@@ -15,32 +16,32 @@
 .quoteText {
   @include textL;
   font-weight: 500;
-  margin: 10px 0;  
+  margin: 10px 0;
 
-  span{
+  span {
     @include textH5SemiBold;
     color: var(--primary-color);
   }
-    width: 1000px;
-
+  width: 100%;
+  max-width: 1000px;
 }
 
-.author{
-    @include textH3Bold;
-    text-align: end;
-    margin-top: 10px;
-    span{
-        @include textH5;
-        color: var(--grey);
-    }
+.author {
+  @include textH3Bold;
+  text-align: end;
+  margin-top: 10px;
+  span {
+    @include textH5;
+    color: var(--grey);
+  }
 }
 
-.iconContainer{
-    width: fit-content;
-    rotate: 180deg;
+.iconContainer {
+  width: fit-content;
+  rotate: 180deg;
 }
 
-.iconContainer2{
-    width: fit-content;
-    margin-left: auto;
+.iconContainer2 {
+  width: fit-content;
+  margin-left: auto;
 }

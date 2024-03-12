@@ -1,26 +1,26 @@
-@import "../../../../styles/mixins/media-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .navbarMobile {
-  display: none;
   display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--secondary-color);
-    padding: 8px 16px;
-    height: 46px;
-   @include forLaptop{
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 8px 16px;
+  height: 46px;
+  @include forLaptop {
     display: none;
   }
-
+  @include forLaptopLarge {
+    display: none;
+  }
 }
 
 .logo {
-    translate: 50px 0;
+  translate: 50px 0;
 }
 
 .userActives {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
-
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

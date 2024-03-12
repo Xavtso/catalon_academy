@@ -2,15 +2,26 @@
 @import "styles/mixins/media-mixins.scss";
 
 .listsContainer {
-  margin-bottom: 42px;
+  width: fit-content;
+  max-width: 1450px;
+  padding-bottom: 42px;
+
+  margin: 0 auto;
+
   @include forMobile {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   @include forTablet {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  @include forLaptop {
+    // width: fit-content;
+  }
+  @include forLaptopLarge {
+    width: fit-content;
   }
 }
 
 .listsContainer:nth-child(2) {
-  margin-top: 30px;
+  padding-top: 30px;
 }

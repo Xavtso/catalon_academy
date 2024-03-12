@@ -56,4 +56,7 @@
   list-style: none;
   align-items: center;
   gap: 1rem;
+  @include forLaptopLarge {
+    padding-right: 20px;
+  }
 }

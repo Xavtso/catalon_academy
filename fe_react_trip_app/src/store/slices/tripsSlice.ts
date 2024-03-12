@@ -5,14 +5,12 @@ type InitialStateTypes = {
   allTrips: ContinentType[];
   filterValue: string;
   tripDetails: TripType;
-  filteredTrips: ContinentType[];
 };
 
 const initialState: InitialStateTypes = {
   allTrips: [],
   filterValue: "",
   tripDetails: {} as TripType,
-  filteredTrips: [],
 };
 
 const tripsSlice = createSlice({
@@ -21,15 +19,12 @@ const tripsSlice = createSlice({
   reducers: {
     getTrips(state, action) {
       state.allTrips = action.payload;
-      state.filteredTrips = state.allTrips;
     },
     setTripDetails(state, action) {
       state.tripDetails = action.payload;
     },
-    setFilteredTrips(state, action) {
-      state.filteredTrips = state.allTrips.filter((trips) =>
-        trips.continent.includes(action.payload),
-      );
+    setFilterValue(state, action) {
+      state.filterValue = action.payload;
     },
   },
 });

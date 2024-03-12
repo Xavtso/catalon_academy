@@ -19,7 +19,7 @@ export default function HeaderMobile() {
         height="24"
         alt="menu"
       />
-      <a className={styles.logo} href="/" rel="noopener noreferrer">
+      <a className={styles.logo} href="/">
         <img
           src="/assets/icons/shared/logo.svg"
           alt="logo"
@@ -29,7 +29,7 @@ export default function HeaderMobile() {
       </a>
       <ul className={styles.userActives}>
         <li className={styles.userLink}>
-          <a href="/" rel="noopener noreferrer">
+          <a href="/">
             <img
               src="/assets/icons/shared/searchBlack.svg"
               alt="search"
@@ -39,7 +39,7 @@ export default function HeaderMobile() {
           </a>
         </li>
         <li className={styles.userLink}>
-          <a href="/" rel="noopener noreferrer">
+          <a href="/">
             <img
               src="/assets/icons/shared/user.svg"
               alt="user"

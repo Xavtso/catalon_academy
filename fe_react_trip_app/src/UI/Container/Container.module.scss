@@ -1,6 +1,9 @@
 @import "styles/mixins/media-mixins.scss";
 
 .parentContainer {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
   padding: 0px 30px;
   @include forMobile {
     padding: 0 10px;

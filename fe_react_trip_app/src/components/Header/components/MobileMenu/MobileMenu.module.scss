@@ -1,7 +1,8 @@
 @import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
 
 .overflow {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100%;
   backdrop-filter: blur(10px);
@@ -11,26 +12,16 @@
 }
 
 .menuBody {
+  overflow: hidden;
   height: 100%;
   width: 74%;
   background-color: var(--white-text-color);
 
-  ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    align-items: flex-end;
-    gap: 20px;
-
-    li {
-      padding: 9px 30px;
-
-      a {
-        text-align: end;
-        @include textBaseSemiBold;
-      }
-    }
+  @include forTablet {
+    width: 64%;
   }
+  animation: openingMenu 1s ease-in-out;
+  -webkit-animation: openingMenu 1s ease-in-out;
 }
 
 .closeIcon {
@@ -41,7 +32,6 @@
 }
 
 .btnLogOut {
-
   @include textLSemiBold;
   color: var(--red-dark-hover);
   border: none;
@@ -49,5 +39,14 @@
   width: fit-content;
   padding: 12px 56px;
   border-radius: 7px;
-  margin:40px auto;
+  margin: 40px auto;
+}
+
+@keyframes openingMenu {
+  from {
+    translate: -100% 0;
+  }
+  to {
+    translate: 0 0;
+  }
 }
