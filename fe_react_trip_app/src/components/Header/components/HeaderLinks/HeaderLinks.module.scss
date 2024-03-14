@@ -3,24 +3,22 @@
 
 .linksList {
   display: flex;
-  translate: 0 8px;
+  flex-direction: column;
+  align-items: flex-end;
+  height: fit-content;
   list-style: none;
-  gap: 1.5rem;
-  height: 80px;
-  align-items: center;
-  @include forMobile {
-    flex-direction: column;
-    list-style: none;
-    align-items: flex-end;
-    gap: 20px;
-    height: fit-content;
-  }
+  translate: 0 8px;
+  gap: 20px;
+
   @include forTablet {
-    flex-direction: column;
-    list-style: none;
-    height: fit-content;
-    align-items: flex-end;
     gap: 30px;
+  }
+
+  @include forLaptop {
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    gap: 1.5rem;
   }
 }
 
@@ -29,44 +27,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @include forMobile {
-    padding: 9px 30px;
-  }
-  @include forTablet {
-    padding: 9px 30px;
-  }
-}
+  padding: 9px 30px;
 
-.link a {
-  @include textH6;
-  height: fit-content;
-  text-decoration: none;
-  color: var(--grey-darker);
-  translate: 0 -8px;
+  a {
+    @include textBaseSemiBold;
+    height: fit-content;
+    text-decoration: none;
+    color: var(--grey-darker);
 
-  text-align: center;
-  @include forMobile {
     text-align: end;
-    @include textBaseSemiBold;
+    @include forLaptop {
+      @include textH6;
+      text-align: center;
+      translate: 0 -8px;
+    }
   }
-  @include forTablet {
-    text-align: end;
-    @include textBaseSemiBold;
+
+  @include forLaptop {
+    padding: unset;
   }
 }
 
 .active {
-  border-bottom: 3px solid;
+  border-right: 3px solid;
   a {
     @include textH6Bold;
     font-weight: 600;
   }
-  @include forMobile {
+  @include forLaptop {
     border: none;
-    border-right: 3px solid;
-  }
-  @include forTablet {
-    border: none;
-    border-right: 3px solid;
+    border-bottom: 3px solid;
   }
 }

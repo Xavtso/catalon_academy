@@ -3,22 +3,12 @@
 
 .listsContainer {
   width: fit-content;
-  max-width: 1450px;
-  padding-bottom: 42px;
-
+  padding-bottom: 50px;
   margin: 0 auto;
 
-  @include forMobile {
-    padding-bottom: 50px;
-  }
-  @include forTablet {
-    padding-bottom: 50px;
-  }
   @include forLaptop {
-    // width: fit-content;
-  }
-  @include forLaptopLarge {
-    width: fit-content;
+    padding-bottom: 42px;
+    max-width: 1450px;
   }
 }
 

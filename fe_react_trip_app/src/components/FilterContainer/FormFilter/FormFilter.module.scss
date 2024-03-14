@@ -2,26 +2,38 @@
 @import "styles/mixins/media-mixins.scss";
 
 form {
-  padding: 19px;
-  width: 675px;
-  max-height: 91px;
+  display: none;
+  @include forLaptop {
+    padding: 19px;
+    width: 675px;
+    max-height: 91px;
 
-  box-shadow: 0px 0px 20px 0px #1461671a;
-  margin: 0 auto;
-  border-radius: 120px;
-  -webkit-border-radius: 120px;
-  -moz-border-radius: 120px;
-  -ms-border-radius: 120px;
-  -o-border-radius: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  @include forMobile {
-    display: none;
+    box-shadow: 0px 0px 20px 0px #1461671a;
+    margin: 0 auto;
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
-  @include forTablet {
-    display: none;
+  @include forLaptopLarge {
+    padding: 19px;
+    width: 675px;
+    max-height: 91px;
+
+    box-shadow: 0px 0px 20px 0px #1461671a;
+    margin: 0 auto;
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 

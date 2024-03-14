@@ -4,34 +4,36 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 100px;
+  gap: 8px;
 
-  @include forMobile {
-    gap: 8px;
-  }
   @include forTablet {
     gap: 50px;
+  }
+  @include forLaptop {
+    gap: 100px;
   }
 }
 
 .mainImgContainer {
   position: absolute;
-  width: 880px;
-  height: 550px;
-  left: 30px;
+  width: 331px;
+  height: 207px;
+  left: 10px;
   z-index: -1;
+  border-radius: 10px;
+
   background-size: cover;
-  @include forMobile {
-    width: 331px;
-    height: 207px;
-    left: 10px;
-    
-  }
+
   @include forTablet {
     width: 80%;
     height: 380px;
     left: 20px;
-    
+  }
+
+  @include forLaptop {
+    width: 880px;
+    height: 550px;
+    left: 30px;
   }
 }
 
@@ -40,23 +42,27 @@
   display: flex;
   align-items: last baseline;
   justify-content: space-evenly;
-  padding: 0 20px;
   width: 100%;
-  @include forMobile {
-    margin: auto;
-    padding: 0 10px;
-    translate: 0 -15px;
-  }
+  padding-left: 0 10px;
+  translate: 0 -15px;
+  gap: 10px;
+  margin: 0 auto;
   @include forTablet {
-    margin: auto;
-    padding: 0 10px;
     translate: 0 5px;
+  }
+  @include forLaptop {
+    width: 100vw;
+    translate: 0;
+  }
+  @include forLaptopLarge {
+    translate: -30px -30px;
   }
 }
 
 .secondaryImg {
-  width: 320px;
-  height: 200px;
+  cursor: pointer;
+  width: 86px;
+  height: 55px;
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -66,22 +72,24 @@
   -o-border-radius: 12px;
   box-shadow: 0px 0px 20px 0px #1461671a;
 
-  @include forMobile {
-    width: 86px;
-    height: 55px;
-  }
-  @include forTablet{
+  @include forTablet {
     width: 166px;
     height: 105px;
+  }
+  @include forLaptop {
+    width: 240px;
+    height: 140px;
+  }
+  @include forLaptopLarge {
+    width: 320px;
+    height: 200px;
   }
 }
 
 .btnContainer {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
-  @include forMobile {
-    width: 300px;
+  @include forLaptop {
+    width: 400px;
   }
 }
-
-

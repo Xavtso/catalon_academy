@@ -4,33 +4,30 @@
 .tripsList {
   box-sizing: content-box;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
   padding: 0;
-  width: fit-content;
+
   margin-inline: auto;
-  gap: 1rem;
-  @include forMobile {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 10px;
-  }
   @include forTablet {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
     gap: 13px;
     width: fit-content;
+  }
+  @include forLaptop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 }
 
 .title {
-  @include textH4Bold;
+  @include textLSemiBold;
+  margin-top: 20px;
   color: var(--primary-color);
   text-align: left;
-  @include forMobile {
-    @include textLSemiBold;
-    margin-top: 20px;
+  @include forLaptop {
+    @include textH4Bold;
   }
 }

@@ -14,6 +14,20 @@ export default function TripPoints({ tripPoints }: TripPointsProps) {
           />
         </div>
       ))}
+      <img
+        src="/assets/images/TripDetails/TripPoints/TripPointVectorMobileTop.svg"
+        alt="vector"
+        width="319"
+        height="84"
+        className={styles.vectorTop}
+        />
+      <img
+        src="/assets/images/TripDetails/TripPoints/TripPointVectorMobileBottom.svg"
+        alt="vector"
+        width="323"
+        height="123"
+        className={styles.vectorBottom}
+      />
     </div>
   );
 }

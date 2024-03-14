@@ -2,19 +2,19 @@
 @import "styles/mixins/media-mixins.scss";
 
 h2 {
-  @include textH2;
+  @include textBase;
   text-align: center;
   span {
-    @include textH1Bold;
+    @include textH6Bold;
     color: var(--primary-color);
   }
-  padding: 50px 0;
-  @include forMobile {
-    @include textBase;
+  padding: 15px 0;
+  @include forLaptop {
+    @include textH2;
     span {
-      @include textH6Bold;
+      @include textH1Bold;
     }
-    padding: 15px 0;
+    padding: 50px 0;
   }
 }
 
@@ -23,19 +23,15 @@ h2 {
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  @include forMobile {
-    gap: 4px;
-  }
-  @include forTablet{
+  gap: 4px;
+
+  @include forTablet {
     gap: 12px;
   }
-  @include forLaptop{
+  @include forLaptop {
     gap: 20px;
   }
-  @include forLaptopLarge{
+  @include forLaptopLarge {
     gap: 30px;
   }
 }
-
-

@@ -1,7 +1,4 @@
-import {
-  formatDateToDayMonth,
-  formatTimeTo12Hour,
-} from "actions/viewActions";
+import { formatDateToDayMonth, formatTimeTo12Hour } from "actions/viewActions";
 import { RoadmapCardProps } from "types";
 import styles from "./RoadmapCard.module.scss";
 
@@ -25,23 +22,17 @@ export default function RoadMapCard({
               <p>{formatDateToDayMonth(departure.date)}</p>
             </div>
             <div className={styles.textCol}>
-              <h6>{departure.city}</h6>
-              <p>{departure.station}</p>
-            </div>
-          </div>
-          <div className={styles.roadMapIcon}>
-            <img
-              src="/assets/images/TripDetails/roadMapVector.svg"
-              alt="roadMapIcon"
-              width="24"
-              height="181"
-
-            />
-          </div>
-          <div className={styles.scheduleRow}>
-            <div className={styles.textCol}>
               <h6>{formatTimeTo12Hour(arrival.time)}</h6>
               <p>{formatDateToDayMonth(arrival.date)}</p>
+            </div>
+          </div>
+
+          <div className={styles.roadMapIcon} />
+
+          <div className={styles.scheduleRow}>
+            <div className={styles.textCol}>
+              <h6>{departure.city}</h6>
+              <p>{departure.station}</p>
             </div>
             <div className={styles.textCol}>
               <h6>{arrival.city}</h6>
@@ -50,6 +41,13 @@ export default function RoadMapCard({
           </div>
         </div>
       </div>
+      <img
+        src="/assets/images/TripDetails/worldMap.png"
+        alt="worldMap"
+        width="563"
+        height="278"
+        className={styles.worldMapIcon}
+      />
     </div>
   );
 }

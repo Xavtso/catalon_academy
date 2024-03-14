@@ -3,9 +3,11 @@
 
 .card {
   position: relative;
-  width: 280px;
+  width: 160px;
+  height: 226px;
+  padding: 10px;
+
   max-width: 340px;
-  height: 340px;
   border-radius: 20px;
   margin: 0;
   -webkit-border-radius: 20px;
@@ -13,22 +15,20 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   box-shadow: 0px 0px 15px 0px #0f4e461a;
-  padding: 20px;
-  @include forMobile {
-    width: 160px;
-    height: 226px;
-    padding: 10px;
-  }
+
   @include forTablet {
     width: 260px;
     height: 300px;
     padding: 15px;
   }
   @include forLaptop {
-    width: clamp(220px, 250px, 280px);
+    width: 250px;
+    height: 340px;
+    padding: 20px;
   }
-  @include forLaptopLarge{
+  @include forLaptopLarge {
     width: 280px;
+    height: 340px;
   }
 }
 
@@ -48,31 +48,30 @@
 
 .titleColumn {
   h5 {
-    @include textH5Bold;
-    margin: 0;
-    margin-bottom: 8px;
+    @include textLSemiBold;
+    margin-bottom: 2px;
   }
   p {
-    @include textBase;
+    @include textSmall;
     color: var(--grey);
     display: flex;
     align-items: center;
     gap: 4px;
     margin: 0;
   }
-  @include forMobile {
-    h5 {
-      @include textLSemiBold;
-      margin-bottom: 2px;
-    }
-    p {
-      @include textSmall;
-    }
-  }
   @include forTablet {
     h5 {
       @include textH6SemiBold;
       margin-bottom: 2px;
+    }
+    p {
+      @include textBase;
+    }
+  }
+  @include forLaptop {
+    h5 {
+      @include textH5Bold;
+      margin-bottom: 8px;
     }
     p {
       @include textBase;
@@ -81,74 +80,71 @@
 }
 
 .imageContainer {
-  width: 100%;
-  height: 180px;
+  width: 160px;
+  height: 90px;
   background-size: cover;
   background-position: center;
-  @include forMobile {
-    width: 160px;
-    height: 90px;
-  }
   @include forTablet {
     width: 100%;
     height: 140px;
+  }
+  @include forLaptop {
+    width: 100%;
+    height: 180px;
   }
 }
 
 .priceContainer {
   display: flex;
   justify-content: space-between;
-  align-items: last baseline;
-  @include forMobile {
-    flex-direction: column;
-    align-items: end;
-    gap: 15px;
-  }
+  flex-direction: column;
+  align-items: end;
+  gap: 15px;
   @include forTablet {
     flex-direction: column;
     align-items: end;
     gap: 10px;
   }
+  @include forLaptop {
+    flex-direction: row;
+    align-items: last baseline;
+  }
 }
 
 .priceColumn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   p {
-    @include textL;
-    font-size: 16px;
+    @include textBase;
+    margin: unset;
     color: var(--grey);
-    margin: 0;
-    margin-bottom: 4px;
   }
   h5 {
-    @include textH5Bold;
-    margin: 0;
+    @include textLSemiBold;
   }
-  @include forMobile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  @include forTablet {
+    p {
+      @include textL;
+    }
+    h5 {
+      @include textH6SemiBold;
+    }
+  }
+  @include forLaptop {
+    display: block;
+    width: fit-content;
 
     p {
       @include textBase;
       margin: unset;
-    }
-    h5 {
-      @include textLSemiBold;
-    }
-  }
-  @include forTablet {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-
-    p {
       @include textL;
-      margin: unset;
+      font-size: 16px;
+      margin-bottom: 4px;
     }
     h5 {
-      @include textH6SemiBold;
+      @include textH5Bold;
     }
   }
 }

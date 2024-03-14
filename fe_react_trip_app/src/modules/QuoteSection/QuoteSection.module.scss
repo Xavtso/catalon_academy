@@ -1,10 +1,9 @@
 @import 'styles/mixins/media-mixins.scss';
 
 .quoteSection {
-  @include forMobile {
     display: none;
+  @include forLaptop {
+    display: block;
   }
-  @include forTablet{
-    display: none;
-  }
+ 
 }

@@ -3,6 +3,7 @@ import { TripType } from "types";
 import RoadMapCard from "./Roadmap/RoadMapCard";
 import styles from "./TripDetailsMedia.module.scss";
 import ChatButton from "UI/ChatButton";
+import { useState } from "react";
 
 interface TripDetailsMediaProps {
   trip: TripType;
@@ -16,13 +17,25 @@ const btnReferences = {
 
 export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
   const { detailed } = trip;
+  const [secondaryImages, setSecondaryImages] = useState(
+    detailed?.imageSrcsDet,
+  );
+  const [mainImg, setMainImg] = useState(detailed.imageDetMain);
+
+  // Мені це не подобається!! Тре переробити !!
+  function handleMainImgChange(imageSrc: string) {
+    const newArr = secondaryImages.filter((src) => src !== imageSrc);
+    setSecondaryImages([...newArr, mainImg]);
+    setMainImg(imageSrc);
+  }
 
   return (
     <div className={styles.mediaSection}>
+      {/* <ChatButton /> */}
       <div
         className={styles.mainImgContainer}
         style={{
-          backgroundImage: `url(${detailed.imageDetMain})`,
+          backgroundImage: `url(${mainImg})`,
         }}
       />
       <RoadMapCard
@@ -32,8 +45,9 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
         arrival={trip.arrival}
       />
       <div className={styles.secondaryImgContainer}>
-        {detailed?.imageSrcsDet?.map((imageSrc, index) => (
+        {secondaryImages.map((imageSrc, index) => (
           <div
+            onClick={() => handleMainImgChange(imageSrc)}
             className={styles.secondaryImg}
             key={index}
             style={{ backgroundImage: `url(${imageSrc})` }}
@@ -42,9 +56,8 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
       </div>
 
       <div className={styles.btnContainer}>
-        <Button references={btnReferences } onClick={()=>{}}/>
+        <Button references={btnReferences} onClick={() => {}} />
       </div>
-<ChatButton />
     </div>
   );
 }

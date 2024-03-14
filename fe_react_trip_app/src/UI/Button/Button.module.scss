@@ -2,11 +2,11 @@
 @import "styles/mixins/media-mixins.scss";
 
 .nested {
-  @include textBaseSemiBold;
-  padding: 7px 20px;
-  @include forMobile {
-    @include textSmall;
-    padding: 0;
+  @include textSmall;
+  padding: 0;
+  @include forLaptop {
+    @include textBaseSemiBold;
+    padding: 7px 20px;
   }
 }
 
@@ -19,17 +19,17 @@
 
 .outlined {
   background: none;
+  border: none;
   cursor: pointer;
-  border: 2px solid var(--primary-color);
   color: var(--primary-color);
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 
-  @include forMobile {
-    border: none;
+  @include forLaptop {
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
   }
 }
 
@@ -45,27 +45,20 @@
 }
 
 .outlined:hover {
-  @extend .filled;
-  @include forMobile {
-    background-color: transparent;
-    color: var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  @include forLaptop {
+    border: 2px solid var(--primary-color);
+    color: var(--white-text-color);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
   }
 }
 
 .filled:hover {
   @extend .outlined;
-}
-
-@media screen and (max-width: 490px) {
-  .outlined {
-    border: none;
-  }
-  .nested {
-    @include textSmall;
-    padding: 0;
-  }
-  .outlined:hover {
-    background-color: transparent;
-    color: var(--primary-color);
-  }
 }

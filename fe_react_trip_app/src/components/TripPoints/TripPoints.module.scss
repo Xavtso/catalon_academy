@@ -2,84 +2,97 @@
 @import "styles/mixins/media-mixins.scss";
 
 .tripPointsSection {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1267px;
-  margin: 0 auto;
-  background: url(../../../public/assets/images/TripDetails/TripPoints/tripPointsVector.png);
-  background-size: 1090px 300px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  position: relative;
+  display: grid;
+  background: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "Lviv Prague"
+    "Paris Berlin";
 
-  @include forMobile {
-    display: grid;
-    background: none;
-    width: 100%;
-    margin: 30px auto;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "Lviv Prague"
-      "Paris Berlin";
-  }
   @include forTablet {
-    display: grid;
-    background: none;
-    width: 100%;
-    // border: 1px solid;
     margin: 20px auto;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "Lviv Prague"
-      "Paris Berlin";
   }
+  @include forLaptop {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1267px;
+    margin: 0 auto;
+    background: url(../../../public/assets/images/TripDetails/TripPoints/tripPointsVector.png);
+    background-size: 900px 250px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  @include forLaptopLarge {
+    background-size: 1090px 300px;
+
+    background-position: bottom;
+  }
+}
+
+.vectorTop,
+.vectorBottom {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  scale: 1.6;
+  @include forTablet{
+    scale: 2;
+  }
+  @include forLaptop {
+    display: none;
+  }
+}
+.vectorTop {
+  right: 0px;
+  top: 60px;
+  translate: 0px 50px;
+  @include forTablet{
+    top: 80px;
+    translate: 40px 60px;
+  }
+}
+
+.vectorBottom {
+  bottom: 0px;
+  right: 0;
+  translate: 40px -75px;
+  rotate: 10deg;
 }
 
 .point {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   h5 {
-    @include textH5;
+    @include textH6;
     font-weight: 500;
   }
   p {
-    @include textL;
+    @include textBase;
     margin-bottom: 30px;
   }
 
-  @include forMobile {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @include forLaptop {
     h5 {
-      @include textH6;
+      @include textH5;
       font-weight: 500;
     }
     p {
-      @include textBase;
-      margin-bottom: 10px;
-    }
-  }
-  @include forTablet {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h5 {
-      @include textH6;
-      font-weight: 500;
-    }
-    p {
-      @include textBase;
+      @include textL;
       margin-bottom: 10px;
     }
   }
 }
 
 .imgContainer {
-  width: 155px;
-  height: 155px;
+  width: 120px;
+  height: 120px;
   background-size: cover;
   background-position: center;
 
@@ -91,32 +104,27 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 
-  @include forMobile {
-    width: 130px;
-    height: 130px;
-  }
   @include forTablet {
     width: 140px;
     height: 140px;
+  }
+  @include forLaptop {
+    width: 155px;
+    height: 155px;
   }
 }
 
 .Prague,
 .Berlin {
-  @include forMobile {
-    padding: 0;
-    translate: 0;
-    margin-left: auto;
+  padding: 0;
+  translate: 0;
+  margin-left: auto;
+  width: 85px;
+  .imgContainer {
     width: 85px;
-    .imgContainer {
-      width: 85px;
-      height: 85px;
-    }
+    height: 85px;
   }
   @include forTablet {
-    padding: 0;
-    translate: 0;
-    margin-left: auto;
     width: 105px;
     .imgContainer {
       width: 105px;
@@ -127,24 +135,35 @@
 
 .Prague {
   grid-area: Prague;
-  padding-top: 140px;
-  translate: -15px -35px;
-  @include forMobile {
-    padding-top: 113px;
+  padding-top: 108px;
+  translate: -10px 0px;
+  @include forTablet{
+    translate: -140px 20px;
   }
-  @include forTablet {
-    padding-top: 113px;
+  @include forLaptop {
+    translate: -100px -55px;
+    padding-top: 140px;
+  }
+  @include forLaptopLarge {
+    translate: -140px -75px;
+    padding-top: 140px;
   }
 }
 .Berlin {
   grid-area: Berlin;
-  padding-top: 119px;
-  translate: -55px -10px;
-  @include forMobile {
-    margin-top: 33px;
+  padding-top: 33px;
+  translate: -55px -40px;
+  @include forTablet{
+    translate:-260px -30px ;
   }
-  @include forTablet {
-    margin-top: 33px;
+
+  @include forLaptop {
+    padding-top: 150px;
+    translate: -150px -55px;
+  }
+  @include forLaptopLarge {
+    translate: -275px -50px;
+    padding-top: 119px;
   }
 }
 

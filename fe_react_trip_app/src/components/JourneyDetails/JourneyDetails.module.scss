@@ -2,64 +2,58 @@
 @import "styles/mixins/media-mixins.scss";
 
 .detailsSection {
-  margin-top: 50px;
-  @include forMobile {
-    padding: 20px;
-    margin-top: 30px;
-  }
-  @include forTablet{
+  padding: 20px;
+  padding-top: 30px;
+  @include forTablet {
     padding: 30px;
-    margin-top: 40px;
+    padding-top: 40px;
+  }
+  @include forLaptop {
+    padding-top: 50px;
   }
 }
 
 .textContainer {
+  position: relative;
   max-width: 870px;
   margin-inline: auto;
 }
 .title {
-  @include textH2Bold;
+  @include textLSemiBold;
   width: fit-content;
-  margin-bottom: 34px;
-  @include forMobile {
-    @include textLSemiBold;
-    margin-bottom: 10px;
-  }
-  @include forTablet{
+  @include forTablet {
     @include textH4Bold;
-    margin-bottom:20px; 
+  }
+  @include forLaptop {
+    @include textH2Bold;
   }
 }
 
 .description {
-  @include textL;
-  margin-bottom: 28px;
+  @include textBase;
+  margin-bottom: 20px;
   text-align: left;
-  @include forMobile {
-    @include textBase;
-    margin-bottom: 20px;
+  @include forLaptop {
+    @include textL;
+    margin-bottom: 28px;
   }
 }
 
 .tripPoint {
-  margin-bottom: 48px;
   max-width: 816px;
+  margin-bottom: 20px;
   h6 {
-    @include textH6SemiBold;
+    @include textBase;
+    font-weight: 500;
     margin-bottom: 5px;
   }
   p {
     @include textBase;
   }
-  @include forMobile {
-    margin-bottom: 20px;
+  @include forLaptop {
+    margin-bottom: 48px;
     h6 {
-      @include textBase;
-      font-weight: 500;
-      margin-bottom: 5px;
-    }
-    p {
-      @include textBase;
+      @include textH6SemiBold;
     }
   }
 }
@@ -72,16 +66,31 @@
 }
 
 .vector {
+  position: relative;
   float: left;
-  margin: 35px 33px 30px 21px;
-  height: 383px;
+  max-height: 490px;
+  height: 100vh;
+  width: 6px;
+  margin: 35px 16px 30px 20px;
   overflow: hidden;
-  @include forMobile {
-    overflow: hidden;
-    img {
-      height: 490px;
+  background: url(../../../public/assets/images/TripDetails/detailTripVectorMobile.svg);
+  background-position: center;
+  background-size: contain;
+  
+  // img {
+    //   height: 490px;
+    // }
+    @include forTablet {
+      background: url(../../../public/assets/images/TripDetails/detailTripVector.svg);
+      margin: 20px 16px 20px 10px;
+      max-height: 340px;
     }
-    height: 490px;
-    margin: 35px 16px 30px 20px;
+    @include forLaptop {
+      img {
+        height: unset;
+      }
+      
+      margin: 35px 33px 40px 21px;
+      max-height: 340px;
+    }
   }
-}

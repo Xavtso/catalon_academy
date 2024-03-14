@@ -2,125 +2,144 @@
 @import "styles/mixins/media-mixins.scss";
 
 .card {
-  margin-top: 45px;
-  padding: 30px 60px;
-  box-shadow: 0px 0px 20px 0px #27959e26;
-  width: 580px;
-  height: 314px;
+  position: relative;
+  width: 193px;
+  height: 143px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  background-image: url(../../../../public/assets/images/TripDetails/worldMap.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+  // background-image: url(../../../../public/assets/images/TripDetails/worldMap.png);
+  // background-size: contain;
+  // background-position: right;
+  // background-repeat: no-repeat;
   background-color: #ffffff;
-  @include forMobile {
-    width: 193px;
-    height: 143px;
-    padding: 7px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  box-shadow: 0px 0px 20px 0px #27959e26;
+
   @include forTablet {
     width: 320px;
     height: 203px;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
+  }
+  @include forLaptop {
+    margin-top: 45px;
+    padding: 30px 60px;
+    width: 480px;
+    height: 314px;
+  }
+  @include forLaptopLarge {
+    margin-top: 45px;
+    padding: 30px 60px;
+    width: 580px;
+    height: 314px;
+  }
+}
+.worldMapIcon {
+  position: absolute;
+  right: 0;
+  top: 26px;
+  width: 130px;
+  height: 75px;
+
+  @include forTablet{
+    top: 56px;
+    width: 210px;
+    height: 135px;
+  }
+  @include forLaptop{
+    top: 66px;
+    width: 355px;
+    height: 225px;
+  }
+  
+  @include forLaptopLarge {
+    top: 48px;
+    width: 450px;
+    height: 278px;
   }
 }
 
 .cardTitle {
   display: flex;
-  gap: 14px;
+  gap: 2px;
   width: fit-content;
   align-items: last baseline;
   h6 {
-    @include textH6;
+    @include textXS;
     color: var(--grey);
   }
   h3 {
-    @include textH3Bold;
+    @include textLBold;
   }
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
-  @include forMobile {
-    gap: 2px;
-
-    h6 {
-      @include textXS;
-      color: var(--grey);
-    }
-    h3 {
-      @include textLBold;
-    }
-    margin-bottom: 10px;
-  }
   @include forTablet {
     gap: 10px;
 
     h6 {
       @include textBase;
-      color: var(--grey);
     }
     h3 {
       @include textH5Bold;
     }
     margin-bottom: 20px;
   }
+  @include forLaptop {
+    gap: 14px;
+
+    h6 {
+      @include textH6;
+    }
+    h3 {
+      @include textH3Bold;
+    }
+    margin-bottom: 30px;
+  }
 }
 
 .schedule {
   position: relative;
   display: flex;
-  flex-direction: column;
   width: fit-content;
-  gap: 116px;
-  @include forMobile {
-    gap: 32px;
-  }
+  align-items: center;
+  gap: 3px;
   @include forTablet {
-    gap: 64px;
+    gap: 18px;
+  }
+  @include forLaptop {
+    gap: 36px;
   }
 }
 
 .scheduleRow {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 90px;
-  @include forMobile {
-    gap: 18px;
-  }
+  gap: 30px;
   @include forTablet {
     gap: 75px;
+  }
+  @include forLaptop {
+    gap: 90px;
   }
 }
 .textCol {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 5px;
   h6 {
-    @include textH6;
+    @include textXS;
   }
   p {
-    @include textL;
+    @include textXS;
     color: var(--grey);
   }
 
-  @include forMobile {
-    gap: 5px;
-    h6 {
-      @include textXS;
-    }
-    p {
-      @include textXS;
-      color: var(--grey);
-    }
-  }
   @include forTablet {
     gap: 8px;
     h6 {
@@ -128,31 +147,32 @@
     }
     p {
       @include textBase;
-      color: var(--grey);
+    }
+  }
+  @include forLaptop {
+    gap: 12px;
+    h6 {
+      @include textH6;
+    }
+    p {
+      @include textL;
     }
   }
 }
 
 .roadMapIcon {
-  position: absolute;
-  top: calc(50% - 88px);
-  left: calc(50% - 50px);
-  scale: 1.2;
-  @include forMobile {
-    top: calc(50% - 65px);
-    left: calc(50% - 33px);
-    margin: auto;
-    scale: 0.5;
-    width: 13px;
-    height: 92px;
-  }
+  display: block;
+  background: url(../../../../public/assets/images/TripDetails/roadMapVector.svg);
+  background-size: contain;
+  background-position: center;
+  width: 13px;
+  height: 92px;
+
   @include forTablet {
-    top: calc(50% - 80px);
-    left: calc(50% - 40px);
-    margin: auto;
-    scale: 0.5;
-    width: 13px;
-    height: 92px;
-    scale: 0.8;
+    width: 24px;
+    height: 151px;
+  }
+  @include forLaptop {
+    height: 181px;
   }
 }

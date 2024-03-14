@@ -3,7 +3,6 @@
 .imgFrame {
   position: fixed;
   background-color: var(--primary-color);
-  padding: 14px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,24 +11,29 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  top: 85%;
-  right: 20px;
+  top: 32%;
+  right: 2px;
+  padding: 10px;
+  img {
+    width: 23px;
+    height: 23px;
+  }
   z-index: 1;
   cursor: pointer;
 
-  @include forMobile {
-    top: 32%;
-    right: 2px;
-    padding: 10px;
-    img {
-      width: 23px;
-      height: 23px;
-    }
-  }
   @include forTablet {
     img {
       width: 28px;
       height: 28px;
+    }
+  }
+  @include forLaptop {
+    top: 85%;
+    right: 20px;
+    padding: 14px 14px;
+    img {
+      width: 32px;
+      height: 32px;
     }
   }
 }

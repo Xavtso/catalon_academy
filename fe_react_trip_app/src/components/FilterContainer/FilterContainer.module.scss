@@ -10,42 +10,41 @@
 }
 
 .headline {
-  @include textH4;
+  @include textSmall;
   position: relative;
-  font-size: 28px;
-  text-align: center;
-  width: 100%;
-  max-width: 1111px;
-  height: 114px;
-  padding-top:  50px;
+  text-wrap: wrap;
+  width: unset;
+  height: unset;
+  text-align: left;
+  padding-top: 20px;
 
   span {
-    @include textH3Bold;
-    font-weight: 600;
-    font-size: 38px;
+    @include textBaseBold;
   }
-  @include forMobile {
-    @include textSmall;
-    text-wrap: wrap;
-    width: unset;
-    height: unset;
-    text-align: left;
-    padding-top: 20px;
 
+  @include forTablet {
+    @include textH5;
+
+    text-align: center;
+    padding-top: 50px;
     span {
-      @include textBaseBold;
+      @include textH4Bold;
     }
   }
-  @include forTablet{
-      @include textH5;
-    text-wrap: wrap;
-    width: unset;
-    height: unset;
+
+  @include forLaptop {
+    @include textH4;
+    font-size: 28px;
     text-align: center;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1111px;
+    height: 114px;
     padding-top: 50px;
-    span{
-      @include textH4Bold;
+
+    span {
+      @include textH3Bold;
+      font-weight: 600;
+      font-size: 38px;
     }
   }
 }

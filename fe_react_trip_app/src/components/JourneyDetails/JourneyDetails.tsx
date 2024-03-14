@@ -8,15 +8,15 @@ export default function JourneyDetails({ details }: JourneyDetailsProps) {
         <h2 className={styles.title}>Detail Trip</h2>
         <p className={styles.description}>{details.description}</p>
         <div className={styles.vector}>
-          <img
+          {/* <img
             alt="tripsVector"
             srcSet="
       /assets/images/TripDetails/detailTripVectorMobile.svg 340w,
       /assets/images/TripDetails/detailTripVector.svg 616w
     "
-            sizes="(max-width: 500px) 340px, 616px"
+            sizes="(max-width: 900px) 340px, 616px"
             src="/assets/images/TripDetails/detailTripVector.svg"
-          />
+          /> */}
         </div>
 
         {details.tripPoints.map((point, index) => (

@@ -2,23 +2,23 @@
 @import "styles/mixins/media-mixins.scss";
 
 .btnFilter {
-  @include textH6;
+  @include textBase;
+  border-bottom: 2px solid var(--tertiary-color);
+  padding-bottom: 2.5px;
 
   background: none;
   border: none;
-  border-bottom: 3px solid var(--tertiary-color);
   cursor: pointer;
-  padding-bottom: 40px;
   max-height: 53px;
 
-  @include forMobile {
-    @include textBase;
-    border-bottom: 2px solid var(--tertiary-color);
-    padding-bottom: 2.5px;
-  }
   @include forTablet {
     @include textBaseSemiBold;
     padding-bottom: 20px;
+  }
+  @include forLaptop {
+    @include textH6;
+    border-bottom: 3px solid var(--tertiary-color);
+    padding-bottom: 40px;
   }
 }
 
@@ -27,12 +27,12 @@
 }
 
 .active {
-  @include textH6SemiBold;
+  @include textLSemiBold;
+  padding-bottom: 1px;
   color: var(--primary-color);
   border-color: var(--primary-color);
-  @include forMobile {
-    @include textLSemiBold;
-    border-color: var(--primary-color);
-    padding-bottom: 1px;
+  @include forLaptop {
+    @include textH6SemiBold;
+    padding-bottom: 40px;
   }
 }
