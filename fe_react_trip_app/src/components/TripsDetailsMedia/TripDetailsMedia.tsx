@@ -23,15 +23,15 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
   const [mainImg, setMainImg] = useState(detailed.imageDetMain);
 
   // Мені це не подобається!! Тре переробити !!
-  function handleMainImgChange(imageSrc: string) {
-    const newArr = secondaryImages.filter((src) => src !== imageSrc);
-    setSecondaryImages([...newArr, mainImg]);
+  function handleMainImgChange(imageSrc: string, imgIndex: number) {
+    const newArr = secondaryImages.filter((_, index) => index !== imgIndex);
     setMainImg(imageSrc);
+    setSecondaryImages([...newArr, mainImg]);
   }
 
   return (
     <div className={styles.mediaSection}>
-      {/* <ChatButton /> */}
+      <ChatButton />
       <div
         className={styles.mainImgContainer}
         style={{
@@ -47,7 +47,7 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
       <div className={styles.secondaryImgContainer}>
         {secondaryImages.map((imageSrc, index) => (
           <div
-            onClick={() => handleMainImgChange(imageSrc)}
+            onClick={() => handleMainImgChange(imageSrc,index)}
             className={styles.secondaryImg}
             key={index}
             style={{ backgroundImage: `url(${imageSrc})` }}
