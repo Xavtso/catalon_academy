@@ -29,8 +29,10 @@ export type TripType = {
   };
   detailed: {
     description: string;
-    imageDetMain: string;
-    imageSrcsDet: string[];
+    imageSrcsDet: {
+      id: number;
+      src: string;
+    }[];
     tripPoints: {
       city: string;
       country: string;
@@ -55,8 +57,10 @@ export type ContinentType = {
 export interface JourneyDetailsProps {
   details: {
     description: string;
-    imageDetMain: string;
-    imageSrcsDet: string[];
+    imageSrcsDet: {
+      id: number;
+      src: string;
+    }[];
     tripPoints: {
       city: string;
       country: string;
@@ -99,4 +103,3 @@ export interface TripPointsProps {
 export interface LayoutProps {
   children: ReactNode;
 }
-

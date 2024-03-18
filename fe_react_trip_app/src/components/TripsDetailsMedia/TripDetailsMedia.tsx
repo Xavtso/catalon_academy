@@ -16,18 +16,12 @@ const btnReferences = {
 };
 
 export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
-  const { detailed } = trip;
-  const [secondaryImages, setSecondaryImages] = useState(
-    detailed?.imageSrcsDet,
-  );
-  const [mainImg, setMainImg] = useState(detailed.imageDetMain);
+  const { imageSrcsDet } = trip.detailed;
+  const [mainImg, setMainImg] = useState(imageSrcsDet[0]);
 
-  // Мені це не подобається!! Тре переробити !!
-  function handleMainImgChange(imageSrc: string, imgIndex: number) {
-    const newArr = secondaryImages.filter((_, index) => index !== imgIndex);
-    setMainImg(imageSrc);
-    setSecondaryImages([...newArr, mainImg]);
-  }
+  const filteredImages = imageSrcsDet.filter(
+    (image) => image.id !== mainImg.id,
+  );
 
   return (
     <div className={styles.mediaSection}>
@@ -35,7 +29,7 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
       <div
         className={styles.mainImgContainer}
         style={{
-          backgroundImage: `url(${mainImg})`,
+          backgroundImage: `url(${mainImg.src})`,
         }}
       />
       <RoadMapCard
@@ -45,12 +39,12 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
         arrival={trip.arrival}
       />
       <div className={styles.secondaryImgContainer}>
-        {secondaryImages.map((imageSrc, index) => (
+        {filteredImages.map((image) => (
           <div
-            onClick={() => handleMainImgChange(imageSrc,index)}
+            onClick={() => setMainImg(image)}
             className={styles.secondaryImg}
-            key={index}
-            style={{ backgroundImage: `url(${imageSrc})` }}
+            key={image.id}
+            style={{ backgroundImage: `url(${image.src})` }}
           />
         ))}
       </div>

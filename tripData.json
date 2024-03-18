@@ -23,12 +23,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Paris, France, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -88,12 +103,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -153,12 +183,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -218,12 +263,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -283,12 +343,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -348,12 +423,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -413,12 +503,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -478,12 +583,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -548,12 +668,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -613,12 +748,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -678,12 +828,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -743,12 +908,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -808,12 +988,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -873,12 +1068,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -938,12 +1148,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1003,12 +1228,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1073,12 +1313,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1138,12 +1393,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1203,12 +1473,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1268,12 +1553,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1333,12 +1633,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1398,12 +1713,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1463,12 +1793,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1528,12 +1873,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1598,12 +1958,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1663,12 +2038,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1728,12 +2118,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1793,12 +2198,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1858,12 +2278,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1923,12 +2358,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -1988,12 +2438,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
@@ -2053,12 +2518,27 @@
           },
           "detailed": {
             "description": "Embarking on a bus journey from Lviv, Ukraine to Barcelona, Spain, with stops in the enchanting cities of Prague and Berlin, promises to be a captivating adventure, leading you through picturesque corners of Europe.",
-            "imageDetMain": "/assets/images/TripDetails/mainImgDet.png",
             "imageSrcsDet": [
-              "/assets/images/TripDetails/Paris1.jpg",
-              "/assets/images/TripDetails/Paris2.jpg",
-              "/assets/images/TripDetails/Paris3.jpg",
-              "/assets/images/TripDetails/Paris4.jpg"
+              {
+                "id": 0,
+                "src": "/assets/images/TripDetails/mainImgDet.png"
+              },
+              {
+                "id": 1,
+                "src": "/assets/images/TripDetails/Paris1.jpg"
+              },
+              {
+                "id": 2,
+                "src": "/assets/images/TripDetails/Paris2.jpg"
+              },
+              {
+                "id": 3,
+                "src": "/assets/images/TripDetails/Paris3.jpg"
+              },
+              {
+                "id": 4,
+                "src": "/assets/images/TripDetails/Paris4.jpg"
+              }
             ],
             "tripPoints": [
               {
