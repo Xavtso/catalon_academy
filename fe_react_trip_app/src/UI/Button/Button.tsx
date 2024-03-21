@@ -1,13 +1,7 @@
-import { BtnReferencesType } from "types";
+import { BtnProps } from "types";
 import styles from "./Button.module.scss";
 
-type BtnProps = {
-  references: BtnReferencesType;
-  onClick: () => void;
-};
-
-export default function Button({ references, onClick }: BtnProps) {
-  const { title, size, fillType } = references;
+export default function Button({ title, size, fillType, onClick }: BtnProps) {
 
   const btnClassName = `${styles[size]} ${styles[fillType]}`;
 

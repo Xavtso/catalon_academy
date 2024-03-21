@@ -1,18 +1,14 @@
-import { Route, Routes } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import { RouterProvider } from "react-router-dom";
+// import Homepage from "./pages/Homepage";
 import "./styles/globals.scss";
-import Layout from "./components/Layout";
-import TripDetailsSection from "./modules/TripDetailsSection";
+// import Layout from "./components/Layout";
+// import TripDetailsSection from "./pages/TripDetailsPage";
+import { router } from "contstants/Router";
 
 function App() {
 
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/detailed/*" element={<TripDetailsSection />} />
-      </Routes>
-    </Layout>
+    <RouterProvider router={router}/>
   );
 }
 

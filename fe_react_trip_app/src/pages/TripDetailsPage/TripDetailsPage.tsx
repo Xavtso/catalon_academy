@@ -1,23 +1,25 @@
 import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "types";
+import { AppDispatch } from "types";
 import { useEffect } from "react";
 import { getTripDetalis } from "actions/tripsAction";
 import TripDetailsMedia from "components/TripsDetailsMedia";
 import Container from "UI/Container";
 import JourneyDetails from "components/JourneyDetails";
-import styles from "./TripDetailsSection.module.scss";
+import styles from "./TripDetailsPage.module.scss";
 import TripPoints from "components/TripPoints";
+import { useParams } from "react-router-dom";
+import { selectTripDetails } from "store/selectors/tripDetailsSelector";
+import NotFound from "components/NotFound";
 
 export default function TripDetailsSection() {
   const dispatch = useDispatch<AppDispatch>();
-  const tripDetails = useSelector(
-    (state: RootState) => state.trips.tripDetails,
-  );
+  const tripDetails = useSelector(selectTripDetails);
   const details = tripDetails?.detailed;
+  const params = useParams();
 
   useEffect(() => {
-    dispatch(getTripDetalis());
-  }, [dispatch]);
+    dispatch(getTripDetalis(params.id));
+  }, [dispatch, params]);
 
   return (
     <section className={styles.tripDetails}>
@@ -25,10 +27,10 @@ export default function TripDetailsSection() {
         <Container>
           <TripDetailsMedia trip={tripDetails} />
           <JourneyDetails details={details} />
-          <TripPoints tripPoints={details?.tripPoints} />
+          <TripPoints tripPoints={details.tripPoints} />
         </Container>
       ) : (
-        <div> Error Kurwa</div>
+        <NotFound />
       )}
     </section>
   );

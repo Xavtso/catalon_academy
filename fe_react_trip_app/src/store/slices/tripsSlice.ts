@@ -1,16 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { ContinentType, TripType } from "types";
+import { ContinentType, Trip } from "types";
 
 type InitialStateTypes = {
   allTrips: ContinentType[];
   filterValue: string;
-  tripDetails: TripType;
+  tripDetails: Trip;
 };
 
 const initialState: InitialStateTypes = {
   allTrips: [],
   filterValue: "",
-  tripDetails: {} as TripType,
+  tripDetails: {} as Trip,
 };
 
 const tripsSlice = createSlice({

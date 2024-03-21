@@ -2,11 +2,6 @@ import Button from "UI/Button";
 import styles from "./FormFilterMobile.module.scss";
 
 export default function FormFilterMobile() {
-  const btnReferences = {
-    size: "fullSize",
-    title: "Search",
-    fillType: "filled",
-  };
 
   return (
     <form className={styles.mobileForm}>
@@ -25,7 +20,7 @@ export default function FormFilterMobile() {
       <label>Where</label>
       <select />
       <div>
-        <Button references={btnReferences} onClick={() => {}} />
+        <Button size='fullSize' fillType='filled' title='Search' onClick={() => {}} />
       </div>
     </form>
   );

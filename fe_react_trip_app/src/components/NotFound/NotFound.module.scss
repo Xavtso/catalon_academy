@@ -1,0 +1,42 @@
+@import "../../styles/mixins/text-mixins.scss";
+@import "../../styles/mixins/media-mixins.scss";
+
+.notfound {
+  text-align: center;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+.textContent {
+    width: 90%;
+    margin: 0 auto;
+
+    h2{
+        @include textH5;
+    }
+    h3{
+        @include textLSemiBold;
+    }
+
+
+    @include forLaptop{
+
+        width: 70%;
+        
+        h2 {
+            @include textH2;
+        }
+        h3 {
+            @include textH4;
+        }
+    }
+}
+.btnContainer {
+  width: 80%;
+  margin: 30px auto;
+}

@@ -6,7 +6,7 @@ export default function TripPoints({ tripPoints }: TripPointsProps) {
     <div className={styles.tripPointsSection}>
       {tripPoints.map((point, index) => (
         <div key={index} className={`${styles.point} ${styles[point.city]}`}>
-          <h5>{point.city}</h5>
+          <p className={styles.pointTitle}>{point.city}</p>
           <p>{point.country}</p>
           <div
             className={styles.imgContainer}

@@ -1,19 +1,13 @@
 import Button from "UI/Button";
-import { TripType } from "types";
+import { Trip } from "types";
 import RoadMapCard from "./Roadmap/RoadMapCard";
 import styles from "./TripDetailsMedia.module.scss";
-import ChatButton from "UI/ChatButton";
+
 import { useState } from "react";
 
 interface TripDetailsMediaProps {
-  trip: TripType;
+  trip: Trip;
 }
-
-const btnReferences = {
-  title: "Book now",
-  size: "fullSize",
-  fillType: "filled",
-};
 
 export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
   const { imageSrcsDet } = trip.detailed;
@@ -25,7 +19,6 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
 
   return (
     <div className={styles.mediaSection}>
-      <ChatButton />
       <div
         className={styles.mainImgContainer}
         style={{
@@ -50,7 +43,12 @@ export default function TripDetailsMedia({ trip }: TripDetailsMediaProps) {
       </div>
 
       <div className={styles.btnContainer}>
-        <Button references={btnReferences} onClick={() => {}} />
+        <Button
+          title="Book now"
+          size="fullSize"
+          fillType="filled"
+          onClick={() => {}}
+        />
       </div>
     </div>
   );

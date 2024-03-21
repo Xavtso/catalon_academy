@@ -7,7 +7,7 @@ const baseUrl =
 export function getAllTrips() {
   return async (dispatch: AppDispatch) => {
     try {
-      const response = await axios.get(`${baseUrl}/allTrips.json`);
+      const response = await axios.get(`${baseUrl}/sortedTrips.json`);
       dispatch(tripsSliceActions.getTrips(response.data));
     } catch (err) {
       console.log(err);
@@ -15,16 +15,10 @@ export function getAllTrips() {
   };
 }
 
-export function getTripDetalis() {
+export function getTripDetalis(id: string | undefined) {
   return async (dispatch: AppDispatch) => {
     try {
-      const pathArray = window.location.pathname.split("/");
-      const listIndex = pathArray[2];
-      const tripIndex = pathArray[4];
-
-      const response = await axios.get(
-        `${baseUrl}/allTrips/${listIndex}/trips/${tripIndex}.json`,
-      );
+      const response = await axios.get(`${baseUrl}/allTrips/${id}.json`);
 
       dispatch(tripsSliceActions.setTripDetails(response.data));
     } catch (err) {

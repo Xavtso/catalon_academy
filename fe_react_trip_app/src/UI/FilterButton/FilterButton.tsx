@@ -1,14 +1,8 @@
-import { AppDispatch } from "types";
+import { AppDispatch, FilterButtonProps } from "types";
 import { tripsSliceActions } from "store/slices/tripsSlice";
 import { useDispatch } from "react-redux";
 import styles from "./FilterButton.module.scss";
 
-interface FilterButtonProps {
-  title: string;
-  value: string;
-  isActive: boolean;
-  setActiveBtn: () => void;
-}
 
 export default function FilterButton({
   title,

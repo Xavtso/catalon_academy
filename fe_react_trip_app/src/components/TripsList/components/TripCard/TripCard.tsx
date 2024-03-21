@@ -1,31 +1,19 @@
 import { useNavigate } from "react-router-dom";
 import Button from "UI/Button";
 import { formatDateToMonthDay } from "actions/viewActions";
-import { TripType } from "types";
+import { Trip } from "types";
 import styles from "./TripCard.module.scss";
 
-type TripCardProps = {
-  trip: TripType;
-  tripIndex: number;
-  listIndex: number;
-};
+interface TripCardProps {
+  trip: Trip;
+}
 
-export default function TripCard({
-  trip,
-  tripIndex,
-  listIndex,
-}: TripCardProps) {
-  const { city, arrival, departure, totalPrice, imageSrc} = trip;
-
-  const btnReferences = {
-    title: "View Details",
-    size: "nested",
-    fillType: "outlined",
-  };
+export default function TripCard({ trip }: TripCardProps) {
+  const { city, arrival, departure, totalPrice, imageSrc, id } = trip;
 
   const navigateTo = useNavigate();
   function navToDetails() {
-    navigateTo(`/detailed/${listIndex}/trips/${tripIndex}`);
+    navigateTo(`/detailed/${id}`);
   }
 
   return (
@@ -62,7 +50,12 @@ export default function TripCard({
             <p>Total price:</p>
             <h5>{totalPrice} $</h5>
           </div>
-          <Button references={btnReferences} onClick={navToDetails} />
+          <Button
+            title="View Details"
+            size="nested"
+            fillType="outlined"
+            onClick={navToDetails}
+          />
         </div>
       </div>
     </div>

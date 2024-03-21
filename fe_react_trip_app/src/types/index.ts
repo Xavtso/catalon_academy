@@ -3,13 +3,15 @@ import { ReactNode } from "react";
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 
-export type BtnReferencesType = {
-  size: string;
-  fillType: string;
-  title: string;
+// Trips Data Types
+
+export type ContinentType = {
+  continent: string;
+  trips: Trip[];
 };
 
-export type TripType = {
+export type Trip = {
+  id: number;
   continent: string;
   country: string;
   city: string;
@@ -49,10 +51,17 @@ export type TripType = {
   };
 };
 
-export type ContinentType = {
-  continent: string;
-  trips: TripType[];
+type TripPoints = {
+  city: string;
+  country: string;
+  title: string;
+  description: string;
+  imageSrc: string;
 };
+
+export interface TripPointsProps {
+  tripPoints: TripPoints[];
+}
 
 export interface JourneyDetailsProps {
   details: {
@@ -61,13 +70,7 @@ export interface JourneyDetailsProps {
       id: number;
       src: string;
     }[];
-    tripPoints: {
-      city: string;
-      country: string;
-      title: string;
-      description: string;
-      imageSrc: string;
-    }[];
+    tripPoints: TripPoints[];
     conclusion: string;
   };
 }
@@ -90,16 +93,22 @@ export interface RoadmapCardProps {
   };
 }
 
-export interface TripPointsProps {
-  tripPoints: {
-    city: string;
-    country: string;
-    title: string;
-    description: string;
-    imageSrc: string;
-  }[];
-}
 
+// Other
 export interface LayoutProps {
   children: ReactNode;
+}
+
+export type BtnProps = {
+  size: string;
+  fillType: string;
+  title: string;
+  onClick: () => void;
+};
+
+export interface FilterButtonProps {
+  title: string;
+  value: string;
+  isActive: boolean;
+  setActiveBtn: () => void;
 }
