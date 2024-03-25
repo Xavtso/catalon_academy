@@ -1,6 +1,7 @@
 import styles from "./Header.module.scss";
 import HeaderMobile from "./components/HeaderMobile";
 import HeaderLinks from "./components/HeaderLinks/HeaderLinks";
+import { pathConstants } from "contstants/Router/pathConstants";
 
 export default function Header() {
   return (
@@ -27,7 +28,7 @@ export default function Header() {
             </a>
           </li>
           <li className={styles.userLink}>
-            <a href="/">
+            <a href={pathConstants.SIGN_IN}>
               <img
                 src="/assets/icons/shared/user.svg"
                 alt="user"
