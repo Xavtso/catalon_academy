@@ -1,6 +1,7 @@
 export const pathConstants = {
-    HOME:'/',
-    DETAILED: 'detailed/:id',
-    AUTH: 'auth',
-    // NOT_FOUND: '/notFound',
-}
+  HOME: "/",
+  DETAILED: "/detailed/:id",
+  AUTH: "/auth",
+  SIGN_IN: "/auth/signIn",
+  SIGN_UP: "/auth/signUp",
+};

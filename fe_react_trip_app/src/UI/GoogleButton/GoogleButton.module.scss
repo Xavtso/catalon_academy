@@ -7,14 +7,19 @@
   max-width: 300px;
   padding: 12px 0;
   text-align: center;
-  background: url(../../../public/assets/icons/shared/google.svg) center left no-repeat
-    #ffff;
+  background: url(../../../public/assets/icons/shared/google.svg) center left
+    no-repeat #ffff;
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   margin: 0 auto;
 
+  @include forTablet {
+    max-width: 350px;
+    padding: 14px 0;
+  }
+
   @include forLaptop {
     max-width: 400px;
-    padding: 14px 0;
+    padding: 18px 0;
   }
 }

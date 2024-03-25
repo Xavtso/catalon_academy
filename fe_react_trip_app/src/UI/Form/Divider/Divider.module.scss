@@ -24,4 +24,10 @@
     @include textBaseSemiBold;
     color: var(--primary-color);
   }
+  @include forTablet{
+    max-width: 350px;
+  }
+  @include forLaptop{
+    max-width: 400px;
+  }
 }

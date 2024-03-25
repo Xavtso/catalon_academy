@@ -1,12 +1,12 @@
 // import Container from "UI/Container"; // Smth happened with it
-import SignUp from "components/SignUp";
 import styles from "./AuthPage.module.scss";
+import { Outlet } from "react-router-dom";
 
 export default function AuthPage() {
   return (
     <section className={styles.authPage}>
       <div className={styles.authContainer}>
-        <SignUp />
+        <Outlet />
       </div>
     </section>
   );

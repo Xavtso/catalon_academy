@@ -32,7 +32,7 @@ export const fieldRules = {
     },
   },
   email: {
-    required: "Email Address is Required",
+    required: "* Email Address is Required",
     pattern: {
       value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
       message: "* Not valid",
@@ -52,11 +52,11 @@ export const fieldRules = {
 
     minLength: {
       value: 8,
-      message: "Password must be at least 8 characters long.",
+      message: "* Password must be at least 8 characters long.",
     },
     maxLength: {
       value: 16,
-      message: "Password must not exceed 16 characters.",
+      message: "* Password must not exceed 16 characters.",
     },
   },
   age: {

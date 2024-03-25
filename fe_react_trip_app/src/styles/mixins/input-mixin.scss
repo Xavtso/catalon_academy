@@ -4,6 +4,8 @@
 @mixin formInput {
   @include textBase;
   position: relative;
+  width: 100%;
+  max-width: 260px;
   outline: none;
   border: 1px solid var(--secondary-color);
   padding: 12.8px 18.75px;
@@ -12,10 +14,12 @@
   color: var(--grey-dark-active);
 
   @include forTablet{
+    max-width: 310px;
     padding: 13.5px 20px;
   }
   
   @include forLaptop {
+    max-width: 350px;
     padding: 15px 25px;
   }
 }
@@ -35,10 +39,17 @@
   margin-right: 5px;
   border: 23px solid ;
   background-color: var(--primary-color);
+  @include forTablet{
+    width: 16px;
+    height: 16px;
+  }
   
 }
 
 @mixin checkLabel{
   @include textSmall;
   color: var(--secondary-color);
+  @include forTablet{
+    @include textBase;
+  }
 }

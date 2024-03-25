@@ -1,0 +1,43 @@
+@import "styles/mixins/sign-mixin.scss";
+@import "styles/mixins/input-mixin.scss";
+@import "styles/mixins/text-mixins.scss";
+@import "styles/mixins/media-mixins.scss";
+
+.signCard {
+  @include signCard;
+}
+.signTitle {
+  @include signTitle;
+}
+
+.signIn {
+  @include signForm;
+}
+
+.rule {
+  @include rule;
+}
+.reference {
+  @include reference;
+}
+
+.checkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  input {
+    @include checkInput;
+  }
+  label {
+    @include checkLabel;
+  }
+  p {
+    @include textBaseSemiBold;
+    color: var(--primary-color);
+  }
+}

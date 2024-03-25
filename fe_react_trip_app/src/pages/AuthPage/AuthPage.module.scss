@@ -1,7 +1,10 @@
 @import "../../styles/mixins/media-mixins.scss";
 
-
-
+.authPage {
+  background: url(../../../public/assets/images/shared/signBackground.svg)
+    no-repeat center;
+  background-size: cover;
+}
 .authContainer {
   // position: relative;
   padding: 20px 10px;

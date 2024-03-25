@@ -9,6 +9,9 @@ import SelectInput from "UI/Form/SignInputs/SelectInput/SelectInput";
 import ErrorMessage from "UI/Form/ErrorMessage";
 import Divider from "UI/Form/Divider";
 import GoogleButton from "UI/GoogleButton/GoogleButton";
+import { pathConstants } from "contstants/Router/pathConstants";
+import { useNavigate } from "react-router-dom";
+import PasswordInput from "UI/Form/PasswordInput";
 
 export default function SignUp() {
   const {
@@ -21,6 +24,8 @@ export default function SignUp() {
     console.log(data);
     await registerUser(data);
   };
+
+  const navigateTo = useNavigate();
 
   return (
     <div className={styles.signCard}>
@@ -62,10 +67,8 @@ export default function SignUp() {
         />
         <ErrorMessage fieldError={errors.email} />
 
-        <Input
-          type="password"
+        <PasswordInput
           inputClassName={errors.password ? "inputErr" : "formInput"}
-          placeholder="Password"
           fieldName="password"
           register={register}
           rules={fieldRules.password}
@@ -132,7 +135,10 @@ export default function SignUp() {
         />
       </form>
       <hr className={styles.rule} />
-      <p className={styles.reference}>Already have an account?<span>Sign In</span></p>
+      <p className={styles.reference}>
+        Already have an account?
+        <span onClick={() => navigateTo(pathConstants.SIGN_IN)}>Sign In</span>
+      </p>
     </div>
   );
 }
