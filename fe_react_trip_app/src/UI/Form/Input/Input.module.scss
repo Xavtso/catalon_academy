@@ -1,0 +1,12 @@
+@import "styles/mixins/input-mixin.scss";
+.formInput {
+  @include formInput;
+}
+
+.inputErr{
+  @include formInput;
+  border:  2px solid var(--red);
+}
+.checkInput {
+    @include checkInput;
+}

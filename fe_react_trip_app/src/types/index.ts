@@ -1,5 +1,6 @@
 import store from "store";
 import { ReactNode } from "react";
+import { UseFormRegister } from "react-hook-form";
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 
@@ -93,7 +94,6 @@ export interface RoadmapCardProps {
   };
 }
 
-
 // Other
 export interface LayoutProps {
   children: ReactNode;
@@ -111,4 +111,46 @@ export interface FilterButtonProps {
   value: string;
   isActive: boolean;
   setActiveBtn: () => void;
+}
+
+// Forms
+
+enum GenderEnum {
+  female = "female",
+  male = "male",
+  other = "other",
+}
+
+export interface SignUpFormType {
+  firstName: string;
+  lastName: string;
+  email: string;
+  password: string;
+  phoneNumber: string;
+  age: number;
+  gender: GenderEnum;
+  privacy: boolean;
+}
+
+
+type optionsDataType = {
+  value: string;
+  title: string;
+}
+
+export interface InputProps {
+  placeholder?: string;
+  inputClassName: string;
+  type?:
+    | "text"
+    | "password"
+    | "email"
+    | "tel"
+    | "number"
+    | "checkbox"
+    | "select";
+  fieldName: string;
+  register: UseFormRegister<any>;
+  rules: object;
+  optionsData?: optionsDataType[];
 }

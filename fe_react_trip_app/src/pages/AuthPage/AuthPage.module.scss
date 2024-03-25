@@ -1,0 +1,14 @@
+@import "../../styles/mixins/media-mixins.scss";
+
+
+
+.authContainer {
+  // position: relative;
+  padding: 20px 10px;
+  @include forTablet {
+    padding: 30px 20px;
+  }
+  @include forLaptop {
+    padding: 35px;
+  }
+}

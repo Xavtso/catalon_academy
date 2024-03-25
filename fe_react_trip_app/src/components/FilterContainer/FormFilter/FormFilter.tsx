@@ -2,7 +2,7 @@ import styles from "./FormFilter.module.scss";
 
 export default function FormFilter() {
   return (
-    <form>
+    <form className={styles.formFilter}>
       <div className={styles.inputColumn}>
         <label htmlFor="destination">Where</label>
         <input

@@ -1,7 +1,7 @@
 @import "styles/mixins/text-mixins.scss";
 @import "styles/mixins/media-mixins.scss";
 
-form {
+.formFilter {
   display: none;
   @include forLaptop {
     padding: 19px;
@@ -45,29 +45,29 @@ form {
     @include textLBold;
     font-weight: 500;
   }
-}
-
-input {
-  border: none;
-  outline: none;
-  @include textBase;
-}
-
-// input::placeholder{
-//     // @include textBase;
-
-// }
-
-select {
-  @include textBase;
-  border: none;
-  outline: none;
-  color: var(--gray);
-  option {
+  input {
+    border: none;
+    outline: none;
     @include textBase;
+  }
+  
+  // input::placeholder{
+  //     // @include textBase;
+  
+  // }
+  
+  select {
+    @include textBase;
+    border: none;
+    outline: none;
     color: var(--gray);
+    option {
+      @include textBase;
+      color: var(--gray);
+    }
   }
 }
+
 
 .searchBtn {
   border: none;

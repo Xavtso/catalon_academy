@@ -1,0 +1,44 @@
+@import "./text-mixins.scss";
+@import "./media-mixins.scss";
+
+@mixin formInput {
+  @include textBase;
+  position: relative;
+  outline: none;
+  border: 1px solid var(--secondary-color);
+  padding: 12.8px 18.75px;
+  border-radius: 10px;
+  background-color: var(--white-text-color);
+  color: var(--grey-dark-active);
+
+  @include forTablet{
+    padding: 13.5px 20px;
+  }
+  
+  @include forLaptop {
+    padding: 15px 25px;
+  }
+}
+
+
+
+
+::-webkit-input-placeholder {
+  @include textBase;
+  color: grey;
+}
+
+@mixin checkInput {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  margin-right: 5px;
+  border: 23px solid ;
+  background-color: var(--primary-color);
+  
+}
+
+@mixin checkLabel{
+  @include textSmall;
+  color: var(--secondary-color);
+}

@@ -1,0 +1,12 @@
+@import "styles/mixins/text-mixins.scss";
+.errorMsg {
+    @include textBase;
+    color: var(--red);
+    padding-left: 10px;
+    margin-top: -10px;
+    // translate: 0 -10px;
+    // border: 1px solid;
+}
+.errorMsg:last-child{
+    margin: unset;
+}
