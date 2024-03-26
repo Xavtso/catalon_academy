@@ -1,7 +1,7 @@
 import { SignUpFormType } from "types";
 import styles from "./SignIn.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { loginUser, registerUser } from "actions/authActions";
+import { loginUser } from "actions/authActions";
 import Button from "UI/Button";
 import { fieldRules } from "contstants/inputRulesData";
 import Input from "UI/Form/Input/Input";

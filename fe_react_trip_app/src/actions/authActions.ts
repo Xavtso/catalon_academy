@@ -1,18 +1,15 @@
 import {
-  getAuth,
+  // getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import { initializeApp } from "firebase/app";
 import axios from "axios";
-import firebaseConfig from "configs/Firebase";
+import { auth } from "configs/Firebase";
 
-const app = initializeApp(firebaseConfig);
 const validationApiUrl =
-  "https://emailvalidation.abstractapi.com/v1?api_key=4beedc836f9e40f4ad06a6a919d4570e&email=";
-const auth = getAuth(app);
+"https://emailvalidation.abstractapi.com/v1?api_key=4beedc836f9e40f4ad06a6a919d4570e&email=";
 const provider = new GoogleAuthProvider();
 provider.addScope("https://www.googleapis.com/auth/contacts.readonly");
 
@@ -23,9 +20,31 @@ export async function registerUser(email: string, password: string) {
       const user = userCredential.user;
       console.log(user);
     })
-    .catch((error) => {
-      console.log(error.message);
-      // ..
+    .catch((err) => {
+      const errorMessage = err.message;
+      const errorCode = err.code;
+
+      // setError(true);
+
+      switch (errorCode) {
+        case "auth/weak-password":
+          console.log("The password is too weak.");
+          break;
+        case "auth/email-already-in-use":
+          console.log(
+            "This email address is already in use by another account.",
+          );
+          break;
+        case "auth/invalid-email":
+          console.log("This email address is invalid.");
+          break;
+        case "auth/operation-not-allowed":
+          console.log("Email/password accounts are not enabled.");
+          break;
+        default:
+          console.log(errorMessage);
+          break;
+      }
     });
 }
 export async function loginUser(email: string, password: string) {
@@ -69,3 +88,4 @@ export async function validateMail(email: string) {
   }
   return isValid;
 }
+
