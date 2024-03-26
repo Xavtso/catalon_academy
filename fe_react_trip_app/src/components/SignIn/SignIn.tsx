@@ -1,7 +1,7 @@
 import { SignUpFormType } from "types";
 import styles from "./SignIn.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { registerUser } from "actions/authActions";
+import { loginUser, registerUser } from "actions/authActions";
 import Button from "UI/Button";
 import { fieldRules } from "contstants/inputRulesData";
 import Input from "UI/Form/Input/Input";
@@ -21,7 +21,7 @@ export default function SignIn() {
 
   const onSubmit: SubmitHandler<SignUpFormType> = async (data) => {
     console.log(data);
-    await registerUser(data);
+    await loginUser(data.email, data.password)
   };
 
   const navigateTo = useNavigate();

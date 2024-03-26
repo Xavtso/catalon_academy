@@ -22,7 +22,7 @@ export default function SignUp() {
 
   const onSubmit: SubmitHandler<SignUpFormType> = async (data) => {
     console.log(data);
-    await registerUser(data);
+    await registerUser(data.email, data.password);
   };
 
   const navigateTo = useNavigate();
