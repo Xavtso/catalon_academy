@@ -15,7 +15,7 @@ export function getAllTrips() {
   };
 }
 
-export function getTripDetalis(id: string | undefined) {
+export function getTripDetails(id: string | undefined) {
   return async (dispatch: AppDispatch) => {
     try {
       const response = await axios.get(`${baseUrl}/allTrips/${id}.json`);

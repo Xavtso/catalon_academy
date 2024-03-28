@@ -132,11 +132,10 @@ export interface SignUpFormType {
   privacy: boolean;
 }
 
-
 type optionsDataType = {
   value: string;
   title: string;
-}
+};
 
 export interface InputProps {
   placeholder?: string;
@@ -154,3 +153,11 @@ export interface InputProps {
   rules: object;
   optionsData?: optionsDataType[];
 }
+
+// User
+export type userData = {
+  refreshToken: string;
+  uuid: string;
+  email: string | null;
+  fullName: string | null;
+};

@@ -1,8 +1,3 @@
-import { AppDispatch } from "types";
-
-export function handleWindowResizing() {
-  return (dispatch: AppDispatch) => {};
-}
 
 export function formatDateToMonthDay(dateString: string) {
   const date = new Date(dateString);

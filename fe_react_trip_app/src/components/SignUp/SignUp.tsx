@@ -1,7 +1,7 @@
-import { SignUpFormType } from "types";
+import { AppDispatch, SignUpFormType } from "types";
 import styles from "./SignUp.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { registerUser } from "actions/authActions";
+import { registerUser } from "store/thunks";
 import Button from "UI/Button";
 import { fieldRules, optionsData } from "contstants/inputRulesData";
 import Input from "UI/Form/Input/Input";
@@ -12,17 +12,20 @@ import GoogleButton from "UI/GoogleButton/GoogleButton";
 import { pathConstants } from "contstants/Router/pathConstants";
 import { useNavigate } from "react-router-dom";
 import PasswordInput from "UI/Form/PasswordInput";
+import { useDispatch } from "react-redux";
 
 export default function SignUp() {
+  const dispatch = useDispatch<AppDispatch>();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm<SignUpFormType>();
 
-  const onSubmit: SubmitHandler<SignUpFormType> = async (data) => {
+  const onSubmit: SubmitHandler<SignUpFormType> =async (data) => {
     console.log(data);
-    await registerUser(data.email, data.password);
+    await dispatch(registerUser({ email: data.email, password: data.password }));
   };
 
   const navigateTo = useNavigate();
@@ -33,7 +36,11 @@ export default function SignUp() {
       <GoogleButton />
       <Divider />
 
-      <form onSubmit={handleSubmit(onSubmit)} className={styles.signUp}>
+      <form
+        id="signForm"
+        onSubmit={handleSubmit(onSubmit)}
+        className={styles.signUp}
+      >
         <Input
           type="text"
           inputClassName={errors.firstName ? "inputErr" : "formInput"}
@@ -98,17 +105,14 @@ export default function SignUp() {
         />
         <ErrorMessage fieldError={errors.phoneNumber} />
 
-        <div className={styles.genderContainer}>
-          <p>Gender :</p>
-          <SelectInput
-            inputClassName={errors.gender ? "selectErr" : "selectInput"}
-            rules={fieldRules.gender}
-            register={register}
-            fieldName="gender"
-            optionsData={optionsData}
-            {...register("gender", fieldRules.gender)}
-          />
-        </div>
+        <SelectInput
+          inputClassName={errors.gender ? "selectErr" : "selectInput"}
+          rules={fieldRules.gender}
+          register={register}
+          fieldName="gender"
+          optionsData={optionsData}
+          {...register("gender", fieldRules.gender)}
+        />
         <ErrorMessage fieldError={errors.gender} />
 
         <div className={styles.policyContainer}>

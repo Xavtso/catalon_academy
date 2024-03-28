@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch } from "types";
 import { useEffect } from "react";
-import { getTripDetalis } from "actions/tripsAction";
+import { getTripDetails } from "actions/tripsAction";
 import TripDetailsMedia from "components/TripsDetailsMedia";
 import Container from "UI/Container";
 import JourneyDetails from "components/JourneyDetails";
@@ -18,7 +18,7 @@ export default function TripDetailsSection() {
   const params = useParams();
 
   useEffect(() => {
-    dispatch(getTripDetalis(params.id));
+    dispatch(getTripDetails(params.id));
   }, [dispatch, params]);
 
   return (

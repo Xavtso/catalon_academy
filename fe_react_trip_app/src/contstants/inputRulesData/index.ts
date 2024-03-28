@@ -1,4 +1,4 @@
-import { validateMail } from "actions/authActions";
+import { validateMail } from "utils/auth";
 
 export const fieldRules = {
   firstName: {
@@ -12,7 +12,7 @@ export const fieldRules = {
       message: "* Max 30 characters",
     },
     pattern: {
-      value: /^[A-Za-z]+$/i,
+      value: /^[A-Za-z -]+$/i,
       message: "* Only latin characters",
     },
   },
@@ -27,7 +27,7 @@ export const fieldRules = {
       message: "* Max 30 characters",
     },
     pattern: {
-      value: /^[A-Za-z]+$/i,
+      value: /^[A-Za-z -]+$/i,
       message: "* Only latin characters",
     },
   },
@@ -35,11 +35,11 @@ export const fieldRules = {
     required: "* Email Address is Required",
     pattern: {
       value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-      message: "* Not valid",
+      message: "* Invalid Email",
     },
     validate: {
       checkEmail: async (value: string) => {
-        return (await validateMail(value)) || "& Not valid";
+        return (await validateMail(value)) || "* Invalid Email";
       },
     },
   },
@@ -69,27 +69,31 @@ export const fieldRules = {
       value: 99,
       message: "* I don't believe in it ",
     },
+    pattern: {
+      value: /^(?!0\d)\d+$/,
+      message: "Invalid age format.",
+    },
   },
   phoneNumber: {
     value: "+380",
     required: "* Phone Required",
     minLength: {
       value: 10,
-      message: "* Not Valid",
+      message: "* Invalid phone number",
     },
     maxLength: {
       value: 13,
-      message: "* Not Valid",
+      message: "* Invalid phone number",
     },
     pattern: {
-        value: /^[0-9+]+$/i,
-        message: '* Not Valid'
+      value: /^[0-9+]+$/i,
+      message: "* Invalid format",
     },
   },
   gender: {
-    required: "* Who or what you are?",
+    required: "* Please select your gender",
   },
-  privacy: { required: "* You must to agree" },
+  privacy: { required: "* Please agree to the terms." },
 };
 
 export const optionsData = [

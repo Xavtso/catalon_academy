@@ -48,3 +48,7 @@
 .reference {
   @include reference;
 }
+
+.hidden{
+  display: none;
+}

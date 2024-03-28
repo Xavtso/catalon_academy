@@ -19,13 +19,16 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     }, [register, fieldName, rules]);
     return (
       <>
+        <label className={styles.hidden} htmlFor={fieldName}>{placeholder}</label>
+
         <input
-          
+          id={fieldName}
           className={styles[inputClassName]}
           type={type}
           placeholder={placeholder}
           {...register(fieldName)}
           ref={ref}
+          // autoComplete='true'
         />
       </>
     );

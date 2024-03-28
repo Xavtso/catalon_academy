@@ -9,7 +9,8 @@ const SelectInput = React.forwardRef<HTMLInputElement, InputProps>(
     }, [register, fieldName, rules]);
     return (
       <>
-        <select  className={styles[inputClassName]} {...register(fieldName)}>
+        <label htmlFor={fieldName} className={styles.hidden}>{fieldName }</label>
+        <select  id={fieldName} className={styles[inputClassName]} {...register(fieldName)}>
           {optionsData?.map((option, index) => (
             <option  key={index} value={option.value}>
               {" "}

@@ -10,3 +10,7 @@
 .checkInput {
     @include checkInput;
 }
+
+.hidden{
+  display: none;
+}

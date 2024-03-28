@@ -1,7 +1,6 @@
-import { SignUpFormType } from "types";
+import { AppDispatch, SignUpFormType } from "types";
 import styles from "./SignIn.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { loginUser } from "actions/authActions";
 import Button from "UI/Button";
 import { fieldRules } from "contstants/inputRulesData";
 import Input from "UI/Form/Input/Input";
@@ -11,17 +10,21 @@ import GoogleButton from "UI/GoogleButton/GoogleButton";
 import { useNavigate } from "react-router-dom";
 import { pathConstants } from "contstants/Router/pathConstants";
 import PasswordInput from "UI/Form/PasswordInput";
+import { loginUser } from "store/thunks";
+import { useDispatch } from "react-redux";
 
 export default function SignIn() {
+  const dispatch = useDispatch<AppDispatch>();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm<SignUpFormType>();
 
-  const onSubmit: SubmitHandler<SignUpFormType> = async (data) => {
+  const onSubmit: SubmitHandler<SignUpFormType> = (data) => {
     console.log(data);
-    await loginUser(data.email, data.password)
+    dispatch(loginUser({ email: data.email, password: data.password }));
   };
 
   const navigateTo = useNavigate();
