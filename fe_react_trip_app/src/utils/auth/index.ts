@@ -1,4 +1,3 @@
-import axios from "axios";
 
 export function getAuthErrorMessage(errorCode: string, errorMessage: string) {
   switch (errorCode) {
@@ -16,16 +15,3 @@ export function getAuthErrorMessage(errorCode: string, errorMessage: string) {
 }
 
 
-const validationApiUrl =
-  "https://emailvalidation.abstractapi.com/v1?api_key=4beedc836f9e40f4ad06a6a919d4570e&email=";
-export async function validateMail(email: string) {
-  let isValid = false;
-  try {
-    const response = await axios.get(`${validationApiUrl}${email}`);
-    isValid = response.data.is_valid_format.value;
-  } catch (error:any) {
-      console.log(error);
-      isValid = error.response.status === 422
-  }
-  return isValid;
-}

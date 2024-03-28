@@ -1,5 +1,3 @@
-import { validateMail } from "utils/auth";
-
 export const fieldRules = {
   firstName: {
     required: "* This field is required",
@@ -36,11 +34,6 @@ export const fieldRules = {
     pattern: {
       value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
       message: "* Invalid Email",
-    },
-    validate: {
-      checkEmail: async (value: string) => {
-        return (await validateMail(value)) || "* Invalid Email";
-      },
     },
   },
   password: {

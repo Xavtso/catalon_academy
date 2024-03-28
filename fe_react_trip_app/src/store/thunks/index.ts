@@ -1,12 +1,13 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import {
   createUserWithEmailAndPassword,
-  // getAuth,
   signInWithEmailAndPassword,
-  signInWithPopup,
+  User,
 } from "firebase/auth";
-import { auth, googleProvider } from "configs/Firebase";
+import { auth, databaseURL } from "configs/Firebase";
 import { getAuthErrorMessage } from "utils/auth";
+import { userDataType } from "types";
+import axios from "axios";
 
 export const registerUser = createAsyncThunk(
   "auth/registerUser",
@@ -17,21 +18,9 @@ export const registerUser = createAsyncThunk(
         email,
         password,
       );
-
       const user = userCredential.user;
 
-      // const additionalCredentials = {
-      //   admin: true,
-      // };
-
-      const userData = {
-        refreshToken: user.refreshToken,
-        uuid: user.uid,
-        email: user?.email,
-        fullName: user.displayName,
-      };
-      console.log(userData);
-      return userData;
+      await registerUserData(user);
     } catch (error: any) {
       const errorMessage = getAuthErrorMessage(error.code, error.message);
       throw new Error(errorMessage);
@@ -49,14 +38,6 @@ export const loginUser = createAsyncThunk(
         password,
       );
       const user = userCredential.user;
-      const userData = {
-        refreshToken: user.refreshToken,
-        uuid: user.uid,
-        email: user?.email,
-        fullName: user.displayName,
-      };
-      console.log(userData);
-      return userData;
     } catch (error: any) {
       const errorMessage = getAuthErrorMessage(error.code, error.message);
       throw new Error(errorMessage);
@@ -64,21 +45,36 @@ export const loginUser = createAsyncThunk(
   },
 );
 
-export const googleLogin = createAsyncThunk("auth/googleLogin", async () => {
-  try {
-    const result = await signInWithPopup(auth, googleProvider);
-    const user = result.user;
+async function registerUserData(user: User) {
+  //  [user.uid] = {
+  //     uid: user.uid,
+  //     email: user.email,
+  //     fullName: user.displayName,
+  //     refreshToken: user.refreshToken,
+  //     accessToken: user.getIdToken(),
+  //     role: isAdmin(user.email),
 
-    const userData = {
+  // };
+  try {
+    const userObject = {
+      uid: user.uid,
+      email: user.email,
       refreshToken: user.refreshToken,
-      uuid: user.uid,
-      email: user?.email,
-      fullName: user.displayName,
+      role: isAdmin(user.email),
     };
 
-    return userData;
-  } catch (error: any) {
-    const errorMessage = getAuthErrorMessage(error.code, error.message);
-    throw new Error(errorMessage);
+    const data = {
+      [`${user.uid}`]: userObject,
+    };
+
+    const response = await axios.post(`${databaseURL}/users.json`, data);
+    console.log(response.data);
+  } catch (error) {
+    console.log(error);
   }
-});
+}
+
+function isAdmin(email: string | null) {
+  const role = email?.endsWith("admin.trip.app.com") ? "admin" : "user";
+  return role;
+}

@@ -155,9 +155,11 @@ export interface InputProps {
 }
 
 // User
-export type userData = {
+export type userDataType = {
+  uid: string;
+  email: string;
+  fullName: string;
   refreshToken: string;
-  uuid: string;
-  email: string | null;
-  fullName: string | null;
+  accessToken: string;
+  role: "admin" | "user";
 };

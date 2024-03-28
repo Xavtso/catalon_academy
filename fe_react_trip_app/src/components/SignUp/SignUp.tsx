@@ -16,6 +16,7 @@ import { useDispatch } from "react-redux";
 
 export default function SignUp() {
   const dispatch = useDispatch<AppDispatch>();
+  
 
   const {
     register,
@@ -24,7 +25,6 @@ export default function SignUp() {
   } = useForm<SignUpFormType>();
 
   const onSubmit: SubmitHandler<SignUpFormType> =async (data) => {
-    console.log(data);
     await dispatch(registerUser({ email: data.email, password: data.password }));
   };
 

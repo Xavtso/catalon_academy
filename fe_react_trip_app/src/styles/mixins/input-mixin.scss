@@ -37,8 +37,7 @@
   height: 14px;
   margin: 0;
   margin-right: 5px;
-  border: 23px solid ;
-  background-color: var(--primary-color);
+  accent-color: var(--primary-color);
   @include forTablet{
     width: 16px;
     height: 16px;

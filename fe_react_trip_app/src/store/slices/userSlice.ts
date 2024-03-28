@@ -1,40 +1,27 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { User } from "firebase/auth";
-import { googleLogin, loginUser, registerUser } from "store/thunks";
-import { userData } from "types";
+import { loginUser, registerUser } from "store/thunks";
+import { userDataType } from "types";
 
 type InitialStateTypes = {
-  user: userData;
-  refreshToken: string;
+  user: userDataType;
 };
 
 const initialState: InitialStateTypes = {
-  user: {} as userData,
-  refreshToken: "",
+  user: {} as userDataType,
 };
 
 const userSlice = createSlice({
   name: "user",
   initialState,
   reducers: {
-    getTokenFromUserEntity(state) {
-      state.refreshToken = state.user.refreshToken;
-    },
+    
   },
   extraReducers(builder) {
-    builder.addCase(registerUser.fulfilled, (state, action) => {
-      console.log(action.payload);
-      state.user = action.payload;
-    });
-    builder.addCase(loginUser.fulfilled, (state, action) => {
-      state.user = action.payload;
-    });
-    builder.addCase(googleLogin.fulfilled, (state, action) => {
-      state.user = action.payload;
-    });
+    builder.addCase(registerUser.fulfilled, () => {});
+    builder.addCase(loginUser.fulfilled, () => {});
   },
 });
 
-export const tripsSliceActions = userSlice.actions;
+export const userSliceActions = userSlice.actions;
 
 export default userSlice;
